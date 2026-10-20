@@ -1,0 +1,54 @@
+{
+  "mode": "built-in image_gen",
+  "finalAssets": [
+    "public/assets/portraits-enhanced-1.png",
+    "public/assets/portraits-enhanced-2.png",
+    "public/assets/portraits-enhanced-3.png",
+    "public/assets/portraits-enhanced-4.png",
+    "public/assets/portraits-enhanced-5.png",
+    "public/assets/portrait-hanh-tien-lam-enhanced.png"
+  ],
+  "atlasRequests": [
+    {
+      "prompt": "Use case: identity-preserve. Edit target: the supplied game character roster poster. Deliver a PORTRAIT ATLAS for a wiki, with exactly THREE COLUMNS and THREE ROWS of equal rectangular cells, edge-to-edge, no gutters, no frames, NO TEXT or labels, no poster header, no tier letters. The overall atlas has 4:5 aspect ratio, each cell is a 4:5 portrait. Extract ONLY the character artworks specified below from their labeled cards in the supplied poster and enlarge/restoratively clarify them for display at 224 pixels wide. Faithfully preserve each source character's specific face, species, expression, hair, headdress, costume, accessories, colors, original hand-drawn ink and flat-color illustration style, visible body crop, and individual backdrop. Sharpen existing lines and reduce compression blur; do not add accessories, beautify faces, change identities, redesign clothing, invent lore, or make photorealistic. Do not include the original names in the output. Do not use adjacent characters or swap cells. The characters must appear in EXACT row-major order (left-to-right, top-to-bottom): 1: Dương Tiễn; 2: Hằng Nga; 3: Lý Tịnh; 4: Tôn Ngộ Không; 5: Ngọc Diện Hồ Ly; 6: Đa Văn Thiên Vương; 7: Hồng Hài Nhi; 8: Hàng Long Tôn Giả; 9: Na Tra. All nine cells are occupied. Strict evenly registered 3 by 3 layout, no gaps or overlaps. High-resolution crisp portraits, not an entire poster.",
+      "referenced_image_paths": [
+        "F:/gitHub/Wiki_HacTayDu-ChuongCam/public/assets/tier-than-tuong.png"
+      ],
+      "transparent_background": false
+    },
+    {
+      "prompt": "Use case: identity-preserve. Edit target: the supplied game character roster poster. Deliver a PORTRAIT ATLAS for a wiki, with exactly THREE COLUMNS and THREE ROWS of equal rectangular cells, edge-to-edge, no gutters, no frames, NO TEXT or labels, no poster header, no tier letters. The overall atlas has 4:5 aspect ratio, each cell is a 4:5 portrait. Extract ONLY the character artworks specified below from their labeled cards in the supplied poster and enlarge/restoratively clarify them for display at 224 pixels wide. Faithfully preserve each source character's specific face, species, expression, hair, headdress, costume, accessories, colors, original hand-drawn ink and flat-color illustration style, visible body crop, and individual backdrop. Sharpen existing lines and reduce compression blur; do not add accessories, beautify faces, change identities, redesign clothing, invent lore, or make photorealistic. Do not include the original names in the output. Do not use adjacent characters or swap cells. The characters must appear in EXACT row-major order (left-to-right, top-to-bottom): 1: Kháng Kim Tinh Quân; 2: Trấn Nguyên Tử; 3: Đường Tam Tạng; 4: Ngưu Ma Vương; 5: Tăng Trưởng Thiên Vương; 6: Trì Quốc Thiên Vương; 7: Trư Ngộ Năng; 8: Hoàng My; 9: Thanh Sư Vương. All nine cells are occupied. Strict evenly registered 3 by 3 layout, no gaps or overlaps. High-resolution crisp portraits, not an entire poster.",
+      "referenced_image_paths": [
+        "F:/gitHub/Wiki_HacTayDu-ChuongCam/public/assets/tier-than-tuong.png"
+      ],
+      "transparent_background": false
+    },
+    {
+      "prompt": "Use case: identity-preserve. Edit target: the supplied game character roster poster. Deliver a PORTRAIT ATLAS for a wiki, with exactly THREE COLUMNS and THREE ROWS of equal rectangular cells, edge-to-edge, no gutters, no frames, NO TEXT or labels, no poster header, no tier letters. The overall atlas has 4:5 aspect ratio, each cell is a 4:5 portrait. Extract ONLY the character artworks specified below from their labeled cards in the supplied poster and enlarge/restoratively clarify them for display at 224 pixels wide. Faithfully preserve each source character's specific face, species, expression, hair, headdress, costume, accessories, colors, original hand-drawn ink and flat-color illustration style, visible body crop, and individual backdrop. Sharpen existing lines and reduce compression blur; do not add accessories, beautify faces, change identities, redesign clothing, invent lore, or make photorealistic. Do not include the original names in the output. Do not use adjacent characters or swap cells. The characters must appear in EXACT row-major order (left-to-right, top-to-bottom): 1: Đại Bằng Vương; 2: La Sát Nữ; 3: Tiểu Bạch Long; 4: Sa Ngộ Tịnh; 5: Hồng Lân Mãng Tinh; 6: Phục Hổ La Hán; 7: Thông Tý Viên Hầu; 8: Kinh Hà Long Vương; 9: Khổng Tước Công Chúa. All nine cells are occupied. Strict evenly registered 3 by 3 layout, no gaps or overlaps. High-resolution crisp portraits, not an entire poster.",
+      "referenced_image_paths": [
+        "F:/gitHub/Wiki_HacTayDu-ChuongCam/public/assets/tier-than-tuong.png"
+      ],
+      "transparent_background": false
+    },
+    {
+      "prompt": "Use case: identity-preserve. Edit target: the supplied game character roster poster. Deliver a PORTRAIT ATLAS for a wiki, with exactly THREE COLUMNS and THREE ROWS of equal rectangular cells, edge-to-edge, no gutters, no frames, NO TEXT or labels, no poster header, no tier letters. The overall atlas has 4:5 aspect ratio, each cell is a 4:5 portrait. Extract ONLY the character artworks specified below from their labeled cards in the supplied poster and enlarge/restoratively clarify them for display at 224 pixels wide. Faithfully preserve each source character's specific face, species, expression, hair, headdress, costume, accessories, colors, original hand-drawn ink and flat-color illustration style, visible body crop, and individual backdrop. Sharpen existing lines and reduce compression blur; do not add accessories, beautify faces, change identities, redesign clothing, invent lore, or make photorealistic. Do not include the original names in the output. Do not use adjacent characters or swap cells. The characters must appear in EXACT row-major order (left-to-right, top-to-bottom): 1: Quảng Mục Thiên Vương; 2: Kim Giác; 3: Bạch Tượng Vương; 4: Hạnh Tiên Lâm. Cells 5 through 9 must be blank dark charcoal with no characters. Strict evenly registered 3 by 3 layout, no gaps or overlaps. High-resolution crisp portraits, not an entire poster.",
+      "referenced_image_paths": [
+        "F:/gitHub/Wiki_HacTayDu-ChuongCam/public/assets/tier-than-tuong.png"
+      ],
+      "transparent_background": false
+    },
+    {
+      "prompt": "Use case: identity-preserve. Edit target: the supplied game character roster poster. Deliver a PORTRAIT ATLAS for a wiki, with exactly THREE COLUMNS and THREE ROWS of equal rectangular cells, edge-to-edge, no gutters, no frames, NO TEXT or labels, no poster header, no tier letters. The overall atlas has 4:5 aspect ratio, each cell is a 4:5 portrait. Extract ONLY the character artworks specified below from their labeled cards in the supplied poster and enlarge/restoratively clarify them for display at 224 pixels wide. Faithfully preserve each source character's specific face, species, expression, hair, headdress, costume, accessories, colors, original hand-drawn ink and flat-color illustration style, visible body crop, and individual backdrop. Sharpen existing lines and reduce compression blur; do not add accessories, beautify faces, change identities, redesign clothing, invent lore, or make photorealistic. Do not include the original names in the output. Do not use adjacent characters or swap cells. The characters must appear in EXACT row-major order (left-to-right, top-to-bottom): 1: Bạch Cốt Phu Nhân; 2: Tề Thiên Đại Thánh; 3: Nam Cực Tiên Ông; 4: Hiển Thánh Tinh Quân; 5: Tam Thái Tử; 6: Thiên Bồng Nguyên Soái; 7: Thái Âm Tinh Quân; 8: Vạn Thánh Công Chúa. Cells 9 through 9 must be blank dark charcoal with no characters. Strict evenly registered 3 by 3 layout, no gaps or overlaps. High-resolution crisp portraits, not an entire poster.",
+      "referenced_image_paths": [
+        "F:/gitHub/Wiki_HacTayDu-ChuongCam/public/assets/tier-thanh-ton.png"
+      ],
+      "transparent_background": false
+    }
+  ],
+  "individualRequest": {
+    "referenced_image_paths": [
+      "F:/gitHub/Wiki_HacTayDu-ChuongCam/public/assets/tier-than-tuong.png"
+    ],
+    "prompt": "Use case: identity-preserve image restoration. From the provided reference roster, extract ONLY the existing character portrait labeled Hạnh Tiên Lâm: she is the FOURTH and LAST portrait in the bottom row C, next to Bạch Tượng Vương. Adult woman with dark softly curled hair, pink flower hair ornaments, green/teal robe, golden jewelry. Preserve the exact original character identity, expression, hair, outfit, pose, palette, ink drawing style and visible head/shoulders crop. Clarify the ink lines and enlarge this existing portrait to a crisp single 4:5 image suitable for display at 224 pixels wide. No new accessories or costume, no beautification, no photorealism. Output ONE character portrait filling the canvas, retaining its original background. NO text, borders, grids or other characters. This is faithful restoration of the labeled source artwork, not a new interpretation."
+  }
+}

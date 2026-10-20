@@ -1,0 +1,15 @@
+NỘI DUNG CẬP NHẬT 1.0.2 — NGƯỜI DÙNG CUNG CẤP
+
+Nhận trong chat ngày 20/10/2026.
+Người cung cấp mô tả thời điểm là "1 tuần trước". Chưa có ngày phát hành chính xác, máy chủ hoặc phạm vi triển khai.
+
+Nội dung được cung cấp:
+
+1 tuần trước là phiên bản 1.0.2:
+
+- cập nhật thần tướng thánh tôn: Thiên Bồng Nguyên Soái, Tam Thái Tử, Bạch Cốt Phu Nhân
+- Cập Nhật Sự Kiện chủ đề: Vân Mộng Tiên Tung: Ngoại trang giới hạn Chiến Thần Lữ Bố Xuất Thế
+- cập nhật tính năng thủ hộ: Dần Hổ, Ngọ Mã, Thân Hầu, Thìn Long sẵn sàng ra trận
+- sửa 1 số lỗi và cải thiện tính năng
+
+Đây là bản ghi thông tin do người dùng cung cấp để làm nguồn cho wiki, không phải thông báo gốc của nhà phát hành.

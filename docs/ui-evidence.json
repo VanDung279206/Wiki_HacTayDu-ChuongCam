@@ -1,0 +1,146 @@
+{
+  "contract": "docs/DESIGN.md: Wikipedia-style Vietnamese encyclopedia. Main task is finding a sourced hero, feature or giftcode. Full-page articles, native hash links, side navigation, TOC, infobox and reference tables. Target desktop 1440x1000 and mobile 390x844.",
+  "targetViewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "accessibility": {
+    "status": "pass",
+    "evidence": "Checked named search, form labels in accessibility tree, native table headings, keyboard activation of links and summary, Escape search dismissal and focus restoration to main on navigation. Mobile menu exposes expanded state, and hidden navigation uses visibility:hidden. Focus-visible and reduced-motion rules are implemented. This is a scoped manual review, not a full WCAG audit. Formation builder: named token buttons, roster selection for obscured heroes, native labeled range inputs, arrow-key movement and keyboard-operated faction filter were exercised. TOC destinations are focusable sections. Mouse dragging, select-then-click placement and sliders provide alternate ways to position heroes. New hero portraits are decorative within named table links and formation buttons; full profile SVG has an image label. Group selector, tier TOC and original-image disclosure were exercised with keyboard. Original/enhanced controls are named native buttons with aria-pressed. Keyboard Enter switched Wukong image to the original source and back to the enhanced atlas."
+  },
+  "responsive": {
+    "status": "pass",
+    "evidence": "Observed 1440x1000 desktop and 390x844 mobile in Chrome. document scrollWidth was 1425 and 375 respectively, within innerWidth. Mobile code table scrolls inside a 339px container; mobile TOC opens with Enter. Infobox floats right on desktop and enters normal document flow on mobile. Dark mode checked at actual desktop dimensions. Latest giftcode update: desktop 1440x1000 had page width 1425px; mobile 390x844 had page width 375px. Original poster renders at 339px and loads its full 1280px source. Table remains inside a 339px container, and ArrowRight moved its scrollLeft to 40px while focus stayed on the named region. Font revision: Arial/Helvetica sans-serif applied to headings, logo, subtitle and giftcodes. Removed logo letter-spacing. Rendered home at 1440x1000 and 390x844; page widths 1425px and 375px. Long Vietnamese title and logo fit mobile without horizontal overflow. Free formation revision: desktop 1440x1000 has document width 1425px; mobile 390x844 has document width 375px and 339x339 board. All six token rectangles remained within the board, including long Khong Tuoc Cong Chua label. Normalized positions were unchanged when returning to desktop. Internal roster update: tier page at desktop 1440x1000 and mobile 390x844 had document widths 1425px and 375px. Mobile hero portrait width 321px; source poster loaded at natural width 1024 and rendered at 339px. Tier members reflow to a single column on mobile. Patch 1.0.2 article checked at 1440x1000 and 390x844, with document widths 1425px and 375px. Long event/outfit names wrap in article text and related links without page overflow. Portrait enhancement: full portraits now preserve aspect ratio at max 224px instead of stretching beyond 300px. Desktop 1440x1000 and mobile 390x844 checked; mobile document width 375px and portrait width 224px. Controls fit without overflow."
+  },
+  "contentStates": {
+    "loading": {
+      "status": "not-applicable",
+      "reason": "Wiki content is statically bundled with synchronous routes; no remote article fetch. System fonts avoid a font-loading dependency."
+    },
+    "empty": {
+      "status": "pass",
+      "evidence": "Combined hero name and faction filter produced zero matches and a clear-filter action. Confirmed the active-code filter shows no results because no code was redeemed in game to verify it. Empty saved page offers browse link. Local code search with an absent value displays the empty state; the reset action restores the 24 starter codes. Active-code filter also remains empty. New formation empty state has no fixed slots, clear action disabled. An unmatched hero search offers reset; filter reset restored all 21 heroes. Clearing the six test heroes and reloading returned to zero tokens."
+    },
+    "error": {
+      "status": "pass",
+      "evidence": "Blocked and quota-exceeded browser storage are covered by fake-storage unit tests and return a failure used by the warning UI. Clipboard has a timeout and manual-copy fallback. Storage warning and clipboard-denial appearance were not force-triggered in browser; limitation is retained below."
+    },
+    "partial": {
+      "status": "pass",
+      "evidence": "Read hero profiles with missing metadata and Cang Kim search result. Added 21 named characters from sources while explicitly retaining incomplete-roster notice. Duong Tien skill section renders four sourced skills and states that skill level is unspecified. No invented stats or active-code claims. User-supplied poster is explicitly attributed to the player and received date. Unknown publication date, expiry and reward amounts remain unspecified; original NHANCAN111 official source is preserved. Four heroes without a confirmed faction remain in Chua ro phe; no faction or role was inferred. Existing ID-only teams are retained and receive initial editable positions; migration and malformed coordinates are unit-tested. Internal test images add 21 pending profiles to the 21 publisher-sourced profiles. Group filter distinguishes eight Thanh Ton profiles. Three differing names remain unmerged. Unknown faction, rarity, role and skills remain blank; test tier is shown separately from rarity. Player-provided patch notes preserve approximate release timing (about one week before receipt on 20/10/2026) without an exact release date or inferred server scope. Three existing Thanh Ton profiles gain version history; guardian skills, unlock requirements, event dates and outfit stats remain unspecified. Enhanced images are display variants only; source posters and data references remain original. Small visual details can differ from the input. A missing Hanh Tien Lam cell in a generated atlas was detected and replaced by a separately generated portrait, with explicit mapping and source comparison."
+    },
+    "success": {
+      "status": "pass",
+      "evidence": "Accentless duong tien and cang kim search worked. Direct hero URL survived reload. Saved hero and formation persisted after reload. Formation reached 6/6 and rejected a seventh hero with notice, then was cleared. Faction+name filter returned Duong Tien only. Feature category filter returned the three inter-server activities and opened a standalone article. Giftcode update: default list has 24 unique starter codes; Alpha archive shows only ALPHA3R6. Local search dkt returns six codes. Global search DAT100KDKT opens the correct filtered row. Source poster opens by Enter and code metadata expands by Enter. Free formation: added six heroes; seventh picker disabled, removal re-enabled a replacement. Mouse drag reached continuous arbitrary coordinates and clamped at 100%,100%. Two heroes were placed exactly at the same point and selected independently through the roster. Range input changed one to 99%,100%; reload preserved the positions. ArrowRight moved a token from 15% to 17%. Local faction/name filtering and select-then-click placement passed. Original empty browser team restored after tests. Roster update: hero table contains 42 rows and 36 portrait SVGs. Thanh Ton filter returns eight profiles. Accentless duong tam tang search returns the existing Duong Tang profile. Global Ly Tinh search distinguishes canonical Ly Tinh from pending Ly Tinh-with-different-tone image label. All 39 test labels render; original Thanh Ton image opens and loads. Six portrait SVGs render on the formation board; dragging Duong Tien moved to about 38.93%,43.15%. Empty test formation restored afterward. Patch article renders the three Thanh Ton names and four guardian names. Thien Bong profile shows 1.0.2 version history with source. Homepage has a separately sourced update item; giftcode announcements remain scoped to codes. Accentless van mong search opens the event page, its related link opens the outfit page, and the guardian page lists all four names. Source link resolves to the retained player-provided text file. Portrait enhancement: five measured atlases plus one individual portrait cover all 39 test entries and 36 associated profiles. Wukong profile visibly uses the enhanced atlas, original toggle returns tier-than-tuong.png, and navigating to a new profile resets to enhanced. Bach Cot Phu Nhan and Hanh Tien Lam checked on mobile. A formation token using enhanced artwork dragged to about 44%,56%; test formation cleared afterward. Twelve tests and build pass; tests verify all six PNG assets and crop bounds."
+    },
+    "permission": {
+      "status": "not-applicable",
+      "reason": "Wiki requires no login, external account or browser permission to read. Clipboard denial degrades to manual copy; bookmarks use local storage."
+    }
+  },
+  "renderedEvidence": [
+    {
+      "viewport": "1440x1000",
+      "artifact": "wikipedia-desktop.jpg",
+      "observation": "White encyclopedia layout with left navigation, center article and game infobox, and right TOC. Headings, reference links, launch date and sourced roster summary are visible."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "wikipedia-mobile.jpg",
+      "observation": "Mobile overview with collapsed native TOC, menu control and infobox in normal document flow. The separate hero article and expanded TOC were also exercised by keyboard."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "giftcodes-desktop.jpg",
+      "observation": "Final giftcode page: named local search, 24 starter codes, separate Alpha archive, source poster disclosure, copy controls and per-code details in a Wikipedia table."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "giftcodes-mobile.jpg",
+      "observation": "Original code poster displayed at 339px with caption, attribution and missing-date/expiry notes. The code table was separately verified to scroll horizontally by keyboard without page overflow."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "font-sans-desktop.jpg",
+      "observation": "Arial headings and compact logo with normal letter spacing; Vietnamese article text and infobox remain aligned."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "font-sans-mobile.jpg",
+      "observation": "Sans-serif Vietnamese title and logo fit the mobile layout. Infobox and menu remain within 375px document width."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "formation-desktop.jpg",
+      "observation": "Six sample heroes at free positions inside a bounded region, selected-hero coordinate controls, roster with factions and no fixed slot grid."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "formation-mobile.jpg",
+      "observation": "Six heroes fit within mobile board with long Vietnamese name, normalized free positioning and accessible coordinate sliders."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "formation-factions.jpg",
+      "observation": "Picker grouped as Tien Gia, Yeu Toc and Chung Sinh with search, faction selector and disabled additions at six heroes. Unknown-faction group is further down the same list."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "test-roster-desktop.jpg",
+      "observation": "Wikipedia-style test table with original-image disclosure, named portraits and explicit pending labels. Ranks are attributed to the internal test images."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "test-roster-mobile.jpg",
+      "observation": "Bach Cot Phu Nhan profile with supplied portrait, image-test attribution, Thanh Ton group and unknown combat metadata. No page overflow."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "test-roster-formation.jpg",
+      "observation": "Six named heroes use supplied portraits on free formation board; SVG portrait dragging was exercised."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "patch-1-0-2-desktop.jpg",
+      "observation": "Version article contains approximate timing, three Thanh Ton heroes, thematic event/outfit, four guardians and unspecified bug-fix scope, with source citations."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "patch-1-0-2-mobile.jpg",
+      "observation": "Mobile version article title, provenance/timing and three hero names fit the narrow layout with a collapsible TOC."
+    },
+    {
+      "viewport": "1440x1000",
+      "artifact": "portraits-enhanced-desktop.jpg",
+      "observation": "Wukong profile with a crisper 224px portrait, original/enhanced controls and original-source attribution."
+    },
+    {
+      "viewport": "390x844",
+      "artifact": "portraits-enhanced-mobile.jpg",
+      "observation": "Bach Cot Phu Nhan enhanced portrait displayed at 224px, with controls and version metadata, within mobile page width."
+    }
+  ],
+  "validation": {
+    "build": "pass",
+    "tests": "12 passed",
+    "console": "Final clean reload of tier page rendered all 39 entries with no new warnings or errors. One transient Vite reload error occurred while source files were being edited; final build and clean reload passed.",
+    "records": {
+      "heroes": 42,
+      "articles": 20,
+      "giftcodes": 25,
+      "imageOnlyProfiles": 21,
+      "rosterPortraits": 36
+    }
+  },
+  "limitations": [
+    "Roster completeness and most characters' skills/base stats still require the in-game collection and version information.",
+    "NHANCAN111 is published by Funtap, but gift redemption has not been tested. Event end time is not treated as a separately confirmed code expiry.",
+    "Browser appearance of forced storage/clipboard failures was not tested; storage logic is unit-tested.",
+    "Fanpage read through existing Chrome session after the app browser requested login. No login, comments, reactions, shares, messages or code redemption were performed.",
+    "The user confirmed the official release as the wiki target; server and build number are unknown. Starter codes have not been redeemed. Alpha code is archived and excluded from the default table.",
+    "Formation area is an illustrative planning region; actual battlefield shape, scale and collision rules are not asserted. Mouse drag at desktop and mobile viewports was tested; physical touchscreen hardware was not available. Portraits use existing site artwork or initials until dedicated hero icons are supplied.",
+    "The user describes the two roster images as internal test results. Author, test date/build, official-release metadata and relationships between Thanh Ton forms remain unknown. Three image spellings are held for reconciliation; no faction was inferred from artwork or legend colors.",
+    "Version 1.0.2 details are supplied by the user, without an original publisher URL, exact deployment date or server scope. No event availability, costume wearer, guardian stats or additional bug fixes were invented.",
+    "Enhanced portraits were produced with built-in image_gen from small supplied test images. These are generated display variants and may reinterpret face or costume details. They are not newly verified official assets. Original images remain selectable and authoritative for comparison; processing prompts and actual dimensions are documented in IMAGE_ENHANCEMENT.md."
+  ]
+}
