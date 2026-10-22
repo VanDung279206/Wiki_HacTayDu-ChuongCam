@@ -1,4 +1,5 @@
 node_modules/
+.codex-pnpm-store/
 dist/
 *.tsbuildinfo
 .env

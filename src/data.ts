@@ -49,6 +49,7 @@ export const sources = [
   { id: 'test-roster-image', title: 'Tier list Thần tướng — ảnh thử nghiệm nội bộ', publisher: 'Bảng test nội bộ do người dùng cung cấp', url: 'assets/tier-than-tuong.png' },
   { id: 'test-exalted-image', title: 'Tier list Thánh Tôn — ảnh thử nghiệm nội bộ', publisher: 'Bảng test nội bộ do người dùng cung cấp', url: 'assets/tier-thanh-ton.png' },
   { id: patch102.sourceId, title: 'Nội dung cập nhật 1.0.2 do người dùng cung cấp', publisher: 'Người dùng cung cấp trong chat', url: 'assets/patch-notes-1.0.2.txt' },
+  { id: 'player-code-rewards', title: 'Bản ghi phần thưởng 24 giftcode — thư ngày 21/10/2026', publisher: 'Chép từ ảnh trong game do người chơi cung cấp; chỉ công khai dạng chữ', url: 'assets/code-rewards.txt', received: '22/10/2026' },
 ]
 export type HeroPortrait = { sheet: string; x: number; y: number; width: number; height: number }
 export type TierEntry = { name: string; tier: 'S' | 'A' | 'B' | 'C'; heroId?: string; candidateId?: string; portrait: HeroPortrait }
@@ -197,6 +198,37 @@ export const articles: Article[] = [
     { id: 'chung-sinh', title: 'Chúng Sinh', text: 'Bài giới thiệu nêu Đường Tam Tạng, Na Tra, Trư Ngộ Năng và La Sát Nữ. Bộ ảnh kèm theo xác nhận thêm Trấn Nguyên Tử và Khổng Tước Công Chúa.' },
   ] },
 ]
+export const codeRewardEvidence = {
+  received: '22/10/2026',
+  mailDate: '21/10/2026',
+  mailValidity: '7 ngày',
+  entries: [
+  { code: 'HACTAYDU888', rewards: "Tiên Ngọc ×50; Thiên Mệnh Linh Quả ×2; hộp vật phẩm (không hiện số lượng)" },
+  { code: 'TAYDUKI', rewards: "Thiên Mệnh Linh Quả ×2" },
+  { code: 'CHUONGCAM', rewards: "Vật phẩm biểu tượng bột tím ×100; Thiên Mệnh Linh Quả ×2" },
+  { code: 'HTDCC999', rewards: "Vật phẩm nền tím ×100 (chưa rõ tên); Thiên Mệnh Linh Quả ×2" },
+  { code: '45THANTUONG', rewards: "Thiên Mệnh Linh Quả ×2; vé màu tím ×3" },
+  { code: 'DUONGTIEN', rewards: "Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung cam) ×20" },
+  { code: 'NGOKHONG', rewards: "Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung cam) ×20" },
+  { code: 'THUANPHAM', rewards: "Thiên Mệnh Linh Quả; lệnh màu đỏ; túi tài nguyên (cả ba ô không hiện số lượng)" },
+  { code: 'NATRA', rewards: "Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung cam) ×20" },
+  { code: 'VAN97', rewards: "Thiên Mệnh Linh Quả; lệnh màu đỏ; túi tài nguyên (cả ba ô không hiện số lượng)" },
+  { code: 'HOANGDZ', rewards: "Thiên Mệnh Linh Quả; lệnh màu đỏ; túi tài nguyên (cả ba ô không hiện số lượng)" },
+  { code: 'NHANCAN111', rewards: "Tiên Ngọc ×50; Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung đỏ) ×10" },
+  { code: 'NHICAN222', rewards: "Tiên Ngọc ×50; Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung đỏ) ×10" },
+  { code: 'TICAN333', rewards: "Tiên Ngọc ×50; Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung đỏ) ×10" },
+  { code: 'THIETCAN444', rewards: "Tiên Ngọc ×50; Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung đỏ) ×10" },
+  { code: 'YCAN666', rewards: "Tiên Ngọc ×50; Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung đỏ) ×10" },
+  { code: 'DKT10K', rewards: "Tiên Ngọc ×100; Thiên Mệnh Linh Quả ×5; mảnh 5 sao (khung cam) ×10" },
+  { code: 'DKT5K', rewards: "Tiên Ngọc ×50; Thiên Mệnh Linh Quả ×5; mảnh 5 sao (khung đỏ) ×5" },
+  { code: 'DKT20K', rewards: "Tiên Ngọc ×200; Thiên Mệnh Linh Quả ×5; mảnh 5 sao (khung đỏ) ×20" },
+  { code: 'DKT50K', rewards: "Tiên Ngọc ×500; lệnh màu đỏ ×10; mảnh 5 sao (khung cam) ×20" },
+  { code: 'HOICHIEUTROIMUA', rewards: "Vật phẩm biểu tượng bình xanh ×50; Thiên Mệnh Linh Quả ×2" },
+  { code: 'DAT100KDKT', rewards: "Tiên Ngọc ×1.000; mảnh 5 sao (khung đỏ) ×25; mảnh tướng có chân dung ×50" },
+  { code: 'DKT30K', rewards: "Tiên Ngọc ×300; Thiên Mệnh Linh Quả ×5; mảnh 5 sao (khung cam) ×20" },
+  { code: 'THANCAN555', rewards: "Tiên Ngọc ×50; Thiên Mệnh Linh Quả ×2; mảnh 5 sao (khung đỏ) ×10" },
+  ],
+}
 export const giftcodes = [
   { code: 'NHANCAN111', event: 'Khai Nhãn Căn · toàn server', published: '15/10/2026', checked: checkedDate, status: 'Fanpage công bố · chưa thử trong game', verifiedActive: false, archived: false, rewards: 'Bài không nêu chi tiết', expiry: 'Sự kiện kết thúc 10:00 ngày 21/10/2026; không nêu hạn riêng của mã', sourceId: 'nhan-can' },
   ...starterCodeImage.codes.filter(code => code !== 'NHANCAN111').map(code => ({
@@ -205,7 +237,15 @@ export const giftcodes = [
     rewards: 'Ảnh không ghi chi tiết', expiry: 'Ảnh không ghi hạn dùng', sourceId: starterCodeImage.sourceId,
   })),
   { code: 'ALPHA3R6', event: 'Alpha Test · lưu trữ', published: '23/09/2026', checked: checkedDate, status: 'Mã thử nghiệm cũ · chưa rõ hiệu lực', verifiedActive: false, archived: true, rewards: 'Nguồn không ghi chi tiết', expiry: 'Không được công bố', sourceId: 'alpha' },
-]
+].map(code => {
+  const evidence = codeRewardEvidence.entries.find(entry => entry.code === code.code)
+  return {
+    ...code,
+    ...(evidence ? { rewards: evidence.rewards, checked: codeRewardEvidence.received, status: 'Có ảnh thư thưởng · 21/10/2026' } : {}),
+    rewardEvidence: evidence,
+    rewardSourceId: evidence ? 'player-code-rewards' : undefined,
+  }
+})
 export const news = [
   { title: 'Livestream Dương Tiễn Khai Nhãn', date: '20/10/2026 · 20:00 (GMT+7)', description: 'Fanpage thông báo phát giftcode trong livestream và nhắc đến Lục Căn. Bài thông báo chưa ghi mã cụ thể.', sourceId: 'live' },
   { title: 'Code sự kiện Nhãn Căn: NHANCAN111', date: '15/10–21/10/2026', description: 'Fanpage công bố mã dùng chung toàn server NHANCAN111. Mốc kết thúc sự kiện là 10:00 ngày 21/10; chưa xác nhận hạn riêng của mã.', sourceId: 'nhan-can' },
@@ -220,6 +260,6 @@ export const missingData = [
   { title: 'Phiên bản 1.0.2 và Thủ hộ', detail: 'Đã có nội dung cập nhật và bốn tên Thủ hộ. Cần ảnh tính năng, kỹ năng, cấp mở, cách nhận và chi phí nâng cấp; lịch sự kiện Vân Mộng Tiên Tung và ngoại trang giới hạn.' },
   { title: 'Lục Căn', detail: 'Đã có Nhãn Căn và Tị Căn trong chuỗi sự kiện fanpage; cần bài về bốn Căn còn lại và ảnh nếu có tính năng tương ứng trong game.' },
   { title: 'Sự kiện và phần thưởng', detail: 'Thời gian, máy chủ áp dụng, mốc thưởng, điểm danh 45 ngày và bảng VIP.' },
-  { title: 'Giftcode đang sử dụng được', detail: 'Đã ghi lại 24 mã từ ảnh bộ code tân thủ. Cần đường dẫn bài gốc hoặc ngày đăng, hạn dùng, phần thưởng và ảnh kết quả đổi mã kèm máy chủ.' },
+  { title: 'Thông tin giftcode còn thiếu', detail: 'Đã có 24 mã và ảnh thư phần thưởng đề ngày 21/10/2026. Cần tên đầy đủ của các vật phẩm chỉ hiện biểu tượng, số lượng các ô không ghi số, hạn dùng mã và máy chủ áp dụng.' },
 ]
 export const normalize = (text: string) => text.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase()

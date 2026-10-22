@@ -6,7 +6,7 @@ import ts from 'typescript'
 const source = await readFile(new URL('../src/data.ts', import.meta.url), 'utf8')
 const { outputText } = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } })
 const dataModuleUrl = `data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`
-const { heroes, articles, sources, giftcodes, news, normalize, starterCodeImage, tierEntries, tierSheets, patch102, versionUpdates } = await import(dataModuleUrl)
+const { heroes, articles, sources, giftcodes, news, normalize, starterCodeImage, tierEntries, tierSheets, patch102, versionUpdates, codeRewardEvidence } = await import(dataModuleUrl)
 const { outputText: portraitModule } = ts.transpileModule(await readFile(new URL('../src/portraitEnhancement.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } })
 const portraitCode = portraitModule.replace(/from ['"]\.\/data['"]/, `from '${dataModuleUrl}'`)
 const { enhancedPortrait } = await import(`data:text/javascript;base64,${Buffer.from(portraitCode).toString('base64')}`)
@@ -75,6 +75,22 @@ test('giftcodes retain verification, publication and expiry metadata without cla
     assert.ok(code.published && code.checked && code.expiry && code.rewards)
     if (code.status.includes('Chưa xác nhận')) assert.equal(code.verifiedActive, false)
   }
+})
+
+test('reward mail covers every release code and keeps mail validity separate from code expiry', async () => {
+  assert.deepEqual(codeRewardEvidence.entries.map(e => e.code).sort(), [...starterCodeImage.codes].sort())
+  for (const code of giftcodes.filter(c => !c.archived)) {
+    assert.ok(code.rewardEvidence && code.rewardSourceId)
+    assert.equal(sources.find(s => s.id === code.rewardSourceId).url, 'assets/code-rewards.txt')
+    assert.equal(code.checked, '22/10/2026')
+    assert.ok(!code.expiry.includes('7 ngày'), 'Mail retention is not the redemption deadline')
+    assert.equal('image' in code.rewardEvidence, false, 'Only text reward records are published')
+  }
+  assert.equal(giftcodes.find(c => c.archived).rewardEvidence, undefined)
+  for (const value of ['THUANPHAM', 'VAN97', 'HOANGDZ']) assert.ok(giftcodes.find(c => c.code === value).rewards.includes('không hiện số lượng'))
+  assert.match(giftcodes.find(c => c.code === 'DKT10K').rewards, /khung cam/)
+  assert.match(giftcodes.find(c => c.code === 'DKT20K').rewards, /khung đỏ/)
+  assert.match(giftcodes.find(c => c.code === 'DAT100KDKT').rewards, /×25;.*×50/)
 })
 
 test('internal test images retain all 39 labels without merging uncertain names or inventing metadata', () => {
