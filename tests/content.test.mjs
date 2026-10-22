@@ -6,7 +6,7 @@ import ts from 'typescript'
 const source = await readFile(new URL('../src/data.ts', import.meta.url), 'utf8')
 const { outputText } = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } })
 const dataModuleUrl = `data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`
-const { heroes, articles, sources, giftcodes, news, normalize, starterCodeImage, tierEntries, tierSheets, patch102, versionUpdates, codeRewardEvidence } = await import(dataModuleUrl)
+const { heroes, articles, sources, giftcodes, news, normalize, starterCodeImage, tierEntries, tierSheets, patch102, versionUpdates, codeRewardEvidence, heroNameChecks } = await import(dataModuleUrl)
 const { outputText: portraitModule } = ts.transpileModule(await readFile(new URL('../src/portraitEnhancement.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } })
 const portraitCode = portraitModule.replace(/from ['"]\.\/data['"]/, `from '${dataModuleUrl}'`)
 const { enhancedPortrait } = await import(`data:text/javascript;base64,${Buffer.from(portraitCode).toString('base64')}`)
@@ -45,7 +45,7 @@ test('every published hero, article, code and news entry has a resolvable source
 
 test('player patch notes attach version history without turning guardians or an outfit into heroes', () => {
   assert.equal(patch102.releaseDate, null, 'An approximate report is not an exact release date')
-  assert.equal(heroes.length, 42, 'Version information enriches existing profiles')
+  assert.equal(heroes.length, 43, 'Catalog includes the newly sourced Thiet Phien profile')
   assert.deepEqual(heroes.filter(h => h.introducedIn === '1.0.2').map(h => h.id).sort(), [...patch102.heroIds].sort())
   for (const hero of heroes.filter(h => h.introducedIn)) assert.ok(hero.sourceIds.includes(patch102.sourceId))
   for (const name of [...patch102.guardians, patch102.outfit, 'Lữ Bố']) assert.ok(!heroes.some(h => h.name === name), `${name} is not reported as a new hero`)
@@ -104,9 +104,31 @@ test('internal test images retain all 39 labels without merging uncertain names 
     if (e.heroId) assert.ok(heroes.some(h => h.id === e.heroId))
     if (e.candidateId) assert.ok(heroes.some(h => h.id === e.candidateId))
   }
-  assert.equal(heroes.filter(h => h.imageOnly).length, 21)
+  assert.equal(heroes.filter(h => h.imageOnly).length, 16)
   for (const hero of heroes.filter(h => h.imageOnly)) assert.ok(!hero.faction && !hero.role && !hero.quality && !hero.skills)
   assert.equal(heroes.filter(h => h.id === 'duong-tang').length, 1)
   assert.ok(heroes.find(h => h.id === 'duong-tang').aliases.includes('Đường Tam Tạng'))
   assert.ok(heroes.some(h => h.id === 'ton-ngo-khong') && heroes.some(h => h.id === 'te-thien-dai-thanh' && h.kind === 'thanh-ton'))
+})
+
+test('publisher guides confirm names without inventing combat data or merging uncertain identities', () => {
+  for (const id of ['tri-quoc-thien-vuong', 'kim-giac', 'tang-truong-thien-vuong', 'quang-muc-thien-vuong', 'da-van-thien-vuong']) {
+    const hero = heroes.find(h => h.id === id)
+    assert.ok(hero && !hero.imageOnly && hero.portrait)
+    assert.ok(hero.sourceIds.some(id => ['beginner-teams', 'hero-growth'].includes(id)))
+    assert.ok(!hero.faction && !hero.role && !hero.quality && !hero.skills, 'A name mention does not establish battle metadata')
+  }
+  const newHero = heroes.find(h => h.id === 'thiet-phien-cong-chua')
+  assert.ok(newHero && !newHero.imageOnly && newHero.sourceIds.includes('beginner-teams'))
+  assert.ok(heroes.some(h => h.id === 'la-sat-nu'))
+  assert.equal(heroes.filter(h => !h.imageOnly).length, 27)
+  for (const check of heroNameChecks) {
+    const candidate = heroes.find(h => h.id === check.candidateId)
+    assert.ok(candidate && !(candidate.aliases || []).includes(check.name), 'Unconfirmed names must not become aliases')
+    if (check.heroId) assert.ok(heroes.some(h => h.id === check.heroId))
+    for (const id of check.sourceIds) assert.ok(sources.some(s => s.id === id))
+  }
+  const wukong = heroes.find(h => h.id === 'ton-ngo-khong')
+  assert.ok(wukong.acquisitionNotes.some(note => note.sourceId === 'beginner-teams' && note.text.includes('Linh Uẩn')))
+  for (const hero of heroes) for (const note of hero.acquisitionNotes || []) assert.ok(hero.sourceIds.includes(note.sourceId))
 })

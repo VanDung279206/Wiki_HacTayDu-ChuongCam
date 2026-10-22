@@ -1,6 +1,7 @@
 export const official = 'https://hactaydu.funtap.games/'
 export const fanpage = 'https://www.facebook.com/hactaydufuntap'
 export const checkedDate = '20/10/2026'
+export const heroCatalogCheckedDate = '22/10/2026'
 export const patch102 = {
   version: '1.0.2',
   sourceId: 'player-patch-1-0-2',
@@ -50,6 +51,8 @@ export const sources = [
   { id: 'test-exalted-image', title: 'Tier list Thánh Tôn — ảnh thử nghiệm nội bộ', publisher: 'Bảng test nội bộ do người dùng cung cấp', url: 'assets/tier-thanh-ton.png' },
   { id: patch102.sourceId, title: 'Nội dung cập nhật 1.0.2 do người dùng cung cấp', publisher: 'Người dùng cung cấp trong chat', url: 'assets/patch-notes-1.0.2.txt' },
   { id: 'player-code-rewards', title: 'Bản ghi phần thưởng 24 giftcode — thư ngày 21/10/2026', publisher: 'Chép từ ảnh trong game do người chơi cung cấp; chỉ công khai dạng chữ', url: 'assets/code-rewards.txt', received: '22/10/2026' },
+  { id: 'beginner-teams', title: 'Đội hình Hắc Tây Du cho tân thủ — 20/10', publisher: 'Funtap', url: `${official}huong-dan/doi-hinh-hac-tay-du-cho-tan-thu`, accessed: heroCatalogCheckedDate },
+  { id: 'hero-growth', title: 'Mẹo tăng lực chiến Hắc Tây Du: Chương Cấm — 20/10', publisher: 'Funtap', url: `${official}huong-dan/meo-tang-luc-chien-hac-tay-du-chuong-cam`, accessed: heroCatalogCheckedDate },
 ]
 export type HeroPortrait = { sheet: string; x: number; y: number; width: number; height: number }
 export type TierEntry = { name: string; tier: 'S' | 'A' | 'B' | 'C'; heroId?: string; candidateId?: string; portrait: HeroPortrait }
@@ -106,7 +109,24 @@ export const tierEntries: TierEntry[] = [
   exaltedEntry('Thái Âm Tinh Quân', 'A', 'thai-am-tinh-quan', 2, 1),
   exaltedEntry('Vạn Thánh Công Chúa', 'B', 'van-thanh-cong-chua', 0, 2),
 ]
-export type Hero = { id: string; name: string; title: string; faction?: string; role?: string; quality?: string; art?: string; portrait?: HeroPortrait; kind?: 'than-tuong' | 'thanh-ton'; imageOnly?: boolean; introducedIn?: string; aliases?: string[]; description: string; acquisition?: string; lore?: string; sourceIds: string[]; skills?: { name: string; description: string; sourceId: string }[] }
+export type Hero = { id: string; name: string; title: string; faction?: string; role?: string; quality?: string; art?: string; portrait?: HeroPortrait; kind?: 'than-tuong' | 'thanh-ton'; imageOnly?: boolean; introducedIn?: string; aliases?: string[]; description: string; acquisition?: string; acquisitionNotes?: { text: string; sourceId: string }[]; lore?: string; sourceIds: string[]; skills?: { name: string; description: string; sourceId: string }[] }
+export const heroNameChecks = [
+  { name: 'Lý Tịnh', candidateId: 'ly-tinh', sourceIds: ['beginner-teams', 'hero-growth', 'test-roster-image'] },
+  { name: 'Hoàng My', candidateId: 'hoang-mi', sourceIds: ['beginner-teams', 'hero-growth', 'test-roster-image'] },
+  { name: 'Đại Bàng Vương', candidateId: 'dai-bang-vuong', sourceIds: ['hero-growth'] },
+  { name: 'Thiết Phiến Công Chúa', heroId: 'thiet-phien-cong-chua', candidateId: 'la-sat-nu', sourceIds: ['beginner-teams'] },
+]
+const heroShopNotes: Record<string, string> = {
+  'ton-ngo-khong': 'Shop Linh Uẩn; Triệu Hồi, Đằng Long, Kim Long.',
+  'duong-tien': 'Shop Linh Uẩn; Triệu Hồi, Đằng Long, Kim Long.',
+  'na-tra': 'Shop Linh Uẩn; Triệu Hồi, Đằng Long, Kim Long.',
+  'duong-tang': 'Shop Triệu Hồi, Đằng Long, Kim Long.',
+  'ngoc-dien-ho-ly': 'Shop Võ Đạo.',
+  'hang-nga': 'Shop Võ Đạo.',
+  'tru-bat-gioi': 'Shop Võ Đạo.',
+  'cang-kim-tinh-quan': 'Shop Vạn Yêu.',
+  'hong-hai-nhi': 'Shop Vạn Yêu.',
+}
 const publisherHeroes: Hero[] = [
   { id: 'ton-ngo-khong', name: 'Tôn Ngộ Không', title: 'Tề Thiên Đại Thánh', faction: 'Yêu Tộc', art: 'wukong', description: 'Tôn Ngộ Không thuộc Yêu Tộc và là nhân vật trung tâm của cốt truyện. Đại Thánh bị bốn sợi xích giam giữ trong một trăm năm; Chương Cấm là chìa khóa giải thoát nhân vật.', acquisition: 'Bài tiêu điểm Dương Tiễn trên fanpage nêu quà đạt cấp 10: chọn một trong Tôn Ngộ Không, Na Tra hoặc Dương Tiễn.', sourceIds: ['intro', 'yeu-toc', 'duong-tien-skills'] },
   { id: 'duong-tien', name: 'Dương Tiễn', title: 'Tam nhãn chiến thần', faction: 'Tiên Gia', role: 'Cận chiến', quality: 'Tuyệt', art: 'art1.png', description: 'Dương Tiễn thuộc Tiên Gia, phẩm chất Tuyệt, vai trò Cận chiến. Bài tiêu điểm trên fanpage xác nhận sát thương vật lý và công bố bốn kỹ năng.', lore: 'Dương Tiễn còn được gọi là Nhị Lang Thần; sử dụng thiên nhãn và Tam Tiêm Lưỡng Nhận Đao.', acquisition: 'Theo bài tiêu điểm trên fanpage, đạt cấp 10 được chọn miễn phí một trong Tôn Ngộ Không, Na Tra hoặc Dương Tiễn.', sourceIds: ['home', 'duong-tien-skills'], skills: [
@@ -134,11 +154,21 @@ const publisherHeroes: Hero[] = [
   { id: 'la-sat-nu', name: 'La Sát Nữ', title: '', faction: 'Chúng Sinh', description: 'La Sát Nữ được nêu tên trong bài Chúng Sinh. Mô tả nhân vật nhắc quạt Ba Tiêu, nhưng không công bố tên và hệ số kỹ năng trong game.', sourceIds: ['chung-sinh'] },
   { id: 'tran-nguyen-tu', name: 'Trấn Nguyên Tử', title: '', faction: 'Chúng Sinh', description: 'Trấn Nguyên Tử được xác nhận bằng ảnh mang tên nhân vật trong bộ ảnh Chúng Sinh ngày 25/08/2026.', sourceIds: ['chung-sinh', 'tran-nguyen-photo'] },
   { id: 'khong-tuoc-cong-chua', name: 'Khổng Tước Công Chúa', title: '', faction: 'Chúng Sinh', description: 'Khổng Tước Công Chúa xuất hiện trong bộ ảnh Chúng Sinh. Tên nhân vật được đọc trực tiếp từ ảnh fanpage đăng ngày 25/08/2026.', sourceIds: ['chung-sinh', 'khong-tuoc-photo'] },
+  { id: 'thiet-phien-cong-chua', name: 'Thiết Phiến Công Chúa', title: '', description: 'Thiết Phiến Công Chúa được Funtap nêu tên trong hướng dẫn đội hình tân thủ. Chưa xác nhận quan hệ với hồ sơ La Sát Nữ.', sourceIds: ['beginner-teams'] },
+  { id: 'tri-quoc-thien-vuong', name: 'Trì Quốc Thiên Vương', title: '', description: 'Trì Quốc Thiên Vương có tên trong đội hình tân thủ và hướng dẫn Kích Duyên của Funtap.', sourceIds: ['beginner-teams', 'hero-growth'] },
+  { id: 'kim-giac', name: 'Kim Giác', title: '', description: 'Kim Giác được Funtap liệt kê trong đội hình tân thủ dùng Dương Tiễn hoặc Na Tra.', sourceIds: ['beginner-teams'] },
+  ...[
+    { id: 'tang-truong-thien-vuong', name: 'Tăng Trưởng Thiên Vương' },
+    { id: 'quang-muc-thien-vuong', name: 'Quảng Mục Thiên Vương' },
+    { id: 'da-van-thien-vuong', name: 'Đa Văn Thiên Vương' },
+  ].map(hero => ({ ...hero, title: '', description: `${hero.name} được nêu tên trong hướng dẫn Kích Duyên của Funtap.`, sourceIds: ['hero-growth'] })),
 ]
 export const heroes: Hero[] = [
   ...publisherHeroes.map(hero => {
     const entry = tierEntries.find(item => item.heroId === hero.id)
-    return entry ? { ...hero, portrait: entry.portrait, aliases: entry.name !== hero.name ? [entry.name] : [], sourceIds: [...hero.sourceIds, tierSheets.find(sheet => sheet.id === entry.portrait.sheet)!.sourceId] } : hero
+    const shopNote = heroShopNotes[hero.id]
+    const updatedHero = shopNote ? { ...hero, acquisitionNotes: [{ text: shopNote, sourceId: 'beginner-teams' }], sourceIds: [...hero.sourceIds, 'beginner-teams'] } : hero
+    return entry ? { ...updatedHero, portrait: entry.portrait, aliases: entry.name !== hero.name ? [entry.name] : [], sourceIds: [...updatedHero.sourceIds, tierSheets.find(sheet => sheet.id === entry.portrait.sheet)!.sourceId] } : updatedHero
   }),
   ...tierEntries.filter(entry => entry.heroId && !publisherHeroes.some(hero => hero.id === entry.heroId)).map(entry => ({
     id: entry.heroId!, name: entry.name, title: '', imageOnly: true,

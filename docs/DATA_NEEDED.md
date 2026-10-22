@@ -1,5 +1,15 @@
 # Dữ liệu cần bổ sung
 
+Cập nhật danh mục ngày **22/10/2026**: hiện có **43 hồ sơ**, gồm **27 hồ sơ có tên trong nguồn nhà phát hành** và **16 hồ sơ chỉ có tư liệu người chơi**. Đã thêm Thiết Phiến Công Chúa; xác nhận nguồn Funtap cho Trì Quốc Thiên Vương, Kim Giác, Tăng Trưởng Thiên Vương, Quảng Mục Thiên Vương và Đa Văn Thiên Vương. Chín hồ sơ có thêm gợi ý đổi shop từ hướng dẫn đội hình. Có nguồn xác nhận tên không có nghĩa đã đủ bộ kỹ năng, phẩm chất hoặc thế lực.
+
+Ưu tiên bổ sung tiếp theo:
+
+1. Ảnh hoặc video cuộn toàn bộ **Đồ giám**, kể cả tướng chưa sở hữu, để kiểm tra danh sách còn thiếu.
+2. **Tôn Ngộ Không**: ảnh trang thông tin (phe, phẩm chất, vai trò) và mở từng kỹ năng để thấy toàn bộ mô tả; ghi cấp kỹ năng và sao.
+3. Ảnh tên và chân dung của **Lý Tịnh/Lý Tinh, Hoàng My/Hoàng Mi, Kháng Kim/Cang Kim Tinh Quân, Đại Bàng/Đại Bằng Vương, Thiết Phiến Công Chúa/La Sát Nữ**. Các bài NPH cũng có cách viết khác nhau; chưa gộp các hồ sơ này.
+
+Chỉ cần gửi phần chưa có, theo từng đợt nhỏ. Không cần gửi lại ảnh code hoặc tier list đã cung cấp. Tiếp tục ghi nhận dữ liệu cho bản chính thức; máy chủ và số phiên bản có thể bổ sung khi chụp được trong game.
+
 Đã nhận nội dung phiên bản **1.0.2**: ba Thánh Tôn, Vân Mộng Tiên Tung, ngoại trang Chiến Thần Lữ Bố Xuất Thế và bốn Thủ hộ. Mốc "1 tuần trước" là ước tính, chưa có ngày triển khai chính xác. Cần bổ sung khi có: ảnh tính năng Thủ hộ (cấp mở, kỹ năng, cách nhận/nâng cấp), ngoại trang (nhân vật sử dụng và thuộc tính), lịch sự kiện, hoặc thông báo cập nhật gốc. Không cần gửi lại danh sách nội dung này; chưa dùng 1.0.2 làm phiên bản hiện tại của mọi máy chủ.
 
 Đã nhận thêm hai bảng test nội bộ gồm 31 tên Thần tướng và 8 tên Thánh Tôn; đã bổ sung 21 hồ sơ mới và 36 chân dung, tổng danh mục 42 hồ sơ. Chưa có ngày test hoặc phiên bản. Vẫn cần Đồ giám bản chính thức để xác nhận phe/phẩm chất, quan hệ giữa các dạng Thánh Tôn và tên chính xác của ba nhãn Lý Tịnh, Kháng Kim Tinh Quân, Hoàng My. Không cần gửi lại hai ảnh tier list này.

@@ -1,5 +1,14 @@
 # Nguồn nội dung — 20/10/2026
 
+## Đối chiếu tướng ngày 22/10/2026
+
+Đã đọc trực tiếp hai bài Funtap bằng trình duyệt, từ danh mục Hướng Dẫn trên trang chủ:
+
+- `https://hactaydu.funtap.games/huong-dan/doi-hinh-hac-tay-du-cho-tan-thu` (hiển thị 20/10): bổ sung tên Thiết Phiến Công Chúa, xác nhận Trì Quốc Thiên Vương và Kim Giác; gợi ý shop cho chín hồ sơ. Đây là khuyến nghị đổi tướng theo đội hình, chưa phải bảng giá/lịch shop hoặc bộ kỹ năng.
+- `https://hactaydu.funtap.games/huong-dan/meo-tang-luc-chien-hac-tay-du-chuong-cam` (hiển thị 20/10): xác nhận Đa Văn, Trì Quốc, Tăng Trưởng và Quảng Mục Thiên Vương. Các tên này khớp tên đầy đủ trong ảnh test đã có; giữ chân dung nguồn test và không suy ra phe/vai trò/phẩm chất từ việc xuất hiện trong hướng dẫn.
+
+Danh mục hiện có 43 hồ sơ: 27 có tên trong nguồn NPH, 16 chỉ có tư liệu người chơi. Thiết Phiến Công Chúa chưa gộp với La Sát Nữ. Lý Tịnh và Hoàng My xuất hiện cả trong bài NPH, nhưng chưa đủ đối chiếu để gộp với Lý Tinh/Hoàng Mi; bài tăng lực chiến còn viết Đại Bàng Vương khác Đại Bằng Vương. Các cách viết được theo dõi ở `heroNameChecks`, không biến thành bí danh xác nhận và không thêm hồ sơ trùng cho từng lỗi chính tả có thể có. Kháng Kim/Cang Kim vẫn chờ ảnh Đồ giám. Không lấy cơ chế hoặc kỹ năng từ game Tây Du khác hay từ nguyên tác.
+
 Cập nhật giftcode ngày **22/10/2026**: nhận 24 ảnh thư trong game, mỗi ảnh được người dùng ghi mã tương ứng. Theo lựa chọn của người dùng, chỉ công khai mã và phần thưởng dạng chữ, không đăng 24 ảnh gốc. Bản ghi nguồn tại `public/assets/code-rewards.txt`; ánh xạ phần thưởng nằm trong `codeRewardEvidence` của `src/data.ts`. Ngày hiển thị trên thư là **21/10/2026**, không phải ngày công bố mã. Bảng hiển thị phần thưởng bằng chữ và giữ nguồn công bố chính thức NHANCAN111 cùng nguồn bản ghi phần thưởng.
 
 Chép số lượng hiện rõ; THUANPHAM, VAN97, HOANGDZ không hiện số lượng ở ba ô nên không tự ghi ×1 hoặc ×2. HACTAYDU888 có hộp không hiện số lượng. Phân biệt mảnh khung cam và khung đỏ: DKT10K, DKT30K, DKT50K là khung cam; DKT5K, DKT20K và sáu mã Căn là khung đỏ. DAT100KDKT có Tiên Ngọc ×1.000, mảnh khung đỏ ×25 và mảnh chân dung ×50. Các tên vật phẩm chưa hiện trong ảnh được mô tả theo biểu tượng, không gán tên hoặc nhân vật từ suy đoán. “Thư có hiệu lực 7 ngày” là thời hạn thư; không dùng làm hạn đổi mã và không xác nhận hiệu lực hiện tại từ ảnh cũ.

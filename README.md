@@ -23,7 +23,7 @@ Chạy kiểm tra bằng `npm test`. Các tình huống dữ liệu hỏng, trì
 ## Chức năng
 
 - Bài tổng quan về game, cốt truyện và lối chơi.
-- 42 hồ sơ: 21 có nguồn nhà phát hành và 21 hồ sơ bổ sung từ ảnh test nội bộ chờ đối chiếu. Lọc Thần tướng/Thánh Tôn, thế lực; tìm tên, danh hiệu và tên gọi đã xác nhận.
+- 43 hồ sơ: 27 có tên trong nguồn nhà phát hành và 16 hồ sơ từ tư liệu người chơi chờ đối chiếu. Đối chiếu danh mục ngày 22/10/2026, thêm Thiết Phiến Công Chúa và gợi ý đổi shop cho 9 tướng. Lọc Thần tướng/Thánh Tôn, thế lực; tìm tên, danh hiệu và tên gọi đã xác nhận.
 - Bảng test nội bộ gồm 31 tên Thần tướng và 8 tên Thánh Tôn; 36 hồ sơ có chân dung lấy vùng hiển thị từ ảnh gốc. Ba nhãn khác tên được giữ riêng để đối chiếu.
 - Chân dung có bản tăng nét, nút đổi về ảnh gốc và khung ảnh đúng tỉ lệ. Tệp kết quả, prompt và giới hạn xử lý được ghi trong `docs/IMAGE_ENHANCEMENT.md`.
 - Tìm kiếm không phân biệt dấu tiếng Việt; phím tắt Ctrl/Cmd + K.
@@ -52,7 +52,7 @@ Dữ liệu đội hình, bài đã lưu và giao diện được giữ bằng `
 - `docs/SOURCES.md`: nguồn, tình trạng xác minh và phạm vi dữ liệu.
 - `docs/ui-evidence.json`: kết quả kiểm tra giao diện; hình kiểm tra nằm cùng thư mục.
 
-Danh mục 42 hồ sơ chưa phải toàn bộ tướng trong game. Các hồ sơ mới từ ảnh test và ba tên khác biệt vẫn cần Đồ giám bản chính thức để xác nhận. Hạng test có nguồn riêng và không được dùng làm phẩm chất, kỹ năng hay sát thương. Dương Tiễn, Ngưu Ma Vương và Đường Tăng có thế lực/vai trò/phẩm chất qua hình trên trang chủ. Ngọc Diện Hồ Ly có vai trò hỗ trợ được nêu trong bài giới thiệu. Trường thiếu hiển thị dấu —. Công cụ đội hình không mô phỏng chiến đấu.
+Danh mục 43 hồ sơ chưa phải toàn bộ tướng trong game. Các hồ sơ từ ảnh test và các tên viết khác nhau vẫn cần Đồ giám bản chính thức để xác nhận. Các cặp Thiết Phiến Công Chúa/La Sát Nữ, Lý Tịnh/Lý Tinh, Hoàng My/Hoàng Mi và Đại Bàng/Đại Bằng Vương được ghi chú, chưa tự gộp. Hạng test có nguồn riêng và không được dùng làm phẩm chất, kỹ năng hay sát thương. Dương Tiễn, Ngưu Ma Vương và Đường Tăng có thế lực/vai trò/phẩm chất qua hình trên trang chủ. Ngọc Diện Hồ Ly có vai trò hỗ trợ được nêu trong bài giới thiệu. Trường thiếu hiển thị dấu —. Công cụ đội hình không mô phỏng chiến đấu.
 
 Wiki dành cho bản chính thức theo xác nhận của người dùng. Trang Giftcode mặc định có 24 mã khác nhau từ ảnh bộ code tân thủ; `ALPHA3R6` nằm riêng trong bộ lọc lưu trữ Alpha Test. Có thể tìm theo mã hoặc đợt phát. `NHANCAN111` giữ nguồn công bố chính thức từ fanpage. Ngày 22/10/2026 đã bổ sung phần thưởng của 24 mã từ ảnh thư đề ngày 21/10/2026. Theo yêu cầu người cung cấp, chỉ công khai mã và phần thưởng dạng chữ; bản ghi nguồn tại `public/assets/code-rewards.txt`. Bảng hiển thị phần thưởng trực tiếp cùng mã. Vật phẩm chưa có tên đầy đủ được mô tả theo biểu tượng; ô không ghi số không tự gán số lượng. Thời hạn thư 7 ngày được tách khỏi hạn đổi mã; chưa xác nhận các mã còn đổi được hôm nay. Xem `docs/DATA_NEEDED.md` để biết thông tin còn thiếu.
 
