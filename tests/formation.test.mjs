@@ -32,3 +32,11 @@ test('movement remains continuous without snapping and stays within board bounda
   assert.ok(Math.abs(moved.y - 0.339) < 1e-12)
   assert.deepEqual(moveWithinBounds(moved, 10, -10), { x: 1, y: 0 })
 })
+
+test('merged hero identifiers preserve stored formation placement and prefer the surviving identifier', () => {
+  const redirects = { 'thiet-phien-cong-chua': 'la-sat-nu' }
+  const oldPoint = { x: 0.34, y: 0.78 }
+  const survivingPoint = { x: 0.61, y: 0.23 }
+  assert.deepEqual(restorePositions({ 'thiet-phien-cong-chua': oldPoint }, ['la-sat-nu'], redirects), { 'la-sat-nu': oldPoint })
+  assert.deepEqual(restorePositions({ 'thiet-phien-cong-chua': oldPoint, 'la-sat-nu': survivingPoint }, ['la-sat-nu'], redirects), { 'la-sat-nu': survivingPoint })
+})

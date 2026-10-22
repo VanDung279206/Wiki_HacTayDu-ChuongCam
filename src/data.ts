@@ -1,3 +1,6 @@
+import { videoCatalog, videoNameResolutions, wukongVideoSkills, wukongVideoStats } from './videoCatalog'
+export { videoCatalog, videoNameResolutions }
+
 export const official = 'https://hactaydu.funtap.games/'
 export const fanpage = 'https://www.facebook.com/hactaydufuntap'
 export const checkedDate = '20/10/2026'
@@ -53,6 +56,7 @@ export const sources = [
   { id: 'player-code-rewards', title: 'Bản ghi phần thưởng 24 giftcode — thư ngày 21/10/2026', publisher: 'Chép từ ảnh trong game do người chơi cung cấp; chỉ công khai dạng chữ', url: 'assets/code-rewards.txt', received: '22/10/2026' },
   { id: 'beginner-teams', title: 'Đội hình Hắc Tây Du cho tân thủ — 20/10', publisher: 'Funtap', url: `${official}huong-dan/doi-hinh-hac-tay-du-cho-tan-thu`, accessed: heroCatalogCheckedDate },
   { id: 'hero-growth', title: 'Mẹo tăng lực chiến Hắc Tây Du: Chương Cấm — 20/10', publisher: 'Funtap', url: `${official}huong-dan/meo-tang-luc-chien-hac-tay-du-chuong-cam`, accessed: heroCatalogCheckedDate },
+  { id: videoCatalog.sourceId, title: 'Bản ghi video Đồ giám và kỹ năng Tôn Ngộ Không — 22/10/2026', publisher: 'Video trong game do người dùng cung cấp; công khai bản ghi dạng chữ', url: 'assets/catalog-video-2026-10-22.txt', received: videoCatalog.received },
 ]
 export type HeroPortrait = { sheet: string; x: number; y: number; width: number; height: number }
 export type TierEntry = { name: string; tier: 'S' | 'A' | 'B' | 'C'; heroId?: string; candidateId?: string; portrait: HeroPortrait }
@@ -61,7 +65,7 @@ export const tierSheets = [
   { id: 'thanh-ton', title: 'Thánh Tôn', sourceId: 'test-exalted-image', path: 'assets/tier-thanh-ton.png', width: 1024, height: 1280 },
 ]
 const rosterEntry = (name: string, tier: TierEntry['tier'], heroId: string | undefined, column: number, row: number, candidateId?: string): TierEntry => ({
-  name, tier, heroId, candidateId,
+  name, tier, heroId: heroId || candidateId,
   portrait: { sheet: 'than-tuong', x: [177, 295, 414, 532, 651, 770, 888][column], y: [224, 423, 622, 804, 1003][row], width: 104, height: 132 },
 })
 const exaltedEntry = (name: string, tier: TierEntry['tier'], heroId: string, column: number, row: number): TierEntry => ({
@@ -109,13 +113,11 @@ export const tierEntries: TierEntry[] = [
   exaltedEntry('Thái Âm Tinh Quân', 'A', 'thai-am-tinh-quan', 2, 1),
   exaltedEntry('Vạn Thánh Công Chúa', 'B', 'van-thanh-cong-chua', 0, 2),
 ]
-export type Hero = { id: string; name: string; title: string; faction?: string; role?: string; quality?: string; art?: string; portrait?: HeroPortrait; kind?: 'than-tuong' | 'thanh-ton'; imageOnly?: boolean; introducedIn?: string; aliases?: string[]; description: string; acquisition?: string; acquisitionNotes?: { text: string; sourceId: string }[]; lore?: string; sourceIds: string[]; skills?: { name: string; description: string; sourceId: string }[] }
-export const heroNameChecks = [
-  { name: 'Lý Tịnh', candidateId: 'ly-tinh', sourceIds: ['beginner-teams', 'hero-growth', 'test-roster-image'] },
-  { name: 'Hoàng My', candidateId: 'hoang-mi', sourceIds: ['beginner-teams', 'hero-growth', 'test-roster-image'] },
-  { name: 'Đại Bàng Vương', candidateId: 'dai-bang-vuong', sourceIds: ['hero-growth'] },
-  { name: 'Thiết Phiến Công Chúa', heroId: 'thiet-phien-cong-chua', candidateId: 'la-sat-nu', sourceIds: ['beginner-teams'] },
-]
+export type HeroSkill = { name: string; description: string; sourceId: string; level?: number; cooldownSeconds?: number; time?: string; levels?: { level: number; description: string }[] }
+export type Hero = { id: string; name: string; title: string; faction?: string; role?: string; quality?: string; art?: string; portrait?: HeroPortrait; kind?: 'than-tuong' | 'thanh-ton'; imageOnly?: boolean; introducedIn?: string; aliases?: string[]; description: string; acquisition?: string; acquisitionNotes?: { text: string; sourceId: string }[]; lore?: string; sourceIds: string[]; skills?: HeroSkill[]; skillScope?: string; statsSnapshot?: typeof wukongVideoStats; inGameEvidence?: { sourceId: string; time: string; factionBasis: string } }
+export const heroNameChecks: { name: string; candidateId: string; heroId?: string; sourceIds: string[] }[] = []
+export const heroRedirects: Record<string, string> = { 'thiet-phien-cong-chua': 'la-sat-nu' }
+export const canonicalHeroId = (id: string) => Object.hasOwn(heroRedirects, id) ? heroRedirects[id] : id
 const heroShopNotes: Record<string, string> = {
   'ton-ngo-khong': 'Shop Linh Uẩn; Triệu Hồi, Đằng Long, Kim Long.',
   'duong-tien': 'Shop Linh Uẩn; Triệu Hồi, Đằng Long, Kim Long.',
@@ -163,7 +165,7 @@ const publisherHeroes: Hero[] = [
     { id: 'da-van-thien-vuong', name: 'Đa Văn Thiên Vương' },
   ].map(hero => ({ ...hero, title: '', description: `${hero.name} được nêu tên trong hướng dẫn Kích Duyên của Funtap.`, sourceIds: ['hero-growth'] })),
 ]
-export const heroes: Hero[] = [
+const priorHeroes: Hero[] = [
   ...publisherHeroes.map(hero => {
     const entry = tierEntries.find(item => item.heroId === hero.id)
     const shopNote = heroShopNotes[hero.id]
@@ -176,6 +178,30 @@ export const heroes: Hero[] = [
     kind: entry.portrait.sheet as 'than-tuong' | 'thanh-ton', portrait: entry.portrait,
     description: `${entry.name} được ghi tên trong bảng ${entry.portrait.sheet === 'thanh-ton' ? 'Thánh Tôn' : 'Thần tướng'} thử nghiệm nội bộ do người dùng cung cấp. Hồ sơ đang chờ đối chiếu với bản chính thức; ảnh không có kỹ năng, chỉ số hoặc điều kiện sở hữu.`,
     sourceIds: [tierSheets.find(sheet => sheet.id === entry.portrait.sheet)!.sourceId, ...(patch102.heroIds.includes(entry.heroId!) ? [patch102.sourceId] : [])],
+  })),
+]
+export const heroes: Hero[] = [
+  ...priorHeroes.filter(hero => !heroRedirects[hero.id]).map(hero => {
+    const observed = videoCatalog.entries.find(entry => entry.id === hero.id)
+    if (!observed) return hero
+    const mergedSources = priorHeroes.filter(item => canonicalHeroId(item.id) === hero.id).flatMap(item => item.sourceIds)
+    const aliases = [...new Set([...(hero.aliases || []), hero.name, ...('legacyNames' in observed ? observed.legacyNames || [] : [])])].filter(name => name !== observed.name)
+    return {
+      ...hero, name: observed.name, aliases, faction: observed.faction, quality: observed.quality, imageOnly: false,
+      description: `${observed.name} được đọc trực tiếp trong Đồ giám ở nhóm phẩm chất ${observed.quality}. Tên và chân dung đã đối chiếu với tư liệu trước; thế lực theo biểu tượng trên thẻ.`,
+      inGameEvidence: { sourceId: videoCatalog.sourceId, time: observed.time, factionBasis: videoCatalog.factionBasis },
+      sourceIds: [...new Set([...mergedSources, videoCatalog.sourceId])],
+      ...(hero.id === 'ton-ngo-khong' ? {
+        role: 'Tiên Phong', skills: wukongVideoSkills, statsSnapshot: wukongVideoStats, lore: hero.lore || hero.description,
+        skillScope: 'Theo video Đồ giám nhận ngày 22/10/2026: cả bốn ô kỹ năng hiển thị Lv.3, đồng thời mô tả các mốc Lv.1–3. Giữ riêng từng mốc; phần đầu mô tả Ngự Vân Càn Nguyệt bị khuất nên chưa chép đủ.',
+      } : {}),
+    }
+  }),
+  ...videoCatalog.entries.filter(entry => !priorHeroes.some(hero => hero.id === entry.id)).map(entry => ({
+    id: entry.id, name: entry.name, title: '', faction: entry.faction, quality: entry.quality, kind: 'than-tuong' as const,
+    description: `${entry.name} xuất hiện trong Đồ giám ở nhóm phẩm chất ${entry.quality}. Video chưa mở hồ sơ chiến đấu hoặc kỹ năng của tướng này.`,
+    inGameEvidence: { sourceId: videoCatalog.sourceId, time: entry.time, factionBasis: videoCatalog.factionBasis },
+    sourceIds: [videoCatalog.sourceId],
   })),
 ]
 export type Article = { id: string; title: string; category: string; summary: string; relatedIds?: string[]; sections: { id: string; title: string; text: string; list?: string[] }[]; sourceIds: string[] }

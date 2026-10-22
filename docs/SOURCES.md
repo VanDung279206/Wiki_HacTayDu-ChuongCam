@@ -1,5 +1,19 @@
 # Nguồn nội dung — 20/10/2026
 
+## Video Đồ giám nhận ngày 22/10/2026
+
+Nguồn do người dùng gửi trực tiếp sau yêu cầu bổ sung danh sách tướng; thời lượng 42,83 giây, khung hình 480×1038, 30 fps. Video gốc và toàn bộ khung hình kiểm tra được giữ ngoài repository; chỉ xuất bản bản ghi chữ `public/assets/catalog-video-2026-10-22.txt`. Không sao chép tên tài khoản, tài nguyên người chơi, thanh trạng thái hoặc màn hình thiết bị.
+
+Đã đọc tên và phẩm chất của 43 thẻ tại 00:00–00:31: 31 Tuyệt, 6 Đỉnh, 6 Ưu. `src/videoCatalog.ts` lưu từng tướng và mốc đọc. Thế lực theo biểu tượng trên thẻ, đối chiếu biểu tượng Yêu Tộc với hồ sơ Tôn Ngộ Không trong video, Tiên Gia với Dương Tiễn và Chúng Sinh với Na Tra có nguồn Funtap; không dùng màu viền thẻ làm phe. Danh sách video chưa có trang Thánh Tôn, nên không xác nhận hoặc xóa tám hồ sơ Thánh Tôn cũ; Bạch Cốt Tinh cũng được giữ từ nguồn cửa hàng. Tổng hiện tại 52 hồ sơ sau khi thêm 10 tên mới và gộp một hồ sơ trùng.
+
+Đối chiếu đồng thời tên và chân dung trong video với ảnh test: Lý Tinh → Lý Tịnh, Hoàng Mi → Hoàng My, Kháng Kim → Cang Kim Tinh Quân, Đại Bằng → Đại Bàng Vương, La Sát Nữ → Thiết Phiến Công Chúa. Đường Tam Tạng theo tên hiện trong video; Đường Tăng và Trư Ngộ Năng vẫn là tên tìm kiếm. Các nhãn nguyên bản trên tier list không sửa. Giữ các ID hồ sơ cũ; ID `thiet-phien-cong-chua` chuyển tới `la-sat-nu`. Khi phục hồi dữ liệu trình duyệt, gộp ID trùng trong bài lưu/đội hình và giữ tọa độ đã lưu, ưu tiên ID còn tồn tại nếu cả hai có vị trí.
+
+00:32 ghi rõ Tôn Ngộ Không: Yêu Tộc, Tiên Phong, Tuyệt; cấp 600/600, HP 3.280.757, Công 321.186, Thủ Vật Lý 22.221, Thủ Phép 42.707. Đây là thuộc tính trạng thái Đồ giám; không có cơ sở gọi là chỉ số gốc hoặc áp dụng cho mọi cấu hình. Không tự đếm cấp sao từ biểu tượng nhỏ.
+
+00:34–00:41 mở bốn kỹ năng Lv.3 và các mốc Lv.1–3: Ngự Vân Càn Nguyệt (hồi chiêu 18 giây), Thiên Biến Vạn Hóa, Côn Ảnh Thiên Điệp, Chiến Ý Bất Khuất. Phần đầu mô tả Lv.1 của Ngự Vân Càn Nguyệt bị khuất ngay khi mở bảng: ghi rõ thiếu và chỉ chép phần đọc được. Tìm Địch kéo dài 12 giây, ưu tiên mục tiêu cho người thi triển. Giữ nhãn “Bạo” của Đoạn Phong, không tự đổi thành Tỷ Lệ Bạo hoặc sát thương bạo. Không gộp hệ số cấp 1 với cấp 3 thành một mô tả chung.
+
+Các đoạn dưới đây là lịch sử nguồn trước video; các tên và tổng số ở đó mô tả thời điểm đối chiếu cũ.
+
 ## Đối chiếu tướng ngày 22/10/2026
 
 Đã đọc trực tiếp hai bài Funtap bằng trình duyệt, từ danh mục Hướng Dẫn trên trang chủ:

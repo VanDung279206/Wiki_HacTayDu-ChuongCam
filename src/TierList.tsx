@@ -1,10 +1,10 @@
-import { heroes, tierEntries, tierSheets, checkedDate } from './data'
+import { heroes, tierEntries, tierSheets, checkedDate, videoCatalog } from './data'
 import { ImagePortrait } from './HeroPicture'
 
 export default function TierList() {
   return <>
     <p>Hai bảng Thần tướng và Thánh Tôn do người dùng cung cấp, được mô tả là kết quả thử nghiệm nội bộ. Wiki nhận ảnh ngày <strong>{checkedDate}</strong>; chưa có tên tác giả, ngày thử nghiệm hoặc phiên bản.</p>
-    <div className="notice">Hạng S/A/B/C được chép theo ảnh test, là đánh giá tham khảo. Đây không phải phẩm chất tướng trong game. Các tên và hình mới vẫn cần đối chiếu với Đồ giám bản chính thức.</div>
+    <div className="notice">Hạng S/A/B/C được chép theo ảnh test, là đánh giá tham khảo. Đây không phải phẩm chất tướng trong game. Đã đối chiếu tên và chân dung của 31 Thần tướng với video Đồ giám nhận ngày {videoCatalog.received}; nhóm Thánh Tôn vẫn chờ tư liệu trong game.</div>
     <p className="table-note">Chân dung nhỏ dùng bản tăng nét để dễ xem. Ảnh gốc bên dưới được giữ nguyên; có thể chuyển về ảnh gốc trong từng hồ sơ tướng.</p>
     {tierSheets.map(sheet => <section key={sheet.id} id={`tier-${sheet.id}`} className="wiki-section" tabIndex={-1}>
       <h2>{sheet.title} <span className="formation-count">{tierEntries.filter(e => e.portrait.sheet === sheet.id).length} tên trong ảnh</span></h2>
@@ -16,6 +16,6 @@ export default function TierList() {
         </li>)}</ul></td></tr> : null
       })}</tbody></table>
     </section>)}
-    <section id="tier-names" className="wiki-section" tabIndex={-1}><h2>Đối chiếu tên</h2><p>Đường Tam Tạng và Trư Ngộ Năng đã có trong hồ sơ Đường Tăng và Trư Bát Giới nên dùng chung hồ sơ. Lý Tịnh, Kháng Kim Tinh Quân và Hoàng My đang chờ đối chiếu với tên trong các nguồn đã có; wiki giữ nguyên chữ trên ảnh, chưa tự gộp.</p><p>Các tên ở bảng Thánh Tôn được lưu thành hồ sơ riêng theo bảng test. Chưa xác nhận quan hệ nâng cấp hoặc thay thế giữa các dạng tướng.</p></section>
+    <section id="tier-names" className="wiki-section" tabIndex={-1}><h2>Đối chiếu tên</h2><p>Giữ nguyên nhãn trên ảnh test; các liên kết dẫn đến tên hiện tại trong Đồ giám. Đã đối chiếu Lý Tịnh, Hoàng My, Cang Kim Tinh Quân, Đại Bàng Vương và Thiết Phiến Công Chúa bằng tên và chân dung trong video. La Sát Nữ được dùng làm tên cũ của Thiết Phiến Công Chúa; hồ sơ trùng đã gộp, đường dẫn cũ vẫn hoạt động.</p><p>Đường Tăng/Đường Tam Tạng và Trư Ngộ Năng/Trư Bát Giới dùng chung hồ sơ. Các tên ở bảng Thánh Tôn được lưu riêng theo bảng test; video chưa xác nhận quan hệ nâng cấp hoặc thay thế giữa các dạng.</p></section>
   </>
 }

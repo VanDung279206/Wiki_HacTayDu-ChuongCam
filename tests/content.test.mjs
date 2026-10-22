@@ -5,8 +5,11 @@ import ts from 'typescript'
 
 const source = await readFile(new URL('../src/data.ts', import.meta.url), 'utf8')
 const { outputText } = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } })
-const dataModuleUrl = `data:text/javascript;base64,${Buffer.from(outputText).toString('base64')}`
-const { heroes, articles, sources, giftcodes, news, normalize, starterCodeImage, tierEntries, tierSheets, patch102, versionUpdates, codeRewardEvidence, heroNameChecks } = await import(dataModuleUrl)
+const videoJs = ts.transpileModule(await readFile(new URL('../src/videoCatalog.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } }).outputText
+const videoModuleUrl = `data:text/javascript;base64,${Buffer.from(videoJs).toString('base64')}`
+const dataCode = outputText.replace(/from ['"]\.\/videoCatalog['"]/g, `from '${videoModuleUrl}'`)
+const dataModuleUrl = `data:text/javascript;base64,${Buffer.from(dataCode).toString('base64')}`
+const { heroes, articles, sources, giftcodes, news, normalize, starterCodeImage, tierEntries, tierSheets, patch102, versionUpdates, codeRewardEvidence, videoCatalog, canonicalHeroId } = await import(dataModuleUrl)
 const { outputText: portraitModule } = ts.transpileModule(await readFile(new URL('../src/portraitEnhancement.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } })
 const portraitCode = portraitModule.replace(/from ['"]\.\/data['"]/, `from '${dataModuleUrl}'`)
 const { enhancedPortrait } = await import(`data:text/javascript;base64,${Buffer.from(portraitCode).toString('base64')}`)
@@ -45,7 +48,7 @@ test('every published hero, article, code and news entry has a resolvable source
 
 test('player patch notes attach version history without turning guardians or an outfit into heroes', () => {
   assert.equal(patch102.releaseDate, null, 'An approximate report is not an exact release date')
-  assert.equal(heroes.length, 43, 'Catalog includes the newly sourced Thiet Phien profile')
+  assert.equal(heroes.length, 52, '43 observed heroes plus eight older Thanh Ton profiles and Bach Cot Tinh')
   assert.deepEqual(heroes.filter(h => h.introducedIn === '1.0.2').map(h => h.id).sort(), [...patch102.heroIds].sort())
   for (const hero of heroes.filter(h => h.introducedIn)) assert.ok(hero.sourceIds.includes(patch102.sourceId))
   for (const name of [...patch102.guardians, patch102.outfit, 'Lữ Bố']) assert.ok(!heroes.some(h => h.name === name), `${name} is not reported as a new hero`)
@@ -93,10 +96,10 @@ test('reward mail covers every release code and keeps mail validity separate fro
   assert.match(giftcodes.find(c => c.code === 'DAT100KDKT').rewards, /×25;.*×50/)
 })
 
-test('internal test images retain all 39 labels without merging uncertain names or inventing metadata', () => {
+test('internal test images retain all 39 original labels after matching video identities', () => {
   assert.equal(tierEntries.filter(e => e.portrait.sheet === 'than-tuong').length, 31)
   assert.equal(tierEntries.filter(e => e.portrait.sheet === 'thanh-ton').length, 8)
-  assert.deepEqual(tierEntries.filter(e => !e.heroId).map(e => e.name), ['Lý Tịnh', 'Kháng Kim Tinh Quân', 'Hoàng My'])
+  assert.equal(tierEntries.filter(e => !e.heroId).length, 0, 'Video resolves the three former unmatched portraits')
   for (const e of tierEntries) {
     const sheet = tierSheets.find(s => s.id === e.portrait.sheet)
     assert.ok(sheet && sources.some(s => s.id === sheet.sourceId))
@@ -104,10 +107,11 @@ test('internal test images retain all 39 labels without merging uncertain names 
     if (e.heroId) assert.ok(heroes.some(h => h.id === e.heroId))
     if (e.candidateId) assert.ok(heroes.some(h => h.id === e.candidateId))
   }
-  assert.equal(heroes.filter(h => h.imageOnly).length, 16)
+  assert.equal(heroes.filter(h => h.imageOnly).length, 8)
   for (const hero of heroes.filter(h => h.imageOnly)) assert.ok(!hero.faction && !hero.role && !hero.quality && !hero.skills)
   assert.equal(heroes.filter(h => h.id === 'duong-tang').length, 1)
-  assert.ok(heroes.find(h => h.id === 'duong-tang').aliases.includes('Đường Tam Tạng'))
+  assert.equal(heroes.find(h => h.id === 'duong-tang').name, 'Đường Tam Tạng')
+  assert.ok(heroes.find(h => h.id === 'duong-tang').aliases.includes('Đường Tăng'))
   assert.ok(heroes.some(h => h.id === 'ton-ngo-khong') && heroes.some(h => h.id === 'te-thien-dai-thanh' && h.kind === 'thanh-ton'))
 })
 
@@ -116,19 +120,38 @@ test('publisher guides confirm names without inventing combat data or merging un
     const hero = heroes.find(h => h.id === id)
     assert.ok(hero && !hero.imageOnly && hero.portrait)
     assert.ok(hero.sourceIds.some(id => ['beginner-teams', 'hero-growth'].includes(id)))
-    assert.ok(!hero.faction && !hero.role && !hero.quality && !hero.skills, 'A name mention does not establish battle metadata')
+    assert.ok(hero.inGameEvidence && hero.faction && hero.quality, 'Video now establishes faction icon and quality')
+    assert.ok(!hero.role && !hero.skills, 'The roster does not establish combat roles or skills')
   }
-  const newHero = heroes.find(h => h.id === 'thiet-phien-cong-chua')
+  const newHero = heroes.find(h => h.id === canonicalHeroId('thiet-phien-cong-chua'))
   assert.ok(newHero && !newHero.imageOnly && newHero.sourceIds.includes('beginner-teams'))
   assert.ok(heroes.some(h => h.id === 'la-sat-nu'))
-  assert.equal(heroes.filter(h => !h.imageOnly).length, 27)
-  for (const check of heroNameChecks) {
-    const candidate = heroes.find(h => h.id === check.candidateId)
-    assert.ok(candidate && !(candidate.aliases || []).includes(check.name), 'Unconfirmed names must not become aliases')
-    if (check.heroId) assert.ok(heroes.some(h => h.id === check.heroId))
-    for (const id of check.sourceIds) assert.ok(sources.some(s => s.id === id))
-  }
+  assert.equal(heroes.filter(h => h.inGameEvidence).length, 43)
   const wukong = heroes.find(h => h.id === 'ton-ngo-khong')
   assert.ok(wukong.acquisitionNotes.some(note => note.sourceId === 'beginner-teams' && note.text.includes('Linh Uẩn')))
   for (const hero of heroes) for (const note of hero.acquisitionNotes || []) assert.ok(hero.sourceIds.includes(note.sourceId))
+})
+
+test('video roster keeps quality groups, old links and skill level context intact', () => {
+  assert.deepEqual(['Tuyệt', 'Đỉnh', 'Ưu'].map(quality => videoCatalog.entries.filter(e => e.quality === quality).length), [31, 6, 6])
+  assert.equal(new Set(videoCatalog.entries.map(e => e.id)).size, 43)
+  for (const entry of videoCatalog.entries) {
+    const hero = heroes.find(h => h.id === entry.id)
+    assert.ok(hero && hero.name === entry.name && hero.quality === entry.quality)
+    assert.ok(hero.sourceIds.includes(videoCatalog.sourceId))
+  }
+  assert.equal(heroes.filter(h => ['la-sat-nu', 'thiet-phien-cong-chua'].includes(h.id)).length, 1)
+  assert.equal(canonicalHeroId('thiet-phien-cong-chua'), 'la-sat-nu')
+  assert.equal(heroes.find(h => h.id === 'ly-tinh').name, 'Lý Tịnh')
+  assert.ok(heroes.find(h => h.id === 'hoang-mi').aliases.includes('Hoàng Mi'))
+  const wukong = heroes.find(h => h.id === 'ton-ngo-khong')
+  assert.equal(wukong.role, 'Tiên Phong')
+  assert.equal(wukong.skills.length, 4)
+  assert.ok(wukong.skills.every(skill => skill.level === 3 && skill.levels.length === 3))
+  assert.equal(wukong.skills[0].cooldownSeconds, 18)
+  assert.ok(wukong.skills[0].levels[0].description.includes('Chưa rõ'))
+  assert.equal(wukong.statsSnapshot.level, 600)
+  assert.ok(wukong.statsSnapshot.scope.includes('Không phải chỉ số gốc'))
+  assert.ok(!heroes.find(h => h.id === 'te-thien-dai-thanh').inGameEvidence, 'A regular hero does not verify its Thanh Ton form')
+  assert.ok(sources.find(s => s.id === videoCatalog.sourceId).url.endsWith('.txt'), 'Publish transcription rather than private video')
 })

@@ -1,5 +1,19 @@
 # Dữ liệu cần bổ sung
 
+## Video Đồ giám đã nhận ngày 22/10/2026
+
+Đã đọc video dài 42,83 giây: **43 tướng xuất hiện trong Đồ giám**, gồm **31 Tuyệt, 6 Đỉnh, 6 Ưu**. Thêm 10 tên mới, thống nhất năm cặp tên theo tên và chân dung; gộp hồ sơ trùng La Sát Nữ/Thiết Phiến Công Chúa. Danh mục hiện có **52 hồ sơ**, gồm 43 tướng trong video và 9 hồ sơ giữ từ nguồn trước (8 Thánh Tôn, Bạch Cốt Tinh). Video không xác nhận danh sách đầy đủ hoặc các hồ sơ chưa xuất hiện.
+
+Đã bổ sung Tôn Ngộ Không: Yêu Tộc, Tiên Phong, Tuyệt; bốn kỹ năng hiển thị Lv.3 và các mô tả Lv.1–3; hồi chiêu Ngự Vân Càn Nguyệt 18 giây. Thuộc tính được ghi riêng là ảnh chụp trạng thái Đồ giám cấp 600/600, không gọi là chỉ số gốc.
+
+Chỉ cần bổ sung tiếp:
+
+1. Phần **đầu mô tả Lv.1 của Ngự Vân Càn Nguyệt**: trong video bảng bắt đầu giữa câu “địch trên đường”, nên chưa chép đủ mở đầu và sát thương trên đường ở cấp 1. Có thể chụp sau khi kéo mô tả lên trên cùng.
+2. Nếu có, trang Đồ giám **Thánh Tôn** và Bạch Cốt Tinh; không cần gửi lại 43 thẻ thường đã quay.
+3. Bộ kỹ năng các tướng khác, theo từng đợt. Đã có đầy đủ tên, phẩm chất và biểu tượng thế lực của 43 thẻ trong đoạn video; không cần chụp lại các cặp tên cũ.
+
+Không công khai video hoặc khung hình có thông tin tài khoản/thiết bị. Nguồn trên web là bản ghi dạng chữ, có mốc thời gian. Nội dung bên dưới ghi lại các đợt đối chiếu trước video và không thay thế phạm vi mới ở trên.
+
 Cập nhật danh mục ngày **22/10/2026**: hiện có **43 hồ sơ**, gồm **27 hồ sơ có tên trong nguồn nhà phát hành** và **16 hồ sơ chỉ có tư liệu người chơi**. Đã thêm Thiết Phiến Công Chúa; xác nhận nguồn Funtap cho Trì Quốc Thiên Vương, Kim Giác, Tăng Trưởng Thiên Vương, Quảng Mục Thiên Vương và Đa Văn Thiên Vương. Chín hồ sơ có thêm gợi ý đổi shop từ hướng dẫn đội hình. Có nguồn xác nhận tên không có nghĩa đã đủ bộ kỹ năng, phẩm chất hoặc thế lực.
 
 Ưu tiên bổ sung tiếp theo:
