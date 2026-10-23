@@ -1,5 +1,11 @@
 # Nguồn nội dung — 20/10/2026
 
+## Mẫu TierMaker kiểm tra ngày 23/10/2026
+
+Người dùng gửi https://tiermaker.com/create/b-ca-hc-ty-du-19112201. Đọc trực tiếp bằng trình duyệt: tiêu đề “TƯỚNG MẠNH NHẤT HẮC TÂY DU”, tác giả Nguyễn Thế Minh Kiên, 30 ảnh, cập nhật lần cuối 23/10/2026, các hàng SS/S/A/B/C đang trống. Trang Community Rank https://tiermaker.com/categories/gacha-games/b-ca-hc-ty-du-19112201 báo chưa đủ bảng để tính trung bình và không có tier list để hiển thị.
+
+Thêm mục mẫu TierMaker với liên kết tạo bảng, xem cộng đồng và hướng dẫn lưu/tải; đổi tên trang điều hướng thành Tier list. Không suy ra thứ hạng tướng từ thứ tự ảnh trong mẫu. Hai bảng test nội bộ và nguồn cũ được giữ riêng; không nhúng trang hoặc sao chép ảnh từ TierMaker. Tình trạng cộng đồng là ghi nhận tại ngày kiểm tra, không phải dữ liệu cập nhật trực tiếp.
+
 ## Video Đồ giám nhận ngày 22/10/2026
 
 Nguồn do người dùng gửi trực tiếp sau yêu cầu bổ sung danh sách tướng; thời lượng 42,83 giây, khung hình 480×1038, 30 fps. Video gốc và toàn bộ khung hình kiểm tra được giữ ngoài repository; chỉ xuất bản bản ghi chữ `public/assets/catalog-video-2026-10-22.txt`. Không sao chép tên tài khoản, tài nguyên người chơi, thanh trạng thái hoặc màn hình thiết bị.

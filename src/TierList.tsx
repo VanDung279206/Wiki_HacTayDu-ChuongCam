@@ -1,8 +1,20 @@
-import { heroes, tierEntries, tierSheets, checkedDate, videoCatalog } from './data'
+import { heroes, tierEntries, tierSheets, checkedDate, videoCatalog, tierMakerTemplate } from './data'
 import { ImagePortrait } from './HeroPicture'
 
 export default function TierList() {
   return <>
+    <p>Tham khảo bảng test nội bộ hoặc tự tạo tier list bằng mẫu TierMaker do cộng đồng chia sẻ.</p>
+    <section id="tier-maker" className="wiki-section" tabIndex={-1}>
+      <h2>Tạo tier list trên TierMaker</h2>
+      <p><strong>{tierMakerTemplate.title}</strong> — mẫu của {tierMakerTemplate.author}, gồm <strong>{tierMakerTemplate.imageCount} ảnh</strong> và các hạng <strong>{tierMakerTemplate.ranks.join(' / ')}</strong>. Trang nguồn ghi cập nhật lần cuối ngày {tierMakerTemplate.modified}.</p>
+      <div className="tier-maker-actions">
+        <a className="button secondary" href={tierMakerTemplate.url} target="_blank" rel="noreferrer">Tạo tier list trên TierMaker ↗</a>
+        <a href={tierMakerTemplate.communityUrl} target="_blank" rel="noreferrer">Xem xếp hạng cộng đồng ↗</a>
+      </div>
+      <ol><li>Mở mẫu TierMaker và kéo ảnh tướng vào hạng mong muốn.</li><li>Chỉnh tên hạng, thứ tự tướng theo đánh giá của bạn.</li><li>Chọn “Save or Download” trên TierMaker để lưu hoặc tải bảng.</li></ol>
+      <p className="table-note">Kiểm tra ngày {tierMakerTemplate.accessed}: đây là mẫu chưa xếp hạng; trang cộng đồng chưa có tier list được hiển thị và chưa đủ dữ liệu tính trung bình. Các hạng trong mẫu không phải phẩm chất tướng trong game.</p>
+    </section>
+    <h2>Bảng test nội bộ</h2>
     <p>Hai bảng Thần tướng và Thánh Tôn do người dùng cung cấp, được mô tả là kết quả thử nghiệm nội bộ. Wiki nhận ảnh ngày <strong>{checkedDate}</strong>; chưa có tên tác giả, ngày thử nghiệm hoặc phiên bản.</p>
     <div className="notice">Hạng S/A/B/C được chép theo ảnh test, là đánh giá tham khảo. Đây không phải phẩm chất tướng trong game. Đã đối chiếu tên và chân dung của 31 Thần tướng với video Đồ giám nhận ngày {videoCatalog.received}; nhóm Thánh Tôn vẫn chờ tư liệu trong game.</div>
     <p className="table-note">Chân dung nhỏ dùng bản tăng nét để dễ xem. Ảnh gốc bên dưới được giữ nguyên; có thể chuyển về ảnh gốc trong từng hồ sơ tướng.</p>

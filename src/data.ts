@@ -5,6 +5,18 @@ export const official = 'https://hactaydu.funtap.games/'
 export const fanpage = 'https://www.facebook.com/hactaydufuntap'
 export const checkedDate = '20/10/2026'
 export const heroCatalogCheckedDate = '22/10/2026'
+export const tierMakerTemplate = {
+  sourceId: 'tiermaker-template',
+  communitySourceId: 'tiermaker-community',
+  title: 'TƯỚNG MẠNH NHẤT HẮC TÂY DU',
+  author: 'Nguyễn Thế Minh Kiên',
+  url: 'https://tiermaker.com/create/b-ca-hc-ty-du-19112201',
+  communityUrl: 'https://tiermaker.com/categories/gacha-games/b-ca-hc-ty-du-19112201',
+  imageCount: 30,
+  ranks: ['SS', 'S', 'A', 'B', 'C'],
+  modified: '23/10/2026',
+  accessed: '23/10/2026',
+}
 export const patch102 = {
   version: '1.0.2',
   sourceId: 'player-patch-1-0-2',
@@ -28,6 +40,8 @@ export const starterCodeImage = {
   ],
 }
 export const sources = [
+  { id: tierMakerTemplate.sourceId, title: `${tierMakerTemplate.title} — mẫu TierMaker`, publisher: `${tierMakerTemplate.author} trên TierMaker`, url: tierMakerTemplate.url, accessed: tierMakerTemplate.accessed },
+  { id: tierMakerTemplate.communitySourceId, title: 'TierMaker — bảng xếp hạng cộng đồng Hắc Tây Du', publisher: 'TierMaker', url: tierMakerTemplate.communityUrl, accessed: tierMakerTemplate.accessed },
   { id: 'home', title: 'Trang chủ và hồ sơ nhân vật', publisher: 'Funtap', url: official },
   { id: 'intro', title: 'Giới thiệu Hắc Tây Du: Chương Cấm', publisher: 'Funtap', url: `${official}huong-dan/gioi-thieu-hac-tay-du-chuong-cam` },
   { id: 'store', title: 'Hắc Tây Du: Chương Cấm trên Google Play', publisher: 'Funtap Games', url: 'https://play.google.com/store/apps/details?id=vn.ftg.hactaydu' },
