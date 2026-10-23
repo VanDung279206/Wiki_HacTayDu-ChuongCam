@@ -1,5 +1,13 @@
 # Nguồn nội dung — 20/10/2026
 
+## Video kỹ năng nhận ngày 23/10/2026
+
+Video ky_nang_tuong.mp4 dài 665,32 giây, 1920×1080, 60 fps. Đọc 43 hồ sơ: 31 Tuyệt × 4, 6 Đỉnh × 4 và 6 Ưu × 3 = 166 kỹ năng. Chép tách mô tả mỗi cấp, CD hiển thị, tooltip hiệu ứng và mốc xấp xỉ. Không suy ra CD Lv.1 từ CD Lv.3 hoặc tự cộng dồn thay đổi.
+
+Dữ liệu tại src/skillVideo.ts; nguồn công khai chỉ là public/assets/skills-video-2026-10-23.txt. Video gốc, khung trích và OCR giữ ngoài repository. OCR hỗ trợ tìm khung; popup được đối chiếu bằng mắt. Có 13 mô tả thiếu phần đầu, được đánh dấu trong hồ sơ và docs/DATA_NEEDED.md. Giữ nguyên chỗ không nhất quán trong nguồn, không biến thành khẳng định cơ chế thực tế.
+
+Vai trò đọc từ banner hồ sơ; không thay dữ liệu tám Thánh Tôn/Bạch Cốt Tinh. Tôn Ngộ Không giữ snapshot và nguồn 22/10; Thiên Biến Vạn Hóa Lv.2 dùng bản ghi cũ vì khung mới không rõ. Chưa có máy chủ, phiên bản hoặc ngày quay.
+
 ## Công cụ tier list trên wiki — 23/10/2026
 
 Theo yêu cầu làm trình xếp hạng ngay trên website: dùng toàn bộ 52 hồ sơ hiện tại, mặc định chưa xếp hạng. Kéo thả giữa hạng hoặc trước một thẻ; điều khiển chọn hạng và đổi thứ tự hỗ trợ bàn phím/điện thoại. Cho sửa tên/màu hạng, thêm/xóa hạng, hoàn tác một bước, làm lại, tự lưu trình duyệt, tải/nhập JSON và xuất PNG bằng Canvas. Bảng cá nhân không làm thay đổi dữ liệu hạng test hay phẩm chất game.

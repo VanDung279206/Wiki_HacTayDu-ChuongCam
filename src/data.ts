@@ -1,3 +1,5 @@
+import { skillVideo, skillVideoHeroes } from './skillVideo'
+export { skillVideo, skillVideoHeroes }
 import { videoCatalog, videoNameResolutions, wukongVideoSkills, wukongVideoStats } from './videoCatalog'
 export { videoCatalog, videoNameResolutions }
 
@@ -40,6 +42,7 @@ export const starterCodeImage = {
   ],
 }
 export const sources = [
+  { id: skillVideo.sourceId, title: 'Bản ghi kỹ năng 43 tướng từ video trong game — 23/10/2026', publisher: 'Video do người dùng cung cấp; chỉ công khai bản ghi chữ', url: skillVideo.sourcePath, received: skillVideo.received },
   { id: 'character-drive', title: 'Bộ hình ảnh nhân vật dùng cho công cụ tier list', publisher: 'Bộ Drive do người dùng cung cấp', url: 'https://drive.google.com/drive/folders/1hNIhZNke7IKndlN5mhE7M5940Ml0r_1W', accessed: '23/10/2026' },
   { id: tierMakerTemplate.sourceId, title: `${tierMakerTemplate.title} — mẫu TierMaker`, publisher: `${tierMakerTemplate.author} trên TierMaker`, url: tierMakerTemplate.url, accessed: tierMakerTemplate.accessed },
   { id: tierMakerTemplate.communitySourceId, title: 'TierMaker — bảng xếp hạng cộng đồng Hắc Tây Du', publisher: 'TierMaker', url: tierMakerTemplate.communityUrl, accessed: tierMakerTemplate.accessed },
@@ -128,8 +131,8 @@ export const tierEntries: TierEntry[] = [
   exaltedEntry('Thái Âm Tinh Quân', 'A', 'thai-am-tinh-quan', 2, 1),
   exaltedEntry('Vạn Thánh Công Chúa', 'B', 'van-thanh-cong-chua', 0, 2),
 ]
-export type HeroSkill = { name: string; description: string; sourceId: string; level?: number; cooldownSeconds?: number; time?: string; levels?: { level: number; description: string }[] }
-export type Hero = { id: string; name: string; title: string; faction?: string; role?: string; quality?: string; art?: string; portrait?: HeroPortrait; kind?: 'than-tuong' | 'thanh-ton'; imageOnly?: boolean; introducedIn?: string; aliases?: string[]; description: string; acquisition?: string; acquisitionNotes?: { text: string; sourceId: string }[]; lore?: string; sourceIds: string[]; skills?: HeroSkill[]; skillScope?: string; statsSnapshot?: typeof wukongVideoStats; inGameEvidence?: { sourceId: string; time: string; factionBasis: string } }
+export type HeroSkill = { name: string; description: string; sourceId: string; level?: number; cooldownSeconds?: number; time?: string; incomplete?: boolean; effects?: { name: string; description: string }[]; levels?: { level: number; description: string }[] }
+export type Hero = { id: string; name: string; title: string; faction?: string; role?: string; quality?: string; art?: string; portrait?: HeroPortrait; kind?: 'than-tuong' | 'thanh-ton'; imageOnly?: boolean; introducedIn?: string; aliases?: string[]; description: string; acquisition?: string; acquisitionNotes?: { text: string; sourceId: string }[]; lore?: string; sourceIds: string[]; skills?: HeroSkill[]; skillScope?: string; skillEvidence?: { sourceId: string; received: string }; statsSnapshot?: typeof wukongVideoStats; inGameEvidence?: { sourceId: string; time: string; factionBasis: string } }
 export const heroNameChecks: { name: string; candidateId: string; heroId?: string; sourceIds: string[] }[] = []
 export const heroRedirects: Record<string, string> = { 'thiet-phien-cong-chua': 'la-sat-nu' }
 export const canonicalHeroId = (id: string) => Object.hasOwn(heroRedirects, id) ? heroRedirects[id] : id
@@ -195,7 +198,7 @@ const priorHeroes: Hero[] = [
     sourceIds: [tierSheets.find(sheet => sheet.id === entry.portrait.sheet)!.sourceId, ...(patch102.heroIds.includes(entry.heroId!) ? [patch102.sourceId] : [])],
   })),
 ]
-export const heroes: Hero[] = [
+const catalogHeroes: Hero[] = [
   ...priorHeroes.filter(hero => !heroRedirects[hero.id]).map(hero => {
     const observed = videoCatalog.entries.find(entry => entry.id === hero.id)
     if (!observed) return hero
@@ -219,6 +222,21 @@ export const heroes: Hero[] = [
     sourceIds: [videoCatalog.sourceId],
   })),
 ]
+
+export const heroes: Hero[] = catalogHeroes.map(hero => {
+  const captured = skillVideoHeroes[hero.id]
+  if (!captured) return hero
+  const highestLevel = captured.skills[0].level
+  const partialCount = captured.skills.filter(skill => skill.incomplete).length
+  return {
+    ...hero, role: captured.role, skills: captured.skills,
+    description: `${hero.name} thuộc ${hero.faction}, phẩm chất ${hero.quality}, vai trò ${captured.role} theo hồ sơ trong game. Đã chép ${captured.skills.length} kỹ năng từ video nhận ngày ${skillVideo.received}.`,
+    skillEvidence: { sourceId: skillVideo.sourceId, received: skillVideo.received },
+    skillScope: `Theo video nhận ngày ${skillVideo.received}: ${captured.skills.length} ô kỹ năng hiển thị Lv.${highestLevel}; ${highestLevel === 1 ? 'chỉ ghi mốc Lv.1 nhìn thấy' : `giữ riêng mô tả các mốc Lv.1–${highestLevel}`}. Hồi chiêu là giá trị hiển thị ở cấp này; tooltip hiệu ứng được chép riêng, không mặc định áp dụng cho mọi cấp.${partialCount ? ` Có ${partialCount} mô tả bị cắt, đánh dấu ngay tại kỹ năng.` : ''} Chưa có máy chủ, phiên bản hoặc kết quả thử chiến đấu.`,
+    sourceIds: [...new Set([...hero.sourceIds, skillVideo.sourceId])],
+  }
+})
+
 export type Article = { id: string; title: string; category: string; summary: string; relatedIds?: string[]; sections: { id: string; title: string; text: string; list?: string[] }[]; sourceIds: string[] }
 export const articles: Article[] = [
   { id: 'ban-cap-nhat-1-0-2', title: 'Bản cập nhật 1.0.2', category: 'Lịch sử cập nhật', summary: 'Phiên bản bổ sung ba Thánh Tôn, sự kiện Vân Mộng Tiên Tung, ngoại trang giới hạn và tính năng Thủ hộ, theo thông tin người dùng cung cấp.', sourceIds: [patch102.sourceId], relatedIds: ['van-mong-tien-tung', 'chien-than-lu-bo-xuat-the', 'thu-ho'], sections: [
@@ -326,7 +344,7 @@ export const versionUpdates = [
 ]
 export const missingData = [
   { title: 'Danh sách tướng đầy đủ', detail: 'Tên, thế lực, phẩm chất, vai trò và cách nhận của toàn bộ tướng trong Đồ giám.' },
-  { title: 'Kỹ năng và chỉ số', detail: 'Tên kỹ năng, cấp kỹ năng, hệ số, hiệu ứng, chỉ số gốc và điều kiện nâng cấp từng tướng.' },
+  { title: 'Kỹ năng và chỉ số', detail: 'Đã ghi 166 kỹ năng của 43 tướng từ video ngày 23/10. Cần phần đầu các mô tả bị cắt (được đánh dấu trong từng hồ sơ), tooltip còn khuất, kỹ năng Thánh Tôn/Bạch Cốt Tinh, chỉ số gốc và máy chủ/phiên bản.' },
   { title: 'Trang bị và phát triển', detail: 'Danh mục vật phẩm, tên các hệ thống hiển thị trong game, thuộc tính và chi phí nâng cấp.' },
   { title: 'Phiên bản 1.0.2 và Thủ hộ', detail: 'Đã có nội dung cập nhật và bốn tên Thủ hộ. Cần ảnh tính năng, kỹ năng, cấp mở, cách nhận và chi phí nâng cấp; lịch sự kiện Vân Mộng Tiên Tung và ngoại trang giới hạn.' },
   { title: 'Lục Căn', detail: 'Đã có Nhãn Căn và Tị Căn trong chuỗi sự kiện fanpage; cần bài về bốn Căn còn lại và ảnh nếu có tính năng tương ứng trong game.' },

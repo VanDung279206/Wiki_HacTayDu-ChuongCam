@@ -7,9 +7,11 @@ const source = await readFile(new URL('../src/data.ts', import.meta.url), 'utf8'
 const { outputText } = ts.transpileModule(source, { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } })
 const videoJs = ts.transpileModule(await readFile(new URL('../src/videoCatalog.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } }).outputText
 const videoModuleUrl = `data:text/javascript;base64,${Buffer.from(videoJs).toString('base64')}`
-const dataCode = outputText.replace(/from ['"]\.\/videoCatalog['"]/g, `from '${videoModuleUrl}'`)
+const skillJs = ts.transpileModule(await readFile(new URL('../src/skillVideo.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } }).outputText
+const skillModuleUrl = `data:text/javascript;base64,${Buffer.from(skillJs).toString('base64')}`
+const dataCode = outputText.replace(/from ['"]\.\/skillVideo['"]/g, `from '${skillModuleUrl}'`).replace(/from ['"]\.\/videoCatalog['"]/g, `from '${videoModuleUrl}'`)
 const dataModuleUrl = `data:text/javascript;base64,${Buffer.from(dataCode).toString('base64')}`
-const { heroes, articles, sources, giftcodes, news, normalize, starterCodeImage, tierEntries, tierSheets, patch102, versionUpdates, codeRewardEvidence, videoCatalog, canonicalHeroId } = await import(dataModuleUrl)
+const { heroes, articles, sources, giftcodes, news, normalize, starterCodeImage, tierEntries, tierSheets, patch102, versionUpdates, codeRewardEvidence, videoCatalog, canonicalHeroId, skillVideo, skillVideoHeroes } = await import(dataModuleUrl)
 const { outputText: portraitModule } = ts.transpileModule(await readFile(new URL('../src/portraitEnhancement.ts', import.meta.url), 'utf8'), { compilerOptions: { module: ts.ModuleKind.ESNext, target: ts.ScriptTarget.ES2022 } })
 const portraitCode = portraitModule.replace(/from ['"]\.\/data['"]/, `from '${dataModuleUrl}'`)
 const { enhancedPortrait } = await import(`data:text/javascript;base64,${Buffer.from(portraitCode).toString('base64')}`)
@@ -136,7 +138,7 @@ test('publisher guides confirm names without inventing combat data or merging un
     assert.ok(hero && !hero.imageOnly && hero.portrait)
     assert.ok(hero.sourceIds.some(id => ['beginner-teams', 'hero-growth'].includes(id)))
     assert.ok(hero.inGameEvidence && hero.faction && hero.quality, 'Video now establishes faction icon and quality')
-    assert.ok(!hero.role && !hero.skills, 'The roster does not establish combat roles or skills')
+    assert.ok(hero.role && hero.skills && hero.skillEvidence.sourceId === skillVideo.sourceId, 'New skill video establishes roles and skills separately from roster evidence')
   }
   const newHero = heroes.find(h => h.id === canonicalHeroId('thiet-phien-cong-chua'))
   assert.ok(newHero && !newHero.imageOnly && newHero.sourceIds.includes('beginner-teams'))
@@ -164,9 +166,37 @@ test('video roster keeps quality groups, old links and skill level context intac
   assert.equal(wukong.skills.length, 4)
   assert.ok(wukong.skills.every(skill => skill.level === 3 && skill.levels.length === 3))
   assert.equal(wukong.skills[0].cooldownSeconds, 18)
-  assert.ok(wukong.skills[0].levels[0].description.includes('Chưa rõ'))
+  assert.ok(wukong.skills[0].incomplete && wukong.skills[0].levels[0].description.includes('bị khuất'))
   assert.equal(wukong.statsSnapshot.level, 600)
   assert.ok(wukong.statsSnapshot.scope.includes('Không phải chỉ số gốc'))
   assert.ok(!heroes.find(h => h.id === 'te-thien-dai-thanh').inGameEvidence, 'A regular hero does not verify its Thanh Ton form')
   assert.ok(sources.find(s => s.id === videoCatalog.sourceId).url.endsWith('.txt'), 'Publish transcription rather than private video')
+})
+
+
+test('skill video attaches all 166 skills to 43 existing identities without inventing higher levels', () => {
+  assert.equal(heroes.length, 52)
+  assert.deepEqual(Object.keys(skillVideoHeroes).sort(), videoCatalog.entries.map(entry => entry.id).sort())
+  const updated = heroes.filter(hero => hero.skillEvidence?.sourceId === skillVideo.sourceId)
+  assert.equal(updated.length, 43)
+  assert.equal(updated.reduce((count, hero) => count + hero.skills.length, 0), 166)
+  for (const hero of updated) {
+    const expectedLevel = hero.quality === 'Tuyệt' ? 3 : hero.quality === 'Đỉnh' ? 2 : 1
+    assert.equal(hero.skills.length, expectedLevel === 1 ? 3 : 4, hero.id)
+    assert.ok(hero.role && hero.sourceIds.includes(skillVideo.sourceId))
+    assert.equal(new Set(hero.skills.map(skill => skill.name)).size, hero.skills.length)
+    for (const skill of hero.skills) {
+      assert.equal(skill.sourceId, skillVideo.sourceId)
+      assert.equal(skill.level, expectedLevel)
+      assert.deepEqual(skill.levels.map(level => level.level), Array.from({ length: expectedLevel }, (_, i) => i + 1))
+      assert.match(skill.time, /^\d{2}:\d{2}$/)
+      const [minutes, seconds] = skill.time.split(':').map(Number)
+      assert.ok(seconds < 60 && minutes * 60 + seconds < skillVideo.durationSeconds)
+      assert.ok(skill.levels.every(level => level.description.trim().length > 0))
+      if (skill.incomplete) assert.match(skill.levels.map(level => level.description).join(' '), /thiếu|khuất|cắt/i)
+    }
+  }
+  for (const hero of heroes.filter(hero => hero.kind === 'thanh-ton' || hero.id === 'bach-cot-tinh')) assert.ok(!hero.skillEvidence)
+  const source = sources.find(source => source.id === skillVideo.sourceId)
+  assert.equal(source.url, 'assets/skills-video-2026-10-23.txt')
 })

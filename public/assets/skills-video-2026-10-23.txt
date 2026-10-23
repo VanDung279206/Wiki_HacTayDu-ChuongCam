@@ -1,0 +1,833 @@
+BẢN GHI KỸ NĂNG TRONG GAME — 23/10/2026
+Nguồn: ky_nang_tuong.mp4 do người dùng cung cấp; thời lượng 11:05,32.
+31 tướng Tuyệt có 4 kỹ năng và mô tả Lv.1–3; 6 tướng Đỉnh có 4 kỹ năng và mô tả Lv.1–2; 6 tướng Ưu có 3 kỹ năng ở Lv.1. Chưa có kỹ năng Thánh Tôn hoặc Bạch Cốt Tinh trong video.
+Chỉ công khai bản ghi chữ. Video gốc/khung hình/tài khoản không được đưa lên website.
+Phạm vi: popup mô tả và tooltip; không phải thử nghiệm chiến đấu. Ngày nhận không xác định phiên bản/máy chủ.
+Hồi chiêu là giá trị hiển thị ở cấp đang xem. Các cấp sau chỉ ghi thay đổi đọc được, không tự cộng dồn số liệu.
+Một số tooltip không khớp mô tả cấp; giữ đúng nội dung và đánh dấu, không suy ra giá trị còn thiếu.
+Tôn Ngộ Không — Thiên Biến Vạn Hóa Lv.2 được giữ từ video 22/10/2026 vì khung mới không rõ.
+
+Lý Tịnh [ly-tinh] — Tuyệt, Thủ Hộ
+1. Linh Lung Hóa Thuẫn — 00:14, Lv.3, CD hiển thị 12s
+   Lv.1: Bản thân nhận Huyền Thuẫn.
+   Lv.2: Một Thần Tướng ngẫu nhiên phe ta, trừ bản thân, nhận Huyền Thuẫn.
+   Lv.3: Số mục tiêu Thần Tướng phe ta có thể nhận kỹ năng tăng thành 2.
+   [Huyền Thuẫn] Điểm Huyền Thuẫn bằng 7% HP Lý Tịnh tối đa, duy trì 5 giây, có thể cộng dồn, có thể giải trừ.
+2. Thông Pháp Cố Nguyên — 00:11, Lv.3
+   Lv.1: HP tăng 15%; Giảm ST tăng 10%.
+   Lv.2: HP tăng lên 25%; Giảm ST tăng lên 15%.
+   Lv.3: HP tăng lên 35%; Giảm ST tăng lên 20%.
+3. Bảo Tháp Trấn Yêu — 00:08, Lv.3
+   Lv.1: Mục tiêu chịu sát thương vật lý bằng 350% Công của Lý Tịnh, đồng thời nhận Choáng.
+   Lv.2: Sát thương tăng lên 400% Công của Lý Tịnh, đồng thời thi triển Choáng lên mục tiêu.
+   Lv.3: Sát thương tăng lên 450% Công của Lý Tịnh.
+   [Choáng] Không thể hành động trong 4 giây; không thể cộng dồn, có thể giải trừ.
+4. Hào Quang Phù Hộ — 00:04, Lv.3
+   Lv.1: Khi trận đấu bắt đầu, 2 Thần Tướng có HP thấp nhất phe ta, trừ bản thân, nhận Yểm Hộ-Sơ. Sau đó mỗi giây có thêm 2 Thần Tướng HP thấp nhất phe ta, trừ bản thân, nhận Yểm Hộ-Sơ.
+   Lv.2: Yểm Hộ nâng cấp thành Yểm Hộ-Trung.
+   Lv.3: Yểm Hộ nâng cấp thành Yểm Hộ-Cao; khi vào trận, bản thân nhận thêm Huyền Linh Ngự Giáp.
+   [Yểm Hộ-Cao] 50% ST Cuối khi mục tiêu được bảo vệ bị tấn công trực tiếp do người thi triển chịu; duy trì 1 giây, không thể cộng dồn, có thể giải trừ.
+   [Huyền Linh Ngự Giáp] Kháng V.Lý tăng 10%, ST Phép tăng 10%; duy trì 15 giây, có thể cộng dồn, không thể giải trừ. Giữ nguyên nhãn chỉ số như video.
+
+Hàng Long Tôn Giả [hang-long-ton-gia] — Tuyệt, Cận Chiến
+1. Phiên Thiên Nhất Phiến — 00:29, Lv.3, CD hiển thị 15s
+   Lv.1: Gây sát thương vật lý bằng 260% Công lên toàn bộ Thần Tướng địch trong hình quạt phía trước; có 50% tỷ lệ kèm Giảm Thủ V.Lý.
+   Lv.2: Sát thương tăng lên 290%; tỷ lệ kèm Giảm Thủ V.Lý tăng lên 70%.
+   Lv.3: Sát thương tăng lên 330%; tỷ lệ kèm Giảm Thủ V.Lý tăng lên 100%.
+   [Giảm Thủ V.Lý] Thủ V.Lý giảm 20%, duy trì 9 giây, không thể cộng dồn, có thể giải trừ.
+2. Nhân Quả Luân Hồi — 00:26, Lv.3
+   Lv.1: Thủ Phép tăng 15%; Công tăng 5%.
+   Lv.2: Thủ Phép tăng lên 20%; Công tăng lên 10%.
+   Lv.3: Thủ Phép tăng lên 25%; Công tăng lên 15%; Xuyên Thủ V.Lý tăng 10%.
+3. Đấu Long Giai Trận — 00:23, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: Phần đầu mô tả bị khuất. Phần đọc được: tấn công thẳng phía trước, tổng sát thương vật lý bằng 380% Công bản thân; lần Công thứ 3 đẩy lùi địch có Độ Bền nhỏ hơn 5. Sau đó có 50% tỷ lệ thi triển Định Thân lên mục tiêu phía trước.
+   Lv.2: Sát thương tăng lên 440%; tỷ lệ Định Thân tăng lên 60%.
+   Lv.3: Sát thương tăng lên 500%; tỷ lệ Định Thân tăng lên 70%.
+   [Định Thân] Không thể hành động; không thể cộng dồn, có thể giải trừ. Khung này không nêu thời gian duy trì.
+4. La Hán Kim Thân — 00:20, Lv.3
+   Lv.1: Khi trận đấu bắt đầu, bản thân nhận Tăng Giảm ST.
+   Lv.2: Khi Hàng Long Tôn Giả lần đầu có HP thấp hơn 30%, bản thân nhận Tăng Bạo.
+   Lv.3: Ngưỡng kích hoạt đổi thành khi HP thấp hơn 50%.
+   [Tăng Giảm ST] Giảm ST tăng 15%, duy trì 9 giây, không thể cộng dồn, có thể giải trừ.
+   [Tăng Bạo] Bạo tăng 15%, duy trì 9 giây, không thể cộng dồn, có thể giải trừ. Giữ nhãn Bạo của video.
+
+Cang Kim Tinh Quân [cang-kim-tinh-quan] — Tuyệt, Tầm Xa
+1. Long Du Bát Phương — 00:43, Lv.3, CD hiển thị 15s
+   Lv.1: Tấn công 3 Thần Tướng địch trong phạm vi bằng Liên Lôi, gây sát thương vật lý bằng 190% Công, có 50% tỷ lệ kèm Lôi Chước.
+   Lv.2: Sát thương tăng lên 220%; tỷ lệ kèm Lôi Chước tăng lên 60%.
+   Lv.3: Sát thương tăng lên 250%; tỷ lệ kèm Lôi Chước tăng lên 70%.
+   [Lôi Chước] Mỗi giây chịu ST bất thường bằng 3% Công hiện tại của người thi triển; duy trì 15 giây, tối đa cộng dồn 30 tầng, có thể giải trừ.
+   [Hoại Huyết] DEBUFF thêm từ Lôi Chước: Thủ V.Lý giảm 0.5%, duy trì 15 giây, tối đa cộng dồn 30 tầng, có thể giải trừ.
+2. Thiên Cương Kháng Long — 00:40, Lv.3
+   Lv.1: Công tăng 15%; ST V.Lý tăng 5%.
+   Lv.2: Công tăng lên 20%; ST V.Lý tăng lên 10%.
+   Lv.3: Công tăng lên 25%; ST V.Lý tăng lên 15%; Tỷ Lệ Bạo tăng 10%.
+3. Kháng Long Hữu Hối — 00:37, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: Phần đầu mô tả bị khuất, chưa xác nhận đầy đủ điều kiện kích hoạt. Phần đọc được: tấn công Thần Tướng địch đồng thời kích nổ toàn bộ Lôi Chước trên mục tiêu; mỗi lần gây ST V.Lý bằng 120% cộng số tầng Lôi Chước nhân 12%.
+   Lv.2: Mỗi lần ST tăng lên 140%; ST bổ sung mỗi tầng Lôi Chước tăng lên 14%.
+   Lv.3: ST Công tăng lên 160%; ST bổ sung mỗi tầng Lôi Chước tăng lên 16%.
+4. Long Chi Nghịch Lân — 00:34, Lv.3
+   Lv.1: Khi Thần Tướng địch tử trận, thi triển Lôi Chước lên 3 Thần Tướng địch.
+   Lv.2: Số người nhận tăng lên 4.
+   Lv.3: Điều kiện kích hoạt đổi thành khi bất kỳ Thần Tướng nào tử trận.
+   [Lôi Chước] Mỗi giây chịu ST bất thường bằng 3% Công hiện tại của người thi triển; duy trì 15 giây, tối đa cộng dồn 30 tầng, có thể giải trừ.
+   [Hoại Huyết] DEBUFF thêm từ Lôi Chước: Thủ V.Lý giảm 0.5%, duy trì 15 giây, tối đa cộng dồn 30 tầng, có thể giải trừ.
+
+Hằng Nga [hang-nga] — Tuyệt, Hỗ Trợ
+1. Cô Nguyệt Vị Hoa — 00:58, Lv.3, CD hiển thị 12s
+   Lv.1: Chữa trị 3 Thần Tướng phe ta ngẫu nhiên bằng 5% HP tối đa của Hằng Nga; đồng thời toàn Thần Tướng phe ta nhận Tăng Thủ Phép.
+   Lv.2: Lượng chữa trị tăng lên 5.6%.
+   Lv.3: Lượng chữa trị tăng lên 6.3%.
+   [Tăng Thủ Phép] Thủ Phép tăng 10%, duy trì 9 giây, không thể cộng dồn, có thể giải trừ.
+2. Quảng Hàn Tâm Quyết — 00:55, Lv.3
+   Lv.1: HP tăng 15%; Thủ Phép tăng 5%.
+   Lv.2: HP tăng lên 20%; Thủ Phép tăng lên 10%.
+   Lv.3: HP tăng lên 25%; Thủ Phép tăng lên 15%; Kháng Bạo tăng 10%.
+3. Hàn Nguyệt Chiếu Thế — 00:52, Lv.3
+   Lv.1: Toàn bộ Thần Tướng phe ta nhận Huyền Thuẫn bằng 5% HP tối đa của Hằng Nga, đồng thời nhận Tăng ST Phép.
+   Lv.2: Thời gian Huyền Thuẫn tăng 2 giây; điểm Huyền Thuẫn tăng lên 5.6% HP tối đa của Hằng Nga.
+   Lv.3: Thời gian Huyền Thuẫn tăng 4 giây; điểm Huyền Thuẫn tăng lên 6.3% HP tối đa của Hằng Nga.
+   [Huyền Thuẫn — mô tả đang hiển thị ở Lv.3] Điểm Huyền Thuẫn bằng 6.3% HP tối đa của Hằng Nga, duy trì 12 giây, có thể cộng dồn, có thể giải trừ.
+   [Tăng ST Phép] ST Phép tăng 15%, duy trì 9 giây, không thể cộng dồn, có thể giải trừ.
+4. Tiền Trần Cựu Niệm — 00:49, Lv.3
+   Lv.1: Mỗi 7 giây hồi HP cho toàn bộ Thần Tướng phe ta, bằng 1.5% HP tối đa của Hằng Nga.
+   Lv.2: Khoảng cách kích hoạt giảm còn 6 giây; mục tiêu đồng thời hồi thêm 50 Nộ.
+   Lv.3: Khoảng cách kích hoạt giảm còn 5 giây.
+
+Dương Tiễn [duong-tien] — Tuyệt, Cận Chiến
+1. Phong Khởi Ảnh Động — 01:13, Lv.3, CD hiển thị 12s
+   Lv.1: Gây ST V.Lý bằng 290% Công của Dương Tiễn lên toàn bộ Thần Tướng địch trong phạm vi.
+   Lv.2: Sát thương tăng lên 330%.
+   Lv.3: Sát thương tăng lên 370%.
+2. Nhất Khí Lưỡng Nghi — 01:09, Lv.3
+   Lv.1: Thủ V.Lý tăng 15%; Công tăng 5%.
+   Lv.2: Thủ V.Lý tăng lên 20%; Công tăng lên 10%.
+   Lv.3: Thủ V.Lý tăng lên 25%; Công tăng lên 15%; Tỷ Lệ Bạo tăng 10%.
+3. Thanh Nguyên Diệu Đạo — 01:06, Lv.3
+   Lv.1: Thi triển Khai Minh lên Thần Tướng phe ta, đồng thời tấn công toàn bộ Thần Tướng địch 4 lần, tổng ST V.Lý bằng 380% Công.
+   Lv.2: Giảm ST của Khai Minh tăng lên 10%; Công tăng lên 10%; sát thương tăng lên 440%.
+   Lv.3: Giảm ST của Khai Minh tăng lên 15%; Công tăng lên 15%; sát thương tăng lên 500%.
+   [Khai Minh — mô tả đang hiển thị ở Lv.3] Giảm ST tăng 15%, Công tăng 15%; duy trì 9 giây, không thể cộng dồn, có thể giải trừ.
+4. Nhục Thân Thành Thánh — 01:03, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: Phần đầu mô tả bị khuất. Phần đọc được: thêm Kiên Nghị trước khi chịu ST Chí Mạng lần đầu; HP thấp nhất giảm xuống 1, đồng thời bản thân nhận Huyền Thuẫn bằng 200% Công của Dương Tiễn, duy trì 10 giây.
+   Lv.2: Sát thương gây ra xung quanh tăng lên 25%; Huyền Thuẫn tăng lên 250% Công.
+   Lv.3: Sát thương gây ra xung quanh tăng lên 30%; Huyền Thuẫn tăng lên 300% Công.
+   [Kiên Nghị] Khi Dương Tiễn chịu ST Chí Mạng, miễn lần sát thương này và bản thân nhận Huyền Thuẫn.
+   [Huyền Thuẫn — mô tả đang hiển thị ở Lv.3] Điểm Huyền Thuẫn bằng 300% Công của Dương Tiễn; duy trì 10 giây, có thể cộng dồn, không thể giải trừ.
+
+Ngưu Ma Vương [nguu-ma-vuong] — Tuyệt, Thủ Hộ
+1. Hoàn Phủ Bạo Sát — 01:28, Lv.3, CD hiển thị 3s — MÔ TẢ CHƯA ĐỦ
+   Lv.1: Phần đầu mô tả bị khuất; chưa xác nhận đầy đủ điều kiện và tỷ lệ kích hoạt. Phần đọc được: sát thương không quá 150% Công, bản thân đồng thời nhận Tăng Thủ V.Lý; kích hoạt mỗi 5 giây.
+   Lv.2: Tỷ lệ kích hoạt tăng lên 35%; phản ST tăng lên 6% HP tối đa; hồi chiêu giảm còn 4 giây; tăng hiệu quả Tăng Thủ V.Lý.
+   Lv.3: Tỷ lệ kích hoạt tăng lên 50%; phản ST tăng lên 7% HP tối đa; hồi chiêu giảm còn 3 giây; tăng mạnh hiệu quả Tăng Thủ V.Lý.
+   [Tăng Thủ V.Lý — mô tả đang hiển thị ở Lv.3] Thủ V.Lý tăng 5%, duy trì 3 giây, không thể cộng dồn, có thể giải trừ.
+2. Lực Địch Thiên Quân — 01:25, Lv.3
+   Lv.1: Thủ Phép tăng 15%; HP tăng 5%.
+   Lv.2: Thủ Phép tăng lên 20%; HP tăng lên 10%.
+   Lv.3: Thủ Phép tăng lên 25%; HP tăng lên 15%; Hồi Phục tăng 10%.
+3. Khí Thôn Sơn Hà — 01:21, Lv.3
+   Lv.1: Bản thân nhận Ý Chí Kiên Định và có 50% tỷ lệ Khiêu Khích toàn bộ Thần Tướng địch xung quanh.
+   Lv.2: Tỷ lệ Khiêu Khích tăng lên 60%.
+   Lv.3: Tỷ lệ Khiêu Khích tăng lên 70%.
+   [Khiêu Khích] Cưỡng chế mục tiêu tấn công người thi triển, duy trì 5 giây; không thể cộng dồn, có thể giải trừ.
+   [Ý Chí Kiên Định] Thủ V.Lý tăng 25%, duy trì 9 giây, không thể cộng dồn, không thể giải trừ.
+4. Ma Thần Tái Lâm — 01:18, Lv.3, CD hiển thị 999s
+   Lv.1: Sau khi tử trận lần đầu, Ngưu Ma Vương hồi sinh và hồi HP bằng 40% HP tối đa.
+   Lv.2: HP hồi khi hồi sinh tăng lên 50%.
+   Lv.3: HP hồi khi hồi sinh tăng lên 60%.
+
+Hoàng My [hoang-mi] — Tuyệt, Tiên Phong
+1. Đảo Quả Vi Nhân — 01:43, Lv.3, CD hiển thị 15s
+   Lv.1: Hoàng My nhảy tới trước Thần Tướng địch có HP thấp nhất, gây ST V.Lý bằng 290% Công lên toàn bộ Thần Tướng địch trong phạm vi; mục tiêu chính nhận Tìm Địch.
+   Lv.2: Sát thương tăng lên 330%.
+   Lv.3: Sát thương tăng lên 370%.
+   [Tìm Địch] Người thi triển ưu tiên tấn công mục tiêu bị đánh dấu trong 12 giây.
+2. Phật Quang Yêu Khí — 01:40, Lv.3
+   Lv.1: Công tăng 15%; ST V.Lý tăng 5%.
+   Lv.2: Công tăng lên 20%; ST V.Lý tăng lên 10%.
+   Lv.3: Công tăng lên 25%; ST V.Lý tăng lên 15%; Xuyên Thủ V.Lý tăng 10%.
+3. Tây Thiên Cực Lạc — 01:36, Lv.3
+   Lv.1: Bản thân nhận Tăng Công.
+   Lv.2: Bản thân nhận thêm Tăng Bạo.
+   Lv.3: Khi phóng kỹ năng, có thể xóa Khống Chế và hồi HP bằng 15% HP tối đa cho bản thân.
+   [Tăng Công] Công tăng 20%, duy trì 9 giây; không thể cộng dồn, có thể giải trừ.
+   [Tăng Bạo] Bạo tăng 15%, duy trì 9 giây; không thể cộng dồn, có thể giải trừ.
+4. Não Bạt Phật Âm — 01:33, Lv.3
+   Lv.1: Mỗi lần Hoàng My tấn công có 25% tỷ lệ kèm ST V.Lý bằng 20% Công của Hoàng My.
+   Lv.2: Sát thương kèm theo tăng lên 30%.
+   Lv.3: Sát thương kèm theo tăng lên 40%.
+
+Hồng Hài Nhi [hong-hai-nhi] — Tuyệt, Tiên Phong
+1. Diễm Ảnh Thuấn Sát — 01:57, Lv.3, CD hiển thị 15s
+   Lv.1: Lập tức lướt ra sau Thần Tướng địch xa nhất, gây ST V.Lý bằng 350% Công; mục tiêu nhận Tìm Địch.
+   Lv.2: Sát thương tăng lên 425%.
+   Lv.3: Sát thương tăng lên 495%.
+   [Tìm Địch] Người thi triển ưu tiên tấn công mục tiêu bị đánh dấu trong 12 giây.
+2. Ngũ Hành Hồng Liên — 01:54, Lv.3
+   Lv.1: Thủ V.Lý tăng 15%; Công tăng 5%.
+   Lv.2: Thủ V.Lý tăng lên 20%; Công tăng lên 10%.
+   Lv.3: Thủ V.Lý tăng lên 25%; Công tăng lên 15%; Tăng ST tăng 10%.
+3. Hỏa Vân Chích Thương — 01:51, Lv.3
+   Lv.1: Tấn công mục tiêu đơn 4 lần, mỗi lần gây ST V.Lý bằng 188% Công, đồng thời thi triển Tháo Giáp.
+   Lv.2: Sát thương mỗi lần tăng lên 214%.
+   Lv.3: Sát thương mỗi lần tăng lên 240%.
+   [Tháo Giáp] Thủ V.Lý giảm 15%, duy trì 9 giây; không thể cộng dồn, có thể giải trừ.
+4. Sĩ Thương Phệ Hồn — 01:48, Lv.3, CD hiển thị 3s
+   Lv.1: Mỗi lần tấn công hồi HP bằng 20% sát thương gây ra trong lượt; mỗi 3 giây kích hoạt một lần.
+   Lv.2: Hồi phục tăng lên 25%.
+   Lv.3: Hồi phục tăng lên 30%.
+
+Ngọc Diện Hồ Ly [ngoc-dien-ho-ly] — Tuyệt, Hỗ Trợ
+1. Hoặc Tâm Câu Hồn — 02:11, Lv.3, CD hiển thị 12s
+   Lv.1: Chữa trị Thần Tướng có HP thấp nhất phe ta bằng 115% Công của Ngọc Diện Hồ Ly, sau đó nảy sang 4 Thần Tướng phe ta còn lại; mỗi lần nảy lượng chữa trị giảm 20%.
+   Lv.2: Chữa trị tăng lên 130%.
+   Lv.3: Chữa trị tăng lên 150%.
+2. Thiên Sinh Vưu Vật — 02:08, Lv.3
+   Lv.1: Công tăng 10%; Thủ V.Lý tăng 10%.
+   Lv.2: Công tăng lên 15%; Thủ V.Lý tăng lên 15%.
+   Lv.3: Công tăng lên 20%; Thủ V.Lý tăng lên 20%; hiệu quả Chữa Trị tăng 10%.
+3. Hồ Mị Chúng Sinh — 02:05, Lv.3
+   Lv.1: Chữa trị toàn bộ Thần Tướng phe ta bằng 115% Công của Ngọc Diện Hồ Ly; khi HP mục tiêu dưới 25%, Chữa Trị cuối tăng 25%.
+   Lv.2: Chữa trị tăng lên 130%.
+   Lv.3: Chữa trị tăng lên 150%.
+4. Không Còn Thần Tượng — 02:02, Lv.3
+   Lv.1: Khi trận đấu bắt đầu, 2 Thần Tướng phe ta ở vị trí xa nhất nhận Phản Đòn. Sau đó mỗi 10 giây, 2 Thần Tướng xa nhất phe ta tiếp tục nhận Phản Đòn.
+   Lv.2: Khoảng cách kích hoạt giảm còn 8 giây.
+   Lv.3: Khoảng cách kích hoạt giảm còn 5 giây; khi HP Ngọc Diện Hồ Ly dưới 30%, bản thân nhận Ẩn Thân trong 30 giây.
+   [Phản Đòn] Khung giải thích ghi: Phản Đòn chịu 20% ST, duy trì 5 giây; không thể cộng dồn, không thể giải trừ. Giữ nguyên cách diễn đạt của video.
+   [Ẩn Thân] Không bị coi là mục tiêu; khung giải thích ghi duy trì 5 giây, trong khi mô tả Lv.3 ghi 30 giây. Giữ cả hai mốc để thể hiện khác biệt trong nguồn.
+
+Tôn Ngộ Không [ton-ngo-khong] — Tuyệt, Tiên Phong
+1. Ngự Vân Càn Nguyệt — 02:27, Lv.3, CD hiển thị 18s — MÔ TẢ CHƯA ĐỦ
+   Lv.1: Phần đầu mô tả bị khuất. Phần đọc được: tác động địch trên đường; nếu Độ Bền ≤4 thì hất văng mục tiêu, sau đó gây ST V.Lý bằng 428% Công lên mục tiêu cuối cùng và áp dụng Tìm Địch.
+   Lv.2: ST gây ra trên đường tăng lên 100%; ST lên mục tiêu cuối tăng lên 495%.
+   Lv.3: ST gây ra trên đường tăng lên 110%; ST lên mục tiêu cuối tăng lên 555%.
+   [Tìm Địch] Người thi triển ưu tiên tấn công mục tiêu bị đánh dấu trong 12 giây.
+2. Thiên Biến Vạn Hóa — 02:23, Lv.3
+   Lv.1: Thủ Phép tăng 15%; Công tăng 5%.
+   Lv.2: Thủ Phép tăng lên 20%; Công tăng lên 10%. Mốc này đã đọc ở video 22/10/2026; hàng Lv.2 trong khung video mới không hiện rõ.
+   Lv.3: Thủ Phép tăng lên 25%; Công tăng lên 15%; Tỷ Lệ Bạo tăng 10%.
+3. Côn Ảnh Thiên Điệp — 02:20, Lv.3
+   Lv.1: Tôn Ngộ Không tấn công một mục tiêu 2 lần, mỗi lần gây ST V.Lý bằng 428% Công.
+   Lv.2: Sát thương mỗi lần tăng lên 495%.
+   Lv.3: Sát thương mỗi lần tăng lên 555%; nếu diệt mục tiêu thì đặt lại hồi chiêu Ngự Vân Càn Nguyệt.
+4. Chiến Ý Bất Khuất — 02:16, Lv.3
+   Lv.1: Khi HP lần đầu thấp hơn 50%, bản thân nhận Chú Kiếm.
+   Lv.2: Ngưỡng kích hoạt đổi thành HP lần đầu thấp hơn 60%.
+   Lv.3: Ngưỡng kích hoạt đổi thành HP lần đầu thấp hơn 70%; khi HP lần đầu thấp hơn 40% thì kích hoạt thêm Đoạn Phong.
+   [Chú Kiếm] ST V.Lý tăng 25%, duy trì 15 giây; không thể cộng dồn, không thể giải trừ.
+   [Đoạn Phong] Bạo tăng 25%, duy trì 15 giây; không thể cộng dồn, không thể giải trừ. Giữ nguyên nhãn Bạo trong nguồn.
+
+Đường Tam Tạng [duong-tang] — Tuyệt, Hỗ Trợ
+1. Khẩn Cô Hộ Hữu — 02:44, Lv.3, CD hiển thị 15s
+   Lv.1: Ngẫu nhiên áp dụng Tăng Công cho 3 Thần Tướng phe ta.
+   Lv.2: CD kỹ năng giảm xuống 15 giây.
+   Lv.3: Số mục tiêu tăng lên 4 người.
+   [Tăng Công] Công tăng 20%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+2. Cửu Chuyển Kim Thiền — 02:39, Lv.3
+   Lv.1: HP tăng 15%, Công tăng 5%.
+   Lv.2: HP tăng lên 20%, Công tăng lên 10%.
+   Lv.3: HP tăng lên 25%, Công tăng lên 15%, Bạo Chữa Trị tăng 10%.
+3. A Di Đà Phật — 02:35, Lv.3
+   Lv.1: Hồi HP bằng 180% Công bản thân cho 3 Thần Tướng phe ta có HP thấp nhất, đồng thời kèm Tăng Bạo.
+   Lv.2: Chữa Trị tăng lên 200%.
+   Lv.3: Chữa Trị tăng lên 230%.
+   [Tăng Bạo] Bạo tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+4. Từ Bi Vi Hoài — 02:32, Lv.3
+   Lv.1: Mỗi lần Công Thường, 1 Thần Tướng có HP thấp nhất phe ta hồi HP bằng 40% Công của Đường Tam Tạng.
+   Lv.2: Chữa Trị tăng lên 46%.
+   Lv.3: Chữa Trị tăng lên 53%.
+
+Thiết Phiến Công Chúa [la-sat-nu] — Tuyệt, Tầm Xa
+1. Thái Ất Sinh Phong — 02:59, Lv.3, CD hiển thị 12s
+   Lv.1: Khiến Thần Tướng địch theo đường thẳng chịu ST Phép bằng 200% Công của Thiết Phiến Công Chúa và Giảm Tốc; nếu Độ Bền mục tiêu ≤4, đánh lui mục tiêu.
+   Lv.2: ST tăng lên 232%.
+   Lv.3: ST tăng lên 264%.
+   [Giảm Tốc] Tốc độ giảm 30%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+2. Phật Đạo Song Tu — 02:56, Lv.3
+   Lv.1: Công tăng 15%, ST Phép tăng 5%.
+   Lv.2: Công tăng lên 20%, ST Phép tăng lên 10%.
+   Lv.3: Công tăng lên 25%, ST Phép tăng lên 15%, Xuyên Thủ Phép tăng 10%.
+3. Phong Hỏa Liêu Nguyên — 02:53, Lv.3
+   Lv.1: Khiến Thần Tướng địch theo đường thẳng chịu ST Phép bằng 64% Công, 5 lần. Nếu Độ Bền mục tiêu ≤4, mục tiêu bị đánh lui.
+   Lv.2: Mỗi lần ST tăng lên 79%.
+   Lv.3: Mỗi lần ST tăng lên 86%.
+4. Chân Viêm Hỏa Phiến — 02:49, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: [Thiếu phần đầu Lv.1 do khung mô tả bị cắt.] Phần đọc được: ST Phép tăng 1% × số tầng Hỏa Phần.
+   Lv.2: Tỷ lệ kèm Hỏa Phần tăng lên 13%; Công mục tiêu kèm Hỏa Phần, ST Phép tăng lên 1,2% × số tầng Hỏa Phần.
+   Lv.3: Tỷ lệ kèm Hỏa Phần tăng lên 16%; Công mục tiêu kèm Hỏa Phần, ST Phép tăng lên 1,4% × số tầng Hỏa Phần.
+   [Hỏa Phần] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Nứt Nẻ] Hiệu ứng thêm từ Hỏa Phần: Thủ Phép giảm 0,5%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+
+Trấn Nguyên Tử [tran-nguyen-tu] — Tuyệt, Tầm Xa
+1. Nhật Nguyệt Càn Khôn — 03:16, Lv.3, CD hiển thị 5s
+   Lv.1: Khiến Thần Tướng địch theo đường thẳng chịu ST Phép bằng 60% Công của Trấn Nguyên Tử; 50% kèm Độc Thực.
+   Lv.2: ST tăng lên 70%; tỷ lệ Độc Thực tăng lên 60%.
+   Lv.3: ST tăng lên 80%; tỷ lệ Độc Thực tăng lên 70%.
+   [Độc Thực] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Ăn Mòn] Hiệu ứng thêm từ Độc Thực: Công giảm 0,6%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+2. Âm Dương Tâm Quyết — 03:12, Lv.3
+   Lv.1: Công tăng 15%, ST Bất Thường tăng 5%.
+   Lv.2: Công tăng lên 20%, ST Bất Thường tăng lên 10%.
+   Lv.3: Công tăng lên 25%, ST Bất Thường tăng lên 15%, Kháng K.Chế tăng 15%.
+3. Thiên Địa Đạo Pháp — 03:08, Lv.3
+   Lv.1: Công 3 lần mục tiêu đơn ngẫu nhiên, mỗi lần gây ST Phép bằng 100% Công; 50% khiến mục tiêu kèm Độc Thực.
+   Lv.2: Lượt công ngẫu nhiên đơn thể tăng lên 4 lần; tỷ lệ Độc Thực tăng lên 60%.
+   Lv.3: Lượt công ngẫu nhiên đơn thể tăng lên 5 lượt; tỷ lệ Ăn Mòn tăng lên 70%.
+   [Độc Thực] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Ăn Mòn] Hiệu ứng thêm từ Độc Thực: Công giảm 0,6%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+4. Ngôn Xuất Pháp Tùy — 03:05, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: [Thiếu phần đầu Lv.1 do khung mô tả bị cắt.] Phần đọc được: kèm Tăng ST Bất Thường; sau đó cứ 1 giây toàn phe ta kèm hiệu ứng này; cứ 8 giây, có 40% khiến toàn Thần Tướng địch kèm Độc Thực.
+   Lv.2: ST Bất Thường tăng lên 10%; CD giảm còn 7 giây; tỷ lệ kích hoạt tăng lên 50%.
+   Lv.3: ST Bất Thường tăng lên 15%; CD giảm còn 6 giây; tỷ lệ kích hoạt tăng lên 60%.
+   [Tăng ST Bất Thường] Tooltip hiển thị: Tăng ST Bất Thường 5%, duy trì 1 giây, không cộng dồn, có thể giải trừ.
+   [Độc Thực] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+
+Trư Bát Giới [tru-bat-gioi] — Tuyệt, Thủ Hộ
+1. Đảo Đả Nhất Ba — 03:43, Lv.3, CD hiển thị 12s
+   Lv.1: Khiến Thần Tướng địch phía trước chịu ST Phép bằng 240% Công; 20% kèm Choáng và 100% kèm Hỏa Phần.
+   Lv.2: ST tăng lên 280%; tỷ lệ Choáng tăng lên 25%.
+   Lv.3: ST tăng lên 320%; tỷ lệ Choáng tăng lên 30%.
+   [Choáng] Không thể hành động, duy trì 3 giây, không cộng dồn, có thể giải trừ.
+   [Hỏa Phần] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+2. Phàm Tâm Vị Mẫn — 03:38, Lv.3
+   Lv.1: HP tăng 15%, Giảm ST tăng 5%.
+   Lv.2: HP tăng lên 20%, Giảm ST tăng lên 10%.
+   Lv.3: HP tăng lên 35%, Giảm ST tăng lên 20%.
+3. Cửu Xỉ Nhập Cốt — 03:33, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: [Thiếu phần đầu Lv.1 do khung mô tả bị cắt.] Phần đọc được: 10% gây Choáng, 100% kèm Hỏa Phần; chữa trị bản thân bằng 12% HP đã mất, không quá 250% Công.
+   Lv.2: ST tăng lên 260%; tỷ lệ Choáng tăng lên 15%; Chữa Trị tăng lên 14%, không quá 300% Công.
+   Lv.3: ST tăng lên 300%; tỷ lệ Choáng tăng lên 20%; Chữa Trị tăng lên 16%, không quá 350% Công.
+   [Choáng] Không thể hành động, duy trì 3 giây, không cộng dồn, có thể giải trừ.
+   [Hỏa Phần] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+4. Thiên Bồng Dư Uy — 03:24, Lv.3, CD hiển thị 999s
+   Lv.1: Khi HP lần đầu thấp hơn 25%, có 30% khiến Thần Tướng địch xung quanh Choáng; 100% khiến địch kèm Hỏa Phần.
+   Lv.2: Điều kiện kích hoạt khi HP dưới 30%; tỷ lệ Choáng tăng lên 35%.
+   Lv.3: Điều kiện kích hoạt khi HP dưới 35%; tỷ lệ Choáng tăng lên 40%.
+   [Choáng] Không thể hành động, duy trì 3 giây, không cộng dồn, có thể giải trừ.
+   [Hỏa Phần] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [CD hiển thị] Video ghi CD 999 giây cho kỹ năng kích hoạt lần đầu theo ngưỡng HP.
+
+Na Tra [na-tra] — Tuyệt, Cận Chiến
+1. Tam Muội Chân Hỏa — 04:01, Lv.3, CD hiển thị 12s
+   Lv.1: Khiến mục tiêu trong phạm vi chịu ST Phép bằng 80% Công của Na Tra, gây thêm Sát Thương Chuẩn bằng 60% Công.
+   Lv.2: ST Phép tăng lên 95%, Sát Thương Chuẩn tăng lên 70%.
+   Lv.3: ST Phép tăng lên 110%, Sát Thương Chuẩn tăng lên 80%.
+2. Liên Hoa Chi Thân — 03:58, Lv.3
+   Lv.1: Thủ V.Lý tăng 15%, Công tăng 5%.
+   Lv.2: Thủ V.Lý tăng lên 20%, Công tăng lên 10%.
+   Lv.3: Thủ V.Lý tăng lên 25%, Công tăng lên 15%, Giảm ST tăng 10%.
+3. Thần Tướng Hồng Lăng — 03:54, Lv.3
+   Lv.1: Thi triển cho bản thân Phản Đòn, Gánh Nặng Tiến Bước và Tăng Kháng Khống Chế; sau đó công địch phía trước 3 lần, mỗi lần ST Phép bằng 140% Công, gây thêm Sát Thương Chuẩn bằng 140% Công.
+   Lv.2: Mỗi lần ST tăng lên 160%.
+   Lv.3: Mỗi lần ST tăng lên 180%.
+   [Phản Đòn] Phản Đòn 15% ST chịu, duy trì 6,5 giây, không cộng dồn, không thể giải trừ.
+   [Gánh Nặng Tiến Bước] Độ Bền tăng 2, duy trì 6,5 giây, không cộng dồn, không thể giải trừ.
+   [Tăng Kháng Khống Chế] Tên hiệu ứng đọc được trong mô tả; phần giải thích không xuất hiện trong khung video.
+4. Càn Khôn Nhất Kích — 03:50, Lv.3
+   Lv.1: Khi tấn công chữa trị HP bằng 7% ST Na Tra gây ra trong lượt; Na Tra Phản Đòn 7% ST phải chịu.
+   Lv.2: Chữa Trị tăng lên 8,5%; Phản Đòn tăng lên 8,5%.
+   Lv.3: Chữa Trị tăng lên 10%; Phản Đòn tăng lên 10%.
+   [Phản Đòn] Tooltip Lv.3: Phản Đòn 10% ST chịu, duy trì đến hết trận, có thể cộng dồn, không thể giải trừ.
+
+Đa Văn Thiên Vương [da-van-thien-vuong] — Tuyệt, Thủ Hộ
+1. Toàn Vũ Diệt Vọng — 04:18, Lv.3, CD hiển thị 15s
+   Lv.1: Tấn công Thần Tướng địch xa nhất gây ST V.Lý bằng 320% Công. Nếu Độ Bền mục tiêu nhỏ hơn 4, kéo mục tiêu về trước mặt và 100% gây Khiêu Khích.
+   Lv.2: ST tăng lên 370%; kéo được mục tiêu Độ Bền nhỏ hơn 5.
+   Lv.3: ST tăng lên 420%; kéo được mục tiêu Độ Bền nhỏ hơn 6.
+   [Khiêu Khích] Trong 5 giây chỉ có thể tấn công người thi pháp; không cộng dồn, có thể giải trừ.
+2. Hỗn Nguyên Diệu Linh — 04:14, Lv.3
+   Lv.1: Thủ Phép tăng 15%, Thủ V.Lý tăng 5%.
+   Lv.2: Thủ Phép tăng lên 20%, Thủ V.Lý tăng lên 10%.
+   Lv.3: Thủ Phép tăng lên 25%, Thủ V.Lý tăng lên 15%.
+3. Nhật Nguyệt Vô Quang — 04:11, Lv.3
+   Lv.1: Công Thần Tướng địch xung quanh 5 lần, tổng ST V.Lý bằng 320% Công, kèm Giảm Tốc.
+   Lv.2: Tổng ST tăng lên 390%.
+   Lv.3: Tổng ST tăng lên 420%.
+   [Giảm Tốc] Tốc Độ giảm 60%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+4. Quy Khư Vô Tình — 04:07, Lv.3
+   Lv.1: Mỗi 3 giây, Thần Tướng phe ta xung quanh bản thân nhận Gánh Nặng Tiến Bước.
+   Lv.2: Phạm vi kỹ năng mở rộng.
+   Lv.3: Phạm vi tiếp tục mở rộng, Độ Bền tăng lên 5.
+   [Gánh Nặng Tiến Bước] Tooltip: Độ Bền tăng 2, duy trì 5 giây, không cộng dồn, không thể giải trừ.
+
+Quảng Mục Thiên Vương [quang-muc-thien-vuong] — Tuyệt, Cận Chiến
+1. Tịnh Thiên Trừ Uế — 04:35, Lv.3
+   Lv.1: Mỗi 7 giây hồi phục 3% HP tối đa bản thân, không quá 80% Công bản thân; giải trừ 1 DEBUFF bản thân.
+   Lv.2: Khoảng cách kích hoạt giảm còn 6 giây; số lượng giải trừ tăng lên 2.
+   Lv.3: Khoảng cách kích hoạt giảm còn 5 giây; số lượng giải trừ tăng lên 3.
+2. Minh Kính Pháp Hoa — 04:31, Lv.3
+   Lv.1: HP tăng 15%, Thủ V.Lý tăng 5%.
+   Lv.2: HP tăng lên 20%, Thủ V.Lý tăng lên 10%.
+   Lv.3: HP tăng lên 25%, Thủ V.Lý tăng lên 15%.
+3. Hỗn Thế Ly Long — 04:27, Lv.3
+   Lv.1: Khiến Thần Tướng địch trong phạm vi nhỏ phía trước chịu 2 lần ST V.Lý; mỗi lần bằng 210% Công bản thân và 13% kèm Mê Hồn.
+   Lv.2: Mỗi lần ST tăng lên 250%; tỷ lệ Mê Hồn tăng lên 15%.
+   Lv.3: Mỗi lần ST tăng lên 280%; tỷ lệ Mê Hồn tăng lên 18%.
+   [Mê Hồn] Khiến mục tiêu hoảng loạn, chạy tán loạn và không thể Công trong 3 giây; không cộng dồn, có thể giải trừ.
+4. Long Quyền Băng Kình — 04:23, Lv.3
+   Lv.1: Công Thường có 10% phát động Công Đặc Biệt, khiến Thần Tướng địch xung quanh chịu ST V.Lý bằng 75% Công của Quảng Mục Thiên Vương; 20% kèm Mê Hồn.
+   Lv.2: Tỷ lệ kích hoạt tăng lên 15%; tỷ lệ Mê Hồn tăng lên 25%.
+   Lv.3: Tỷ lệ kích hoạt tăng lên 20%; tỷ lệ Mê Hồn tăng lên 30%.
+   [Mê Hồn] Khiến mục tiêu hoảng loạn, chạy tán loạn và không thể Công trong 3 giây; không cộng dồn, có thể giải trừ.
+
+Phục Hổ La Hán [phuc-ho-la-han] — Tuyệt, Tầm Xa
+1. Lục Căn Tịch Mịch — 04:56, Lv.3, CD hiển thị 15s
+   Lv.1: Công Thần Tướng địch trong phạm vi mục tiêu 6 lần, tổng ST Phép bằng 140% Công của Phục Hổ La Hán; 20% kèm Định Thân.
+   Lv.2: ST tăng lên 160%; tỷ lệ Định Thân tăng lên 25%.
+   Lv.3: ST tăng lên 180%; tỷ lệ Định Thân tăng lên 30%.
+   [Định Thân] Không thể hành động, không cộng dồn, có thể giải trừ. Video không ghi thời lượng.
+2. Tuệ Hải Vô Biên — 04:52, Lv.3
+   Lv.1: Công tăng 15%, Tỷ Lệ Khống Chế tăng 5%.
+   Lv.2: Công tăng lên 20%, Tỷ Lệ Khống Chế tăng lên 10%.
+   Lv.3: Công tăng lên 25%, Tỷ Lệ Khống Chế tăng lên 15%.
+3. Sương Hổ Khiếu Thiên — 04:49, Lv.3
+   Lv.1: Công Thần Tướng địch trong phạm vi mục tiêu 6 lần, tổng ST Phép bằng 300% Công của Phục Hổ La Hán; 8% kèm Giá Rét.
+   Lv.2: ST tăng lên 350%; tỷ lệ Giá Rét tăng lên 10%.
+   Lv.3: ST tăng lên 400%; tỷ lệ Giá Rét tăng lên 12%.
+   [Giá Rét] Mục tiêu không thể hành động, sau khi chịu 5 lần ST trực tiếp sẽ xóa trạng thái; không cộng dồn, có thể giải trừ.
+4. Kim Cang Nộ Diễm — 04:44, Lv.3
+   Lv.1: Khi tấn công có 50% tỷ lệ nhận 20 Nộ.
+   Lv.2: Tỷ lệ tăng lên 60%; nhận Nộ tăng lên 25.
+   Lv.3: Tỷ lệ tăng lên 70%; nhận Nộ tăng lên 30.
+
+Tăng Trưởng Thiên Vương [tang-truong-thien-vuong] — Tuyệt, Cận Chiến
+1. Trần Duyên Giai Đoạn — 05:11, Lv.3, CD hiển thị 12s
+   Lv.1: Gây ST V.Lý bằng 140% Công lên toàn Thần Tướng địch trong phạm vi; 50% thêm Lôi Chước.
+   Lv.2: ST tăng lên 160%; tỷ lệ Lôi Chước tăng lên 60%.
+   Lv.3: ST tăng lên 180%; tỷ lệ Lôi Chước tăng lên 70%.
+   [Lôi Chước] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Hoại Huyết] Hiệu ứng thêm từ Lôi Chước: Thủ V.Lý giảm 0,5%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+2. Bát Nhã Minh Tuệ — 05:08, Lv.3
+   Lv.1: Công tăng 15%, HP tăng 5%.
+   Lv.2: Công tăng lên 20%, HP tăng lên 10%.
+   Lv.3: Công tăng lên 25%, HP tăng lên 15%.
+3. Đoạn Diệt Lục Căn — 05:05, Lv.3
+   Lv.1: Toàn Thần Tướng địch trong phạm vi chịu 4 lần Công, mỗi lần chịu 108% ST; 10% kèm Lôi Chước.
+   Lv.2: Mỗi lần ST tăng lên 125%; tỷ lệ Lôi Chước tăng lên 15%.
+   Lv.3: ST tăng lên 140%; tỷ lệ Lôi Chước tăng lên 20%.
+   [Lôi Chước] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Hoại Huyết] Hiệu ứng thêm từ Lôi Chước: Thủ V.Lý giảm 0,5%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+4. Vô Lượng Kiếm Phong — 05:02, Lv.3, CD hiển thị 5s
+   Lv.1: Công Thường có 10% khiến mục tiêu kèm Lôi Chước.
+   Lv.2: Tỷ lệ Lôi Chước tăng lên 15%.
+   Lv.3: Tỷ lệ Lôi Chước tăng lên 20%.
+   [Lôi Chước] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Hoại Huyết] Hiệu ứng thêm từ Lôi Chước: Thủ V.Lý giảm 0,5%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+
+Trì Quốc Thiên Vương [tri-quoc-thien-vuong] — Tuyệt, Tầm Xa
+1. Phạn Khúc Âm Ba — 05:27, Lv.3, CD hiển thị 13s
+   Lv.1: Khiến mục tiêu chính Định Thân; toàn Thần Tướng địch trong phạm vi chịu ST Phép bằng 140% Công của Trì Quốc Thiên Vương.
+   Lv.2: ST tăng lên 160%.
+   Lv.3: ST tăng lên 180%.
+   [Định Thân] Không thể hành động, không cộng dồn, có thể giải trừ. Video không ghi thời lượng.
+2. Nhất Huyền Thanh Tâm — 05:23, Lv.3
+   Lv.1: Công tăng 15%, Tỷ Lệ Chính Xác tăng 5%.
+   Lv.2: Công tăng lên 20%, Tỷ Lệ Chính Xác tăng lên 10%.
+   Lv.3: Công tăng lên 25%, Tỷ Lệ Chính Xác tăng lên 15%.
+3. Tam Giới Hòa Minh — 05:20, Lv.3
+   Lv.1: Khiến Thần Tướng địch chịu 5 lần Công đơn thể, tổng ST Phép bằng 480% Công.
+   Lv.2: ST tăng lên 560%.
+   Lv.3: ST tăng lên 660%.
+4. Nghiệp Tận Dư Âm — 05:17, Lv.3
+   Lv.1: Công Thường có 30% khiến mục tiêu chịu thêm ST Phép bằng 20% Công.
+   Lv.2: Tỷ lệ kích hoạt tăng lên 40%; ST tăng lên 25%.
+   Lv.3: Tỷ lệ kích hoạt tăng lên 50%; ST tăng lên 30%.
+
+Bạch Tượng Vương [bach-tuong-vuong] — Tuyệt, Thủ Hộ
+1. Đột Tập Tượng Hống — 05:42, Lv.3, CD hiển thị 15s
+   Lv.1: 2 Thần Tướng ngẫu nhiên phe ta nhận Tăng Tốc Độ và Tăng ST Phép.
+   Lv.2: Mục tiêu Thần Tướng phe ta tăng 1.
+   Lv.3: Mục tiêu Thần Tướng phe ta tăng thêm 1.
+   [Tăng Tốc Độ] Tốc Độ tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+   [Tăng ST Phép] ST Phép tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+2. Hoàng Nha Thổ Thoái — 05:39, Lv.3
+   Lv.1: Thủ V.Lý tăng 15%, Thủ Phép tăng 5%.
+   Lv.2: Thủ V.Lý tăng lên 20%, Thủ Phép tăng lên 10%.
+   Lv.3: Thủ V.Lý tăng lên 25%, Thủ Phép tăng lên 15%.
+3. Long Tượng Rèn Thể — 05:36, Lv.3
+   Lv.1: 2 Thần Tướng ngẫu nhiên phe ta nhận Tăng Thủ V.Lý và Tăng Thủ Phép.
+   Lv.2: Mục tiêu Thần Tướng phe ta kèm theo tăng thêm 1.
+   Lv.3: Mục tiêu Thần Tướng phe ta kèm theo tăng thêm 1.
+   [Tăng Thủ V.Lý] Thủ V.Lý tăng 10%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+   [Tăng Thủ Phép] Thủ Phép tăng 10%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+4. Cố Nhược Kim Thang — 05:33, Lv.3, CD hiển thị 15s
+   Lv.1: Khi bản thân bị Khống Chế, nhận Tăng Giảm ST. CD 25 giây.
+   Lv.2: CD kỹ năng giảm 5 giây.
+   Lv.3: CD kỹ năng giảm 10 giây.
+   [Tăng Giảm ST] Giảm ST tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+
+Hồng Lân Mãng Tinh [hong-lan-mang-tinh] — Tuyệt, Hỗ Trợ
+1. Yêu Đồng Chi Thuật — 05:59, Lv.3, CD hiển thị 15s
+   Lv.1: 1 Thần Tướng phe ta trong phạm vi mục tiêu nhận Tăng Công.
+   Lv.2: Mục tiêu Thần Tướng phe ta tăng thêm 1.
+   Lv.3: Mục tiêu Thần Tướng phe ta tăng thêm 1.
+   [Tăng Công] Công tăng 20%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+2. Xà Hạt Mỹ Nhân — 05:56, Lv.3
+   Lv.1: HP tăng 15%, Chữa Trị tăng 5%.
+   Lv.2: HP tăng lên 20%, hiệu quả Chữa Trị tăng lên 10%.
+   Lv.3: HP tăng lên 25%, hiệu quả Chữa Trị tăng lên 20%.
+3. Xà Hữu Phúc Trạch — 05:52, Lv.3
+   Lv.1: 2 Thần Tướng phe ta trong phạm vi nhận Duy Trì Chữa Trị.
+   Lv.2: Mục tiêu Thần Tướng phe ta kèm kỹ năng tăng thêm 1.
+   Lv.3: Mục tiêu Thần Tướng phe ta kèm kỹ năng tăng thêm 1.
+   [Duy Trì Chữa Trị] Mỗi giây hồi HP bằng 25% Công người thi triển, duy trì 5 giây, có thể cộng dồn, có thể giải trừ.
+4. Mãng Phệ Sinh Lâm — 05:48, Lv.3
+   Lv.1: Khi Công Thường, chữa trị đơn vị phe ta có HP thấp nhất bằng 40% ST Hồng Lân Mãng Tinh gây ra.
+   Lv.2: HP hồi tăng lên 50% ST gây ra.
+   Lv.3: HP hồi tăng lên 60% ST gây ra.
+
+Đại Bàng Vương [dai-bang-vuong] — Tuyệt, Tiên Phong
+1. Đoàn Phong Vạn Hải — 06:15, Lv.3, CD hiển thị 15s
+   Lv.1: Lướt đến phía sau Thần Tướng địch xa nhất, khiến toàn Thần Tướng địch trong phạm vi chịu 3 lần Công, tổng ST V.Lý bằng 210% Công của Đại Bàng Vương.
+   Lv.2: ST tăng lên 250%.
+   Lv.3: ST tăng lên 280%.
+2. Kim Sí Côn Thủ — 06:12, Lv.3
+   Lv.1: HP tăng 20%.
+   Lv.2: HP tăng lên 25%, Tỷ Lệ Né tăng 5%.
+   Lv.3: HP tăng lên 30%, Tỷ Lệ Né tăng lên 10%.
+3. Hỗn Thế Bàng Ảnh — 06:10, Lv.3
+   Lv.1: Lướt đến phía sau Thần Tướng địch ngẫu nhiên, gây ST V.Lý bằng 240% Công của Đại Bàng Vương lên toàn Thần Tướng địch trong phạm vi mục tiêu.
+   Lv.2: ST tăng lên 280%.
+   Lv.3: ST tăng lên 320%.
+4. Vũ Hóa Cuồng Phong — 06:06, Lv.3, CD hiển thị 3s
+   Lv.1: Khi tấn công có 15% khiến mục tiêu chịu Giảm Chính Xác.
+   Lv.2: Tỷ lệ kèm Giảm Chính Xác tăng lên 20%.
+   Lv.3: Tỷ lệ kèm Giảm Chính Xác tăng lên 25%.
+   [Giảm Chính Xác] Chính Xác giảm 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+
+Thanh Sư Vương [thanh-su-vuong] — Tuyệt, Cận Chiến
+1. Sư Hống Chấn Địch — 06:31, Lv.3, CD hiển thị 9s
+   Lv.1: Bản thân nhận Tăng Công.
+   Lv.2: CD kỹ năng giảm xuống 12 giây.
+   Lv.3: Bản thân nhận thêm Tăng Thủ V.Lý; CD giảm xuống 9 giây.
+   [Tăng Công] Công tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+   [Tăng Thủ V.Lý] Thủ V.Lý tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+2. Thanh Tông Liêu Nha — 06:27, Lv.3
+   Lv.1: Công tăng 15%, ST Bạo tăng 10%.
+   Lv.2: Công tăng lên 20%, ST Bạo tăng lên 20%.
+   Lv.3: Công tăng lên 25%, ST Bạo tăng lên 30%.
+3. A Tỳ Tam Đao — 06:24, Lv.3
+   Lv.1: Công Thần Tướng địch theo đường thẳng phía trước 5 lần, tổng ST V.Lý bằng 430%.
+   Lv.2: ST tăng lên 500%.
+   Lv.3: ST tăng lên 560%.
+4. Phá Ách Lợi Trảo — 06:20, Lv.3
+   Lv.1: Khi tấn công có 10% khiến mục tiêu kèm Lôi Chước.
+   Lv.2: Tỷ lệ Lôi Chước tăng lên 15%.
+   Lv.3: Tỷ lệ Lôi Chước tăng lên 20%.
+   [Lôi Chước] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Hoại Huyết] Hiệu ứng thêm từ Lôi Chước: Thủ V.Lý giảm 0,5%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+
+Kim Giác [kim-giac] — Tuyệt, Tầm Xa
+1. Ngọc Tịnh Trọng Thủy — 06:48, Lv.3, CD hiển thị 14s
+   Lv.1: Khiến Thần Tướng địch theo đường thẳng chịu 4 lần Công, mỗi lần ST Phép bằng 80% Công và 20% kèm Giảm Tốc Công.
+   Lv.2: ST tăng lên 92%; tỷ lệ Giảm Tốc Công tăng lên 25%.
+   Lv.3: ST tăng lên 104%; tỷ lệ Giảm Tốc Công tăng lên 30%.
+   [Giảm Tốc Công] Tốc Công giảm 30%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+2. Kim Lô Tiểu Đồng — 06:45, Lv.3
+   Lv.1: Thủ Phép tăng 15%, ST Phép tăng 5%.
+   Lv.2: Thủ Phép tăng lên 20%, ST Phép tăng lên 10%.
+   Lv.3: Thủ Phép tăng lên 25%, ST Phép tăng lên 20%.
+3. Thất Tinh Hóa Hải — 06:41, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: [Thiếu phần đầu Lv.1 do khung mô tả bị cắt.] Phần đọc được: khiến toàn Thần Tướng địch trong phạm vi chịu 2 lần ST Phép bằng 70% Kim Giác Đại Vương; 20% kèm Giảm Tốc Công và Giảm Tốc.
+   Lv.2: Mỗi lần ST phạm vi tăng lên 90%; tỷ lệ kèm theo tăng lên 25%.
+   Lv.3: Mỗi lần ST phạm vi tăng lên 110%; tỷ lệ kèm theo tăng lên 30%.
+   [Giảm Tốc Công] Tốc Công giảm 30%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+   [Giảm Tốc] Tốc Độ giảm 60%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+4. Chí Dương Huyền Khí — 06:37, Lv.3
+   Lv.1: Khi Kim Giác chủ động tấn công có 25% khiến mục tiêu kèm Giảm Kháng.
+   Lv.2: Tỷ lệ Giảm Kháng tăng lên 35%.
+   Lv.3: Tỷ lệ Giảm Kháng tăng lên 50%.
+   [Hạ Giảm Kháng] Tooltip ghi Giảm Kháng giảm 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+
+Thông Tý Viên Hầu [thong-ty-vien-hau] — Tuyệt, Tiên Phong
+1. Hấp Tiên Đại Pháp — 07:02, Lv.3, CD hiển thị 14s
+   Lv.1: Hút 100 Nộ của mục tiêu đơn thể xung quanh; 50% xác suất cướp 10% Công, tối đa không vượt quá 20% Công bản thân, kéo dài 6 giây.
+   Lv.2: Hấp thụ Nộ tăng lên 120; cướp Công tăng lên 12%, tối đa 25% Công bản thân.
+   Lv.3: Hấp thụ Nộ tăng lên 150; cướp Công tăng lên 15%, tối đa 30% Công bản thân. Điều kiện ghi trong video: 13 sao kích hoạt.
+   [Cướp Công] Tooltip Lv.3: Cướp 15% Công mục tiêu, tối đa 30% Công bản thân, kéo dài 6 giây.
+2. Kim Đan Nhập Thể — 06:59, Lv.3
+   Lv.1: Thủ V.Lý tăng 15%, Công tăng 5%.
+   Lv.2: Thủ V.Lý tăng lên 20%, Công tăng lên 10%.
+   Lv.3: Thủ V.Lý tăng lên 25%, Công tăng lên 15%.
+3. Kỳ Lân Cước — 06:56, Lv.3
+   Lv.1: Xông đến phía trước mục tiêu xa nhất, gây ST V.Lý bằng 700% Công bản thân; gây ST V.Lý bằng 150% Công lên Thần Tướng địch trên đường xông.
+   Lv.2: Video ghi ST tăng lên 800%.
+   Lv.3: Video ghi ST tăng lên 700% (thấp hơn Lv.2; cần đối chiếu lại trong game).
+4. Thần Hầu Đại Tướng — 06:53, Lv.3
+   Lv.1: Bắt đầu chiến đấu nhận 300 Nộ; ST kỹ năng Nộ tăng 10%. Mỗi lần sử dụng kỹ năng Nộ gây cho bản thân ST bằng 30% HP hiện tại.
+   Lv.2: Nộ ban đầu tăng lên 400.
+   Lv.3: Nộ ban đầu tăng lên 500, đồng thời tăng thêm ST Nộ 15%.
+
+Hạnh Tiên Lâm [hanh-tien-lam] — Tuyệt, Tầm Xa
+1. Củng Cố Căn Nguyên — 07:15, Lv.3, CD hiển thị 14s
+   Lv.1: Khiến Thần Tướng địch theo đường thẳng chịu ST Phép bằng 140% Công của Hạnh Tiên Lâm, kèm Giảm Tốc.
+   Lv.2: ST tăng lên 160%.
+   Lv.3: ST tăng lên 180%.
+   [Giảm Tốc] Tốc Độ giảm 30%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+2. Hoa Nhường Nguyệt Thẹn — 07:12, Lv.3
+   Lv.1: HP tăng 15%, Công tăng 5%.
+   Lv.2: HP tăng lên 20%, Công tăng lên 10%.
+   Lv.3: HP tăng lên 25%, Công tăng lên 15%.
+3. Hạnh Vũ Tiên Lâm — 07:10, Lv.3
+   Lv.1: Khiến Thần Tướng địch theo đường thẳng chịu ST Phép bằng 290% Công của Hạnh Tiên Lâm, kèm Độc Thực.
+   Lv.2: ST tăng lên 330%.
+   Lv.3: ST tăng lên 370%.
+   [Độc Thực] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Ăn Mòn] Hiệu ứng thêm từ Độc Thực: Công giảm 0,6%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+4. Tiên Hạnh Hồi Xuân — 07:07, Lv.3
+   Lv.1: Trận đấu bắt đầu, có 30% khiến toàn Thần Tướng địch kèm Hạ Giảm Kháng.
+   Lv.2: Tỷ lệ Giảm Kháng tăng lên 50%.
+   Lv.3: Tỷ lệ Giảm Kháng tăng lên 70%.
+   [Hạ Giảm Kháng] Giảm Kháng giảm 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+
+Khổng Tước Công Chúa [khong-tuoc-cong-chua] — Tuyệt, Hỗ Trợ
+1. Hoàng Vũ Phi Vũ — 07:31, Lv.3, CD hiển thị 15s
+   Lv.1: Tạo Tăng Hồi Phục và Xuân Vũ cho 2 Thần Tướng phe ta.
+   Lv.2: Hiệu quả Xuân Vũ tăng.
+   Lv.3: Tăng thêm 1 mục tiêu phe ta có thể nhận hiệu quả; Xuân Vũ tăng thêm 1 bậc.
+   [Tăng Hồi Phục] Hồi Phục tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+   [Xuân Vũ] Mỗi giây chữa trị HP bằng 21% Công người thi triển, duy trì 5 giây, không cộng dồn, có thể giải trừ.
+2. Minh Vương Chân Kinh — 07:28, Lv.3
+   Lv.1: Công tăng 15%, Thủ V.Lý tăng 5%.
+   Lv.2: Công tăng lên 20%, Thủ V.Lý tăng lên 10%.
+   Lv.3: Công tăng lên 25%, Thủ V.Lý tăng lên 15%.
+3. Tước Vũ Tán Hoa — 07:24, Lv.3
+   Lv.1: Dùng 300% Công bản thân chữa trị cho Thần Tướng HP thấp nhất phe ta trong phạm vi gần; Chữa Trị đơn không vượt quá 90% Công của Khổng Tước Công Chúa.
+   Lv.2: Tổng Chữa Trị tăng lên 400%; giới hạn Chữa Trị đơn tăng lên 120%.
+   Lv.3: Chữa Trị tăng lên 500%; giới hạn Chữa Trị đơn tăng lên 150%.
+4. Thần Quang Ngũ Sắc — 07:20, Lv.3, CD hiển thị 999s
+   Lv.1: Khi HP lần đầu thấp hơn 50%, bản thân nhận Tăng Hồi Phục.
+   Lv.2: Ngưỡng HP lần đầu thấp hơn 60%; Tăng Hồi Phục tăng.
+   Lv.3: Ngưỡng HP lần đầu thấp hơn 70%; Tăng Hồi Phục tăng thêm 1 bậc.
+   [H.Quả Chữa Trị tăng] Tooltip ghi H.Quả Chữa Trị tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ. Tên tooltip khác tên hiệu ứng trong mô tả.
+
+Tiểu Bạch Long [tieu-bach-long] — Tuyệt, Cận Chiến
+1. Phong Lôi Vạn Quân — 07:50, Lv.3, CD hiển thị 15s
+   Lv.1: Khiến Thần Tướng địch trong phạm vi chịu 3 lần ST Phép, tổng gây 210% ST Phép.
+   Lv.2: ST tăng lên 240%.
+   Lv.3: ST tăng lên 270%.
+2. Tiềm Long Tại Uyên — 07:46, Lv.3
+   Lv.1: Công tăng 15%, Tốc Độ tăng 20.
+   Lv.2: Công tăng lên 20%, Tốc Độ tăng lên 35.
+   Lv.3: Công tăng lên 25%, Tốc Độ tăng lên 50.
+3. Long Du Cửu Thiên — 07:42, Lv.3
+   Lv.1: Khiến toàn Thần Tướng địch chịu ST Phép bằng 210% Công; sau đó tự nhận Choáng và Cấm Nộ.
+   Lv.2: ST tăng lên 240%.
+   Lv.3: ST tăng lên 270%.
+   [Choáng] Bản thân không thể hành động, duy trì 8 giây, không cộng dồn, không thể giải trừ.
+   [Cấm Nộ] Bản thân không thể nhận Nộ, duy trì 8 giây, không cộng dồn, không thể giải trừ.
+4. Vân Khởi Long Tường — 07:37, Lv.3
+   Lv.1: Trận đấu bắt đầu nhận 700 Nộ.
+   Lv.2: Nộ ban đầu tăng lên 850.
+   Lv.3: Nộ ban đầu tăng lên 1000.
+
+Kinh Hà Long Vương [kinh-ha-long-vuong] — Tuyệt, Tầm Xa
+1. Kinh Thiên Tư Vũ — 08:08, Lv.3, CD hiển thị 12s
+   Lv.1: Khiến Thần Tướng địch trong phạm vi chịu ST Phép bằng 140% Công; 50% kèm Giảm Tốc.
+   Lv.2: ST tăng lên 160%.
+   Lv.3: ST tăng lên 180%.
+   [Giảm Tốc] Tốc Độ giảm 20%, duy trì 9 giây, tối đa 3 tầng; cộng dồn làm mới thời gian duy trì, có thể giải trừ.
+2. Phong Vũ Hà Đồ — 08:04, Lv.3
+   Lv.1: Công tăng 15%, HP tăng 5%.
+   Lv.2: Công tăng lên 20%, HP tăng lên 10%.
+   Lv.3: Công tăng lên 25%, HP tăng lên 15%.
+3. Sương Long Vô Tình — 08:00, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: [Thiếu phần đầu Lv.1 do khung mô tả bị cắt.] Đoạn 1 kích nổ Giảm Tốc trên mục tiêu, ST Phép bằng (100% + số tầng Giảm Tốc × 60%) Công. Đoạn 2 gây ST Phép bằng 100% Công; 10% khiến mục tiêu chịu Giá Rét.
+   Lv.2: Đoạn 1: (110% + số tầng Giảm Tốc × 70%) Công; đoạn 2 tăng lên 120%; tỷ lệ Giá Rét tăng lên 12%.
+   Lv.3: Đoạn 1: (120% + số tầng Giảm Tốc × 80%) Công; đoạn 2 tăng lên 130%; tỷ lệ Giá Rét tăng lên 15%. Điều kiện: 15 sao kích hoạt.
+   [Giá Rét] Không thể hành động; sau khi chịu 5 lượt ST trực tiếp sẽ xóa trạng thái. Duy trì 4 giây, không cộng dồn, có thể giải trừ.
+4. Hàn Băng Tước Thần — 07:56, Lv.3
+   Lv.1: Khi tấn công mục tiêu mang Giá Rét, có thêm 50% khiến Công của Kinh Hà Long Vương tăng 20%.
+   Lv.2: Tỷ lệ kích hoạt tăng lên 75%; Công tăng lên 25%.
+   Lv.3: Tỷ lệ kích hoạt tăng lên 100%; Công tăng lên 30%.
+
+Sa Ngộ Tịnh [sa-ngo-tinh] — Tuyệt, Thủ Hộ
+1. La Hán Phù Hộ — 08:23, Lv.3, CD hiển thị 15s — MÔ TẢ CHƯA ĐỦ
+   Lv.1: [Thiếu phần đầu Lv.1 do khung mô tả bị cắt; chưa xác định mục tiêu/điều kiện Yểm Hộ.] Phần đọc được: Tăng Giảm ST và Tăng Song Phòng Ngự; BUFF cộng lên bản thân và mục tiêu.
+   Lv.2: Yểm Hộ tăng lên Yểm Hộ-Trung; Tăng Hồi Né, Tăng Giảm ST, Tăng Song Phòng Ngự tăng.
+   Lv.3: Yểm Hộ tăng lên Yểm Hộ-Cao; Tăng Hồi Né, Tăng Giảm ST, Tăng Song Phòng Ngự tăng mạnh.
+   [Yểm Hộ-Cao] 50% ST cuối khi mục tiêu được bảo vệ bị tấn công trực tiếp do người thi triển chịu; duy trì 10 giây, không cộng dồn, có thể giải trừ.
+   [Tăng Hồi Né] Hồi Né tăng 10%, duy trì 10 giây, có thể cộng dồn, có thể giải trừ.
+   [Tăng Song Phòng Ngự] Tên đọc được; tooltip không xuất hiện trong khung video.
+2. Bình Giáo Sa Môn — 08:20, Lv.3
+   Lv.1: Thủ Phép tăng 20%.
+   Lv.2: Thủ Phép tăng lên 25%, Tỷ Lệ Né tăng 5%.
+   Lv.3: Thủ Phép tăng lên 30%, Tỷ Lệ Né tăng lên 10%.
+3. Lưu Sa Cửu Châu — 08:16, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: [Thiếu phần đầu Lv.1 do khung mô tả bị cắt.] Phần đọc được: nhận ngẫu nhiên 1 BUFF trong Tăng Hồi Né, Tăng Giảm ST và Tăng Song Phòng Ngự; BUFF cộng lên bản thân và mục tiêu.
+   Lv.2: Chữa Trị tăng lên 15%; các BUFF trên tăng.
+   Lv.3: Chữa Trị tăng lên 20%; các BUFF trên tăng mạnh.
+   [Tăng Hồi Né] Hồi Né tăng 10%, duy trì 10 giây, có thể cộng dồn, có thể giải trừ.
+   [Tăng Giảm ST] Giảm ST tăng 10%, duy trì 10 giây, có thể cộng dồn, có thể giải trừ.
+4. Lục Đạo Vô Lượng — 08:13, Lv.3 — MÔ TẢ CHƯA ĐỦ
+   Lv.1: [Thiếu phần đầu Lv.1 do khung mô tả bị cắt.] Phần đọc được: Tăng Hồi Né; khi Sa Ngộ Tịnh hồi Né thành công, gây Sát Thương Chuẩn xung quanh bằng 4% HP tối đa bản thân, không quá 300% Công; cách 2 giây kích hoạt.
+   Lv.2: Tuyến Huyết kích hoạt BUFF kèm theo tăng lên 35%; Phản ST tăng lên 5%.
+   Lv.3: Tuyến Huyết kích hoạt BUFF kèm theo tăng lên 45%; Phản ST tăng lên 6%.
+   [Tăng Hồi Né] Hồi Né tăng 8%, duy trì 6 giây, không cộng dồn, có thể giải trừ.
+
+Như Ý Chân Tiên [nhu-y-chan-tien] — Đỉnh, Tiên Phong
+1. Kiếm Pháp Như Ý — 08:37, Lv.2, CD hiển thị 18s
+   Lv.1: Lập tức dịch chuyển ra sau Thần Tướng địch xa nhất để tấn công và gây 340% ST V.Lý.
+   Lv.2: ST tăng lên 400%.
+2. Kiếm Tâm Thông Suốt — 08:34, Lv.2
+   Lv.1: Công tăng 15%.
+   Lv.2: Công tăng lên 20%, ST Bạo tăng 10%.
+3. Kiếm Đãng Bát Phương — 08:32, Lv.2
+   Lv.1: Gây 4 lần ST V.Lý lên Thần Tướng địch lân cận, mỗi lần bằng 85% Công.
+   Lv.2: Mỗi lần ST tăng lên 100%.
+4. Hạo Nhiên Kiếm Ý — 08:29, Lv.2
+   Lv.1: Khi kỹ năng chủ động tiêu diệt mục tiêu, có 70% làm mới CD kỹ năng chủ động.
+   Lv.2: Tỷ lệ làm mới tăng lên 100%.
+
+Hạc Tiên Nhân [hac-tien-nhan] — Đỉnh, Tầm Xa
+1. Thực Cốt Hạc Phong — 08:51, Lv.2, CD hiển thị 8s
+   Lv.1: Khiến Thần Tướng địch trong phạm vi phía trước chịu ST Phép bằng 140% Công; 50% kèm Độc Thực.
+   Lv.2: ST tăng lên 160%; CD giảm xuống 8 giây.
+   [Độc Thực] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Ăn Mòn] Hiệu ứng thêm từ Độc Thực: Công giảm 0,6%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+2. Hạc Thọ Trường Tồn — 08:48, Lv.2
+   Lv.1: Công tăng 15%.
+   Lv.2: Công tăng lên 20%, HP tăng 5%.
+3. Hạc Lệ Độc Vũ — 08:45, Lv.2
+   Lv.1: Toàn Thần Tướng địch xung quanh bản thân chịu 2 lần Công, mỗi lần ST Phép bằng 100% Công; 30% kèm Độc Thực.
+   Lv.2: ST tăng lên 120%; tỷ lệ Độc Thực tăng lên 40%.
+   [Độc Thực] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Ăn Mòn] Hiệu ứng thêm từ Độc Thực: Công giảm 0,6%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+4. Linh Hạc Tứ Phúc — 08:42, Lv.2
+   Lv.1: Công Thường có 20% giúp bản thân kèm Tăng ST Bất Thường.
+   Lv.2: Tỷ lệ Tăng ST Bất Thường tăng lên 25%.
+   [Tăng ST Bất Thường] Tooltip ghi DEBUFF Thường, ST Bất Thường tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+
+Ngân Giác [ngan-giac] — Đỉnh, Tầm Xa
+1. Tử Kim Phệ Diệm — 09:08, Lv.2, CD hiển thị 12s
+   Lv.1: Gây 170% ST V.Lý lên toàn bộ mục tiêu trên một đường thẳng; nếu Độ Bền mục tiêu ≤3 sẽ bị đẩy lùi.
+   Lv.2: ST tăng lên 200%; khoảng cách đẩy lùi tăng.
+2. Ngân Lô Tiểu Đồng — 09:05, Lv.2
+   Lv.1: Công tăng 15%.
+   Lv.2: Công tăng lên 20%, HP tăng 5%.
+3. Hô Danh Đạo Tính — 09:01, Lv.2
+   Lv.1: Gây 4 lần ST V.Lý lên địch theo đường thẳng, mỗi lần 85% ST V.Lý.
+   Lv.2: Mỗi lần ST tăng lên 100%.
+4. Chí Âm Huyền Khí — 08:58, Lv.2
+   Lv.1: Mỗi lần tấn công có 15% giúp bản thân kèm Dược Không.
+   Lv.2: Tỷ lệ kèm Dược Không tăng lên 20%. Điều kiện: 10 sao kích hoạt.
+   [Dược Không] Bạo tăng 1,5%, duy trì 9 giây, có thể cộng dồn; mỗi lần cộng dồn làm mới thời gian duy trì, có thể giải trừ.
+
+Hắc Hùng Tinh [hac-hung-tinh] — Đỉnh, Thủ Hộ
+1. Thừa Hỏa Đả Kiếp — 09:31, Lv.2, CD hiển thị 12s
+   Lv.1: Bản thân nhận Huyền Thuẫn; có 30% khiến Thần Tướng địch ngẫu nhiên chịu Khiêu Khích.
+   Lv.2: Huyền Thuẫn tăng lên 10%; Khiêu Khích tăng lên 40%.
+   [Huyền Thuẫn] Điểm Huyền Thuẫn bằng 10% HP Hắc Hùng Tinh tối đa, duy trì 5 giây, có thể cộng dồn, có thể giải trừ.
+   [Khiêu Khích] Trong 5 giây chỉ có thể tấn công người thi pháp; không cộng dồn, có thể giải trừ.
+2. Nhất Niệm Yêu Phật — 09:28, Lv.2
+   Lv.1: Thủ V.Lý tăng 10%, Thủ Phép tăng 5%.
+   Lv.2: Thủ V.Lý tăng lên 15%, Thủ Phép tăng lên 10%.
+3. Hắc Phong Hám Địa — 09:24, Lv.2
+   Lv.1: Gây 5 lần ST V.Lý lên đơn thể phía trước, mỗi lần bằng 136% Công. Đoạn tấn công thứ 5 đẩy lùi mục tiêu nếu Độ Bền ≤3.
+   Lv.2: Mỗi lần ST tăng lên 160%; giới hạn Độ Bền khi đẩy lùi tăng lên 4. Điều kiện: 9 sao kích hoạt.
+4. Không chịu ST — 09:20, Lv.2, CD hiển thị 6s
+   Lv.1: Khi bị Công, hồi 2% HP tối đa hiện tại, mỗi 6 giây kích hoạt 1 lần.
+   Lv.2: HP hồi tăng lên 2,5%.
+
+Kim Trì Trưởng Lão [kim-tri-truong-lao] — Đỉnh, Hỗ Trợ
+1. Đại Từ Đại Bi — 09:45, Lv.2, CD hiển thị 20s
+   Lv.1: Trong phạm vi, 1 Thần Tướng có HP thấp nhất phe ta nhận Duy Trì Chữa Trị; đồng thời giải trừ 3 DEBUFF bản thân.
+   Lv.2: Duy Trì Chữa Trị nhắm vào 2 Thần Tướng phe ta có HP thấp nhất; số lượng giải trừ tăng lên 5.
+   [Duy Trì Chữa Trị] Mỗi giây chữa trị HP bằng 25% Công người thi triển, duy trì 5 giây, có thể cộng dồn, có thể giải trừ.
+2. Kim Hải Tần Can — 09:42, Lv.2
+   Lv.1: HP tăng 15%.
+   Lv.2: Hiệu quả Chữa Trị tăng 10%.
+3. Nhất Xuất Như Lai — 09:39, Lv.2
+   Lv.1: Giải trừ 3 DEBUFF trên 3 Thần Tướng phe ta có HP thấp nhất, đồng thời kèm Duy Trì Chữa Trị.
+   Lv.2: Số lượng giải trừ tăng lên 5.
+   [Duy Trì Chữa Trị] Mỗi giây chữa trị HP bằng 25% Công người thi triển, duy trì 5 giây, có thể cộng dồn, có thể giải trừ.
+4. Phật Quang Phổ Chiếu — 09:35, Lv.2
+   Lv.1: Cứ mỗi 12 giây, Thần Tướng phe ta xung quanh bản thân nhận Tăng Kháng Khống Chế.
+   Lv.2: Video ghi giảm thời gian CD Tăng Kháng Khống Chế: 9 giây.
+   [Tăng Kháng Khống Chế] Kháng Khống Chế tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+
+Quảng Trí [quang-tri] — Đỉnh, Cận Chiến
+1. Hỏa Nhận Phá Hiểu — 10:00, Lv.2, CD hiển thị 10s
+   Lv.1: Khiến Thần Tướng địch trong phạm vi phía trước chịu ST Phép bằng 170% Công; 30% thêm Hỏa Phần.
+   Lv.2: ST tăng lên 200%; tỷ lệ Hỏa Phần tăng lên 50%.
+   [Hỏa Phần] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Nứt Nẻ] Hiệu ứng thêm từ Hỏa Phần: Thủ Phép giảm 0,5%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+2. Thiền Tâm Định Hải — 09:57, Lv.2
+   Lv.1: HP tăng 15%.
+   Lv.2: HP tăng lên 25%.
+3. Viêm Lang Khiếu Nguyệt — 09:53, Lv.2
+   Lv.1: Khiến Thần Tướng địch đơn lẻ chịu 2 lần ST Phép bằng 200% Công; sau đó địch trong phạm vi chịu ST Phép bằng 280% Công.
+   Lv.2: Mục tiêu đơn chịu 2 lần ST tăng lên 240%; ST xung quanh tăng lên 320%.
+   [Giảm Kháng Bất Thường] Tooltip ghi Kháng Bất Thường giảm 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ. Phần mô tả không ghi điều kiện áp dụng hiệu ứng này.
+4. Lang Ảnh Hỏa Tập — 09:49, Lv.2
+   Lv.1: Quảng Trí khi chịu Công có 15% khiến mục tiêu kèm Hỏa Phần.
+   Lv.2: Tỷ lệ Hỏa Phần tăng lên 20%.
+   [Hỏa Phần] Mỗi giây chịu ST bằng 3% Công hiện tại của người thi triển, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+   [Nứt Nẻ] Hiệu ứng thêm từ Hỏa Phần: Thủ Phép giảm 0,5%, duy trì 15 giây, tối đa 30 tầng, có thể giải trừ.
+
+Cự Linh Thần [cu-linh-than] — Ưu, Thủ Hộ
+1. Trào Thiên Nộ Hống — 10:12, Lv.1, CD hiển thị 10s
+   Lv.1: Chữa trị bản thân bằng 10% HP đã mất, không quá 80% Công; 30% khiến Thần Tướng địch ngẫu nhiên chịu Khiêu Khích.
+   [Khiêu Khích] Trong 5 giây xem người thi triển là mục tiêu tấn công, không thể dùng kỹ năng; không cộng dồn, có thể giải trừ.
+2. Thiên Chi Thần Lực — 10:08, Lv.1
+   Lv.1: HP tăng 10%.
+3. Kinh Thiên Động Địa — 10:05, Lv.1
+   Lv.1: Gây ST V.Lý bằng 100% Công của Cự Linh Thần lên toàn Thần Tướng địch trong phạm vi; đồng thời chữa trị bản thân bằng 30% tổng ST Công lần này.
+
+Ngọc Thố [ngoc-tho] — Ưu, Hỗ Trợ
+1. Nguyệt Cung Giã Dược — 10:22, Lv.1, CD hiển thị 10s
+   Lv.1: Giúp Thần Tướng phe ta có HP thấp nhất hồi phục bằng 140% Công Ngọc Thố.
+2. Quảng Hàn Thố Linh — 10:19, Lv.1
+   Lv.1: HP tăng 10%.
+3. Vũ Điệu Nguyệt Hoa — 10:17, Lv.1
+   Lv.1: Khiến Thần Tướng địch trong phạm vi chịu 2 lần ST Phép, mỗi lần chịu 90% ST Phép; chữa trị Thần Tướng phe ta trong phạm vi bằng 15% ST của đòn đánh này.
+
+Yêu Nhện [yeu-nhen] — Ưu, Tầm Xa
+1. Chu Du Trùng Tích — 10:30, Lv.1, CD hiển thị 15s
+   Lv.1: Mục tiêu đầu chịu ST Phép bằng 200% Công, sau đó bật nảy Công giữa các Thần Tướng địch; mỗi lần bật nảy ST giảm 50%.
+2. Tác Kén Phược Động — 10:28, Lv.1
+   Lv.1: Công tăng 10%.
+3. Bàn Ti Thất Tinh — 10:26, Lv.1
+   Lv.1: Bản thân nhận Tăng Bạo.
+   [Tăng Bạo] Bạo tăng 15%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+
+Hổ Tiên Phong [ho-tien-phong] — Ưu, Cận Chiến
+1. Kiếm Viêm Xuyên Nhĩ — 10:40, Lv.1, CD hiển thị 15s
+   Lv.1: Khiến toàn Thần Tướng địch trong phạm vi phía trước chịu ST V.Lý bằng 140%.
+2. Hổ Khiếu Phong Sinh — 10:37, Lv.1
+   Lv.1: Công tăng 10%.
+3. Hắc Hổ Đào Tâm — 10:34, Lv.1
+   Lv.1: Khiến Thần Tướng địch phía trước chịu 5 lần ST, mỗi lần ST V.Lý bằng 56% Công Hổ Tiên Phong; 6% kèm Giảm Công.
+   [Công giảm] Công giảm 20%, duy trì 9 giây, không cộng dồn, có thể giải trừ.
+
+Viên Thủ Thành [vien-thu-thanh] — Ưu, Tầm Xa
+1. Gieo Quẻ Tay Áo — 10:50, Lv.1, CD hiển thị 20s
+   Lv.1: Gây ST Phép lên toàn bộ Thần Tướng địch trong phạm vi bằng 140% Công.
+2. Minh Tâm Kiến Tính — 10:48, Lv.1
+   Lv.1: Công tăng 10%.
+3. Duyên Khởi Duyên Lạc — 10:45, Lv.1
+   Lv.1: Gây 2 lần Công lên Thần Tướng địch theo đường thẳng, mỗi lần 40% ST Phép; đồng thời triệu hồi sóng biển gây 60% ST Phép lên 3 mục tiêu phía trước.
+
+Không Không Nhi [khong-khong-nhi] — Ưu, Cận Chiến
+1. Phá Thiên Nhất Côn — 11:00, Lv.1, CD hiển thị 15s
+   Lv.1: Trước tiên gây 1 lần ST V.Lý bằng 140% Công lên 1 địch gần nhất, sau đó gây ST V.Lý bằng 70% Công. Video không ghi rõ mục tiêu của đoạn sau.
+2. Thiên Mệnh Kim Cô — 10:58, Lv.1
+   Lv.1: Thủ V.Lý tăng 10%.
+3. Hộp Nguyệt Quang — 10:55, Lv.1
+   Lv.1: Tấn công Thần Tướng địch trong phạm vi 3 lần, tổng ST V.Lý bằng 550% Công.
+
+CÁC MÔ TẢ CẦN KÉO LÊN ĐẦU ĐỂ BỔ SUNG
+- Hàng Long Tôn Giả — Đấu Long Giai Trận (00:23)
+- Cang Kim Tinh Quân — Kháng Long Hữu Hối (00:37)
+- Dương Tiễn — Nhục Thân Thành Thánh (01:03)
+- Ngưu Ma Vương — Hoàn Phủ Bạo Sát (01:28)
+- Tôn Ngộ Không — Ngự Vân Càn Nguyệt (02:27)
+- Thiết Phiến Công Chúa — Chân Viêm Hỏa Phiến (02:49)
+- Trấn Nguyên Tử — Ngôn Xuất Pháp Tùy (03:05)
+- Trư Bát Giới — Cửu Xỉ Nhập Cốt (03:33)
+- Kim Giác — Thất Tinh Hóa Hải (06:41)
+- Kinh Hà Long Vương — Sương Long Vô Tình (08:00)
+- Sa Ngộ Tịnh — La Hán Phù Hộ (08:23)
+- Sa Ngộ Tịnh — Lưu Sa Cửu Châu (08:16)
+- Sa Ngộ Tịnh — Lục Đạo Vô Lượng (08:13)

@@ -1,50 +1,42 @@
 # Dữ liệu cần bổ sung
 
-## Video Đồ giám đã nhận ngày 22/10/2026
+## Đã cập nhật đến 23/10/2026
 
-Đã đọc video dài 42,83 giây: **43 tướng xuất hiện trong Đồ giám**, gồm **31 Tuyệt, 6 Đỉnh, 6 Ưu**. Thêm 10 tên mới, thống nhất năm cặp tên theo tên và chân dung; gộp hồ sơ trùng La Sát Nữ/Thiết Phiến Công Chúa. Danh mục hiện có **52 hồ sơ**, gồm 43 tướng trong video và 9 hồ sơ giữ từ nguồn trước (8 Thánh Tôn, Bạch Cốt Tinh). Video không xác nhận danh sách đầy đủ hoặc các hồ sơ chưa xuất hiện.
+Danh mục có 52 hồ sơ: 43 tướng trong Đồ giám (31 Tuyệt, 6 Đỉnh, 6 Ưu), 8 Thánh Tôn và Bạch Cốt Tinh từ nguồn trước. Đã đối chiếu tên/bí danh, thế lực và phẩm chất; giữ ID cũ và gộp La Sát Nữ/Thiết Phiến Công Chúa.
 
-Đã bổ sung Tôn Ngộ Không: Yêu Tộc, Tiên Phong, Tuyệt; bốn kỹ năng hiển thị Lv.3 và các mô tả Lv.1–3; hồi chiêu Ngự Vân Càn Nguyệt 18 giây. Thuộc tính được ghi riêng là ảnh chụp trạng thái Đồ giám cấp 600/600, không gọi là chỉ số gốc.
+Video kỹ năng dài 11:05,32 đã được đọc: **166 kỹ năng của 43 tướng**. Nhóm Tuyệt có bốn kỹ năng, mô tả Lv.1–3; Đỉnh có bốn kỹ năng, mô tả Lv.1–2; Ưu có ba kỹ năng ở Lv.1. Đã thêm vai trò, hồi chiêu hiển thị, mốc video, tooltip hiệu ứng. Nguồn chữ tại public/assets/skills-video-2026-10-23.txt.
 
-Chỉ cần bổ sung tiếp:
+### Mô tả còn bị cắt
 
-1. Phần **đầu mô tả Lv.1 của Ngự Vân Càn Nguyệt**: trong video bảng bắt đầu giữa câu “địch trên đường”, nên chưa chép đủ mở đầu và sát thương trên đường ở cấp 1. Có thể chụp sau khi kéo mô tả lên trên cùng.
-2. Nếu có, trang Đồ giám **Thánh Tôn** và Bạch Cốt Tinh; không cần gửi lại 43 thẻ thường đã quay.
-3. Bộ kỹ năng các tướng khác, theo từng đợt. Đã có đầy đủ tên, phẩm chất và biểu tượng thế lực của 43 thẻ trong đoạn video; không cần chụp lại các cặp tên cũ.
+Cần kéo mô tả lên đầu và quay/chụp lại đúng các kỹ năng dưới đây; không cần gửi lại toàn bộ video:
 
-Không công khai video hoặc khung hình có thông tin tài khoản/thiết bị. Nguồn trên web là bản ghi dạng chữ, có mốc thời gian. Nội dung bên dưới ghi lại các đợt đối chiếu trước video và không thay thế phạm vi mới ở trên.
+- Hàng Long Tôn Giả — Đấu Long Giai Trận (00:23)
+- Cang Kim Tinh Quân — Kháng Long Hữu Hối (00:37)
+- Dương Tiễn — Nhục Thân Thành Thánh (01:03)
+- Ngưu Ma Vương — Hoàn Phủ Bạo Sát (01:28)
+- Tôn Ngộ Không — Ngự Vân Càn Nguyệt (02:27)
+- Thiết Phiến Công Chúa — Chân Viêm Hỏa Phiến (02:49)
+- Trấn Nguyên Tử — Ngôn Xuất Pháp Tùy (03:05)
+- Trư Bát Giới — Cửu Xỉ Nhập Cốt (03:33)
+- Kim Giác — Thất Tinh Hóa Hải (06:41)
+- Kinh Hà Long Vương — Sương Long Vô Tình (08:00)
+- Sa Ngộ Tịnh — La Hán Phù Hộ (08:23)
+- Sa Ngộ Tịnh — Lưu Sa Cửu Châu (08:16)
+- Sa Ngộ Tịnh — Lục Đạo Vô Lượng (08:13)
 
-Cập nhật danh mục ngày **22/10/2026**: hiện có **43 hồ sơ**, gồm **27 hồ sơ có tên trong nguồn nhà phát hành** và **16 hồ sơ chỉ có tư liệu người chơi**. Đã thêm Thiết Phiến Công Chúa; xác nhận nguồn Funtap cho Trì Quốc Thiên Vương, Kim Giác, Tăng Trưởng Thiên Vương, Quảng Mục Thiên Vương và Đa Văn Thiên Vương. Chín hồ sơ có thêm gợi ý đổi shop từ hướng dẫn đội hình. Có nguồn xác nhận tên không có nghĩa đã đủ bộ kỹ năng, phẩm chất hoặc thế lực.
+### Chi tiết còn thiếu
 
-Ưu tiên bổ sung tiếp theo:
+- Tooltip Tăng Kháng Khống Chế của Na Tra và Tăng Song Phòng Ngự của Sa Ngộ Tịnh.
+- Hồ Ly: Lv.3 Không Còn Thần Tượng ghi Tàng Hình 30 giây, tooltip ghi 5 giây. Thông Tý: Kỳ Lân Cước ghi 700%/800%/700%. Cần kiểm tra trong game; giữ nguyên số trong video. Một số tooltip khác cũng khác mô tả cấp và được giữ riêng.
+- Máy chủ, phiên bản/build và ngày quay; không dùng ngày nhận làm phiên bản hiện tại. Không cần tài khoản/mật khẩu.
+- Kỹ năng, phẩm chất, vai trò của tám Thánh Tôn và hồ sơ Bạch Cốt Tinh. Không lấy kỹ năng dạng thường thay cho Thánh Tôn.
+- Chỉ số gốc/cấp sao, điều kiện nâng cấp. Snapshot Tôn Ngộ Không cấp 600/600 từ video 22/10 được giữ riêng, không gọi là chỉ số gốc.
 
-1. Ảnh hoặc video cuộn toàn bộ **Đồ giám**, kể cả tướng chưa sở hữu, để kiểm tra danh sách còn thiếu.
-2. **Tôn Ngộ Không**: ảnh trang thông tin (phe, phẩm chất, vai trò) và mở từng kỹ năng để thấy toàn bộ mô tả; ghi cấp kỹ năng và sao.
-3. Ảnh tên và chân dung của **Lý Tịnh/Lý Tinh, Hoàng My/Hoàng Mi, Kháng Kim/Cang Kim Tinh Quân, Đại Bàng/Đại Bằng Vương, Thiết Phiến Công Chúa/La Sát Nữ**. Các bài NPH cũng có cách viết khác nhau; chưa gộp các hồ sơ này.
+## Hạng mục khác
 
-Chỉ cần gửi phần chưa có, theo từng đợt nhỏ. Không cần gửi lại ảnh code hoặc tier list đã cung cấp. Tiếp tục ghi nhận dữ liệu cho bản chính thức; máy chủ và số phiên bản có thể bổ sung khi chụp được trong game.
+- Trang bị, chi phí phát triển, Lục Căn, hoạt động, VIP, điểm danh, phần thưởng theo mốc.
+- Phiên bản 1.0.2: đã có ba Thánh Tôn, bốn Thủ hộ, Vân Mộng Tiên Tung và ngoại trang Chiến Thần Lữ Bố Xuất Thế. Còn thiếu thông báo gốc, lịch và mô tả cơ chế; phát hành khoảng một tuần trước 20/10 chỉ là ước tính.
+- Giftcode: đủ 24 mã và phần thưởng chữ từ thư ngày 21/10. Còn thiếu tên vật phẩm chỉ có biểu tượng, số lượng ô không ghi số, hạn đổi và máy chủ. Thư có hiệu lực 7 ngày không phải hạn đổi code. ALPHA3R6 trong lưu trữ Alpha Test.
+- Tier list: công cụ trên web dùng 51 ảnh Drive được phép công khai và 52 hồ sơ; Bạch Cốt Tinh dùng thẻ tên. Bảng test giữ riêng với xếp hạng cá nhân.
 
-Đã nhận nội dung phiên bản **1.0.2**: ba Thánh Tôn, Vân Mộng Tiên Tung, ngoại trang Chiến Thần Lữ Bố Xuất Thế và bốn Thủ hộ. Mốc "1 tuần trước" là ước tính, chưa có ngày triển khai chính xác. Cần bổ sung khi có: ảnh tính năng Thủ hộ (cấp mở, kỹ năng, cách nhận/nâng cấp), ngoại trang (nhân vật sử dụng và thuộc tính), lịch sự kiện, hoặc thông báo cập nhật gốc. Không cần gửi lại danh sách nội dung này; chưa dùng 1.0.2 làm phiên bản hiện tại của mọi máy chủ.
-
-Đã nhận thêm hai bảng test nội bộ gồm 31 tên Thần tướng và 8 tên Thánh Tôn; đã bổ sung 21 hồ sơ mới và 36 chân dung, tổng danh mục 42 hồ sơ. Chưa có ngày test hoặc phiên bản. Vẫn cần Đồ giám bản chính thức để xác nhận phe/phẩm chất, quan hệ giữa các dạng Thánh Tôn và tên chính xác của ba nhãn Lý Tịnh, Kháng Kim Tinh Quân, Hoàng My. Không cần gửi lại hai ảnh tier list này.
-
-Đối chiếu ngày 20/10/2026. Không thể xác nhận toàn bộ tướng và tính năng chỉ từ trang chủ hoặc các bài công khai đã đọc.
-
-Người dùng xác nhận wiki dành cho **bản chính thức**, chưa biết tên máy chủ hoặc số phiên bản. Không yêu cầu lại thông tin này trước khi tiếp tục; đối chiếu từ ảnh trong game khi có. Trang Giftcode mặc định hiển thị 24 mã tân thủ, còn ALPHA3R6 nằm trong bộ lọc lưu trữ Alpha Test.
-
-Đã nhận ảnh **Bộ code tân thủ siêu giá trị**, đọc được 24 mã khác nhau. Đã thêm 23 mã mới và giữ nguồn chính thức của NHANCAN111; tổng danh mục có 25 mã, gồm ALPHA3R6 cũ. Ngày 22/10/2026 nhận thêm **24 ảnh thư phần thưởng đề ngày 21/10/2026**, đã ghép đủ vào bảng giftcode bằng chữ với số lượng hiện rõ. Người dùng chọn chỉ công khai mã và phần thưởng dạng chữ; không đăng ảnh gốc. Không cần gửi lại bộ ảnh này. Còn thiếu tên đầy đủ của một số vật phẩm, số lượng ở các ô không ghi số, máy chủ áp dụng và hạn đổi mã. Thời hạn thư 7 ngày không xác định hạn đổi code.
-
-Ưu tiên lần bổ sung tiếp theo: video cuộn hết Đồ giám (kể cả tướng chưa sở hữu), sau đó ảnh hồ sơ Tôn Ngộ Không và từng ô kỹ năng. Kèm máy chủ, phiên bản và ngày chụp; cấp tướng, sao và cấp kỹ năng nếu có. Có thể gửi theo từng đợt nhỏ.
-
-1. Ảnh hoặc video cuộn hết Đồ giám, không lọc theo tướng đã sở hữu; cần thấy tổng số và toàn bộ tên tướng.
-2. Hồ sơ mỗi tướng: thế lực, phẩm chất, vai trò, chỉ số, từng kỹ năng. Ghi cấp tướng, cấp kỹ năng, sao và phiên bản để tránh gộp số liệu khác cấp.
-3. Giao diện các hệ thống phát triển: trang bị, vật phẩm, Lục Căn và những tính năng có trong phiên bản đang chơi. Không suy đoán tên hoặc cơ chế khi chưa có ảnh.
-4. Bảng điểm danh 45 ngày, VIP, sự kiện đua top, điều kiện mở hoạt động và phần thưởng theo mốc.
-5. Đường dẫn bài công bố mã nếu có, hạn đổi mã, máy chủ áp dụng; ảnh bấm vào vật phẩm để xác nhận tên đầy đủ và số lượng các ô chưa ghi số. Đã có đủ 24 ảnh thư thưởng; không cần gửi lại. Có thể che UID và thông tin tài khoản.
-6. Máy chủ, phiên bản hoặc số build, ngày ghi nhận.
-
-Fanpage người dùng cung cấp: https://www.facebook.com/hactaydufuntap. Đã đóng lời mời đăng nhập để đọc nội dung công khai. Trong trình duyệt của ứng dụng, Facebook yêu cầu đăng nhập khi tải thêm bài cũ. Đã đọc được các bài công khai và ảnh bằng phiên Chrome hiện có, bổ sung 21 hồ sơ, kỹ năng Dương Tiễn, NHANCAN111 và chuỗi Lục Căn. Không thực hiện đăng nhập mới, đăng bài, bình luận hay đổi code qua tài khoản người dùng.
-
-Bài livestream đọc được: https://www.facebook.com/hactaydufuntap/posts/pfbid09WioYcfqV4fPsQVLFFHZ5xXtA2zRXYTTTBKcSaQjPkZprUgDdLWj96a8GPHq4gj6l. Thông báo lịch 20/10/2026 20:00 GMT+7 và có giftcode trên live; không công bố chuỗi code trong bài thông báo. Có nhắc Lục Căn nhưng chưa mô tả cơ chế.
-
-Có thể gửi dữ liệu trực tiếp trong chat hoặc tạo issue GitHub. Đường dẫn trực tiếp tới từng bài giúp đối chiếu tốt hơn đường dẫn trang tổng.
+Wiki dành cho bản chính thức theo xác nhận của người dùng. Chỉ công khai bản ghi chữ của video kỹ năng và thư code; video gốc, khung hình, tài khoản/thiết bị giữ ngoài repository. Không cần gửi lại dữ liệu đã ghi.

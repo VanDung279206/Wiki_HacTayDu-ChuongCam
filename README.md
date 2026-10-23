@@ -24,6 +24,7 @@ Chạy kiểm tra bằng `npm test`. Các tình huống dữ liệu hỏng, trì
 
 - Bài tổng quan về game, cốt truyện và lối chơi.
 - 52 hồ sơ: 43 tướng được thấy trong video Đồ giám (31 Tuyệt, 6 Đỉnh, 6 Ưu), cùng 8 Thánh Tôn và Bạch Cốt Tinh giữ từ nguồn trước. Thêm 10 tên mới, gộp hồ sơ La Sát Nữ/Thiết Phiến Công Chúa, thống nhất các tên theo Đồ giám. Có bộ lọc phẩm chất và phạm vi đối chiếu. Lọc Thần tướng/Thánh Tôn, thế lực; tìm tên, danh hiệu và tên gọi đã xác nhận.
+- 166 kỹ năng của 43 tướng từ video ngày 23/10/2026: cấp Lv.1–3/Lv.1–2/Lv.1 theo popup, hồi chiêu, tooltip và mốc video. Đánh dấu mô tả bị cắt; lọc tướng có/chưa có kỹ năng. Chỉ xuất bản ghi chữ.
 - Công cụ Tier list ngay trên wiki: 52 tướng, 51 ảnh Drive được đối chiếu; kéo thả hoặc chọn hạng, đổi thứ tự, sửa tên/màu hạng, thêm/xóa hạng, hoàn tác, tự lưu, xuất PNG và tải/nhập JSON. Bạch Cốt Tinh dùng thẻ tên. Mẫu TierMaker bên ngoài được giữ làm tham khảo.
 - Bảng test nội bộ gồm 31 tên Thần tướng và 8 tên Thánh Tôn; 39 hồ sơ có chân dung lấy vùng hiển thị từ ảnh gốc. Giữ nguyên nhãn trên ảnh, liên kết tới tên đã đối chiếu trong Đồ giám.
 - Chân dung có bản tăng nét, nút đổi về ảnh gốc và khung ảnh đúng tỉ lệ. Tệp kết quả, prompt và giới hạn xử lý được ghi trong `docs/IMAGE_ENHANCEMENT.md`.
@@ -42,6 +43,7 @@ Dữ liệu đội hình, bài đã lưu và giao diện được giữ bằng `
 
 ## Chỉnh sửa nội dung
 
+- `src/skillVideo.ts`: kỹ năng và hiệu ứng theo video ngày 23/10/2026.
 - `src/data.ts`: hồ sơ nhân vật, cẩm nang, liên kết nguồn.
 - `src/videoCatalog.ts`: bản ghi 43 tướng, đối chiếu tên, kỹ năng và thuộc tính cấp 600 của Tôn Ngộ Không từ video.
 - `src/App.tsx`: trang và tương tác.
