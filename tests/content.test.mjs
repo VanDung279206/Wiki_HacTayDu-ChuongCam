@@ -14,6 +14,21 @@ const { outputText: portraitModule } = ts.transpileModule(await readFile(new URL
 const portraitCode = portraitModule.replace(/from ['"]\.\/data['"]/, `from '${dataModuleUrl}'`)
 const { enhancedPortrait } = await import(`data:text/javascript;base64,${Buffer.from(portraitCode).toString('base64')}`)
 
+test('tier builder artwork covers 51 existing heroes and retains a named Drive source for every local image', async () => {
+  const art = JSON.parse(await readFile(new URL('../src/characterArt.json', import.meta.url), 'utf8'))
+  assert.equal(Object.keys(art).length, 51)
+  assert.deepEqual(heroes.filter(hero => !art[hero.id]).map(hero => hero.id), ['bach-cot-tinh'])
+  for (const [id, image] of Object.entries(art)) {
+    assert.ok(heroes.some(hero => hero.id === id), 'Art must not create an unconfirmed hero')
+    assert.equal(image.path, `assets/tier-characters/${id}.webp`)
+    assert.equal(new URL(image.url).hostname, 'drive.google.com')
+    assert.ok(image.title.endsWith('.png'))
+    const bytes = await readFile(new URL(`../public/${image.path}`, import.meta.url))
+    assert.equal(bytes.subarray(0, 4).toString(), 'RIFF')
+    assert.equal(bytes.subarray(8, 12).toString(), 'WEBP')
+  }
+})
+
 test('every published hero, article, code and news entry has a resolvable source', async () => {
   const sourceIds = new Set(sources.map(s => s.id))
   assert.equal(sourceIds.size, sources.length)

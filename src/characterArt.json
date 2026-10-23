@@ -1,0 +1,257 @@
+{
+  "ton-ngo-khong": {
+    "path": "assets/tier-characters/ton-ngo-khong.webp",
+    "title": "Tôn Ngộ Không.png",
+    "url": "https://drive.google.com/file/d/1OzGqSkhvyXrDOGsnB4LIb4gP6hxmHk3D/view?usp=drivesdk"
+  },
+  "duong-tien": {
+    "path": "assets/tier-characters/duong-tien.webp",
+    "title": "Dương Tiễn.png",
+    "url": "https://drive.google.com/file/d/1lCk8Oyx0Ytt5SvxAWvGCGlWCbjXLjUag/view?usp=drivesdk"
+  },
+  "nguu-ma-vuong": {
+    "path": "assets/tier-characters/nguu-ma-vuong.webp",
+    "title": "Ngưu Ma Vương.png",
+    "url": "https://drive.google.com/file/d/1wR_aX8RGb04uJf4ardWGipMqkWANTwHi/view?usp=drivesdk"
+  },
+  "duong-tang": {
+    "path": "assets/tier-characters/duong-tang.webp",
+    "title": "Đường Tam Tạng.png",
+    "url": "https://drive.google.com/file/d/1p2LZ42JShRSM74ZFr2UpmqN5VMfcWXO5/view?usp=drivesdk"
+  },
+  "na-tra": {
+    "path": "assets/tier-characters/na-tra.webp",
+    "title": "Na Tra.png",
+    "url": "https://drive.google.com/file/d/1uGRBpmc_LTXkKyrkLrbPgaOtlEOtWqM0/view?usp=drivesdk"
+  },
+  "ngoc-dien-ho-ly": {
+    "path": "assets/tier-characters/ngoc-dien-ho-ly.webp",
+    "title": "Ngọc Diện Hồ Ly.png",
+    "url": "https://drive.google.com/file/d/1HQiOV9wZr-oQeHtbHghsWvG5rxUnWS_y/view?usp=drivesdk"
+  },
+  "cang-kim-tinh-quan": {
+    "path": "assets/tier-characters/cang-kim-tinh-quan.webp",
+    "title": "Kháng Kim Tinh Quân.png",
+    "url": "https://drive.google.com/file/d/1rs06XZxAxG9t7S5lyRLPpVbaygvH6Kyg/view?usp=drivesdk"
+  },
+  "tru-bat-gioi": {
+    "path": "assets/tier-characters/tru-bat-gioi.webp",
+    "title": "Trư Ngộ Năng.png",
+    "url": "https://drive.google.com/file/d/1FVh07AyR1DJBh1ixXmbsU5xP6tel5Ta7/view?usp=drivesdk"
+  },
+  "tieu-bach-long": {
+    "path": "assets/tier-characters/tieu-bach-long.webp",
+    "title": "Tiểu Bạch Long.png",
+    "url": "https://drive.google.com/file/d/122_KksFiokMRsn2cwu-LN3jn7FbbFl5Y/view?usp=drivesdk"
+  },
+  "hong-hai-nhi": {
+    "path": "assets/tier-characters/hong-hai-nhi.webp",
+    "title": "Hồng Hài Nhi.png",
+    "url": "https://drive.google.com/file/d/1n40pOFF-qOTZAEHHS8I-QvOWJnhEKA6a/view?usp=drivesdk"
+  },
+  "dai-bang-vuong": {
+    "path": "assets/tier-characters/dai-bang-vuong.webp",
+    "title": "Đại Bằng Vương.png",
+    "url": "https://drive.google.com/file/d/1fxxd-WFLOrtScjOV4uvRjGnuqkE1EiWf/view?usp=drivesdk"
+  },
+  "hac-hung-tinh": {
+    "path": "assets/tier-characters/hac-hung-tinh.webp",
+    "title": "Hắc Hùng Tinh.png",
+    "url": "https://drive.google.com/file/d/16AXFXTCIdU0e8-4LbfHmAf6RKRXes4O6/view?usp=drivesdk"
+  },
+  "ho-tien-phong": {
+    "path": "assets/tier-characters/ho-tien-phong.webp",
+    "title": "Hổ Tiên Phong.png",
+    "url": "https://drive.google.com/file/d/1Z3EwxijEyvyUU44L1_vhtFTE6K_Wgq7O/view?usp=drivesdk"
+  },
+  "hoang-mi": {
+    "path": "assets/tier-characters/hoang-mi.webp",
+    "title": "Hoàng My.png",
+    "url": "https://drive.google.com/file/d/1qfNj5-0vvuwhRoXe7oDxXPq7lK4ihCv0/view?usp=drivesdk"
+  },
+  "hang-long-ton-gia": {
+    "path": "assets/tier-characters/hang-long-ton-gia.webp",
+    "title": "Hàng Long Tôn Giả.png",
+    "url": "https://drive.google.com/file/d/1lWUh-U2qZLrqoKQg3OCdWS0cL_iYkS-d/view?usp=drivesdk"
+  },
+  "hang-nga": {
+    "path": "assets/tier-characters/hang-nga.webp",
+    "title": "Hằng Nga.png",
+    "url": "https://drive.google.com/file/d/15dF8fA6wRyoHULIcg4GDJLkL0eYFBCcE/view?usp=drivesdk"
+  },
+  "ly-tinh": {
+    "path": "assets/tier-characters/ly-tinh.webp",
+    "title": "Lý Tịnh.png",
+    "url": "https://drive.google.com/file/d/1GpBw2EoAVSDnLg4kAY24U-qHVZNLVe7c/view?usp=drivesdk"
+  },
+  "la-sat-nu": {
+    "path": "assets/tier-characters/la-sat-nu.webp",
+    "title": "La Sát Nữ.png",
+    "url": "https://drive.google.com/file/d/12tuoemm5i1zjJc-B_MyF8Qyrly_iSflI/view?usp=drivesdk"
+  },
+  "tran-nguyen-tu": {
+    "path": "assets/tier-characters/tran-nguyen-tu.webp",
+    "title": "Trấn Nguyên Tử.png",
+    "url": "https://drive.google.com/file/d/1cuP0-o3yOzuHWkIWvTslOYNceBIyRbMy/view?usp=drivesdk"
+  },
+  "khong-tuoc-cong-chua": {
+    "path": "assets/tier-characters/khong-tuoc-cong-chua.webp",
+    "title": "Khổng Tước Công Chúa.png",
+    "url": "https://drive.google.com/file/d/1bT_FpKIvKsn9GtHKrFz0bh_o1Yr69iFl/view?usp=drivesdk"
+  },
+  "tri-quoc-thien-vuong": {
+    "path": "assets/tier-characters/tri-quoc-thien-vuong.webp",
+    "title": "Trì Quốc Thiên Vương.png",
+    "url": "https://drive.google.com/file/d/1cNCD3FmJxLUORAG6LL30dbHIJwC5lD2O/view?usp=drivesdk"
+  },
+  "kim-giac": {
+    "path": "assets/tier-characters/kim-giac.webp",
+    "title": "Kim Giác.png",
+    "url": "https://drive.google.com/file/d/1A8qpOg936LzvedyLQ81zfGGPsfI7zyn8/view?usp=drivesdk"
+  },
+  "tang-truong-thien-vuong": {
+    "path": "assets/tier-characters/tang-truong-thien-vuong.webp",
+    "title": "Tăng Trưởng Thiên Vương.png",
+    "url": "https://drive.google.com/file/d/1pZY4LPBOx7VhqLQMdWfFetId7K1FcQgt/view?usp=drivesdk"
+  },
+  "quang-muc-thien-vuong": {
+    "path": "assets/tier-characters/quang-muc-thien-vuong.webp",
+    "title": "Quảng Mục Thiên Vương.png",
+    "url": "https://drive.google.com/file/d/1xAdy6GUbXs_6aS2hBoqflva2kEyvynak/view?usp=drivesdk"
+  },
+  "da-van-thien-vuong": {
+    "path": "assets/tier-characters/da-van-thien-vuong.webp",
+    "title": "Đa Vấn Thiên Vương.png",
+    "url": "https://drive.google.com/file/d/19MtnYKU_-4WSg3uyjwOhT1ea9m5A55oU/view?usp=drivesdk"
+  },
+  "thanh-su-vuong": {
+    "path": "assets/tier-characters/thanh-su-vuong.webp",
+    "title": "Thanh Sư Vương.png",
+    "url": "https://drive.google.com/file/d/1bDYKSmlbCgum0QPpCl6kz5mlLTTh2KfQ/view?usp=drivesdk"
+  },
+  "sa-ngo-tinh": {
+    "path": "assets/tier-characters/sa-ngo-tinh.webp",
+    "title": "Sa Ngộ Tĩnh.png",
+    "url": "https://drive.google.com/file/d/1SLtjy9xF8iy-wBmq7awekCtzVrRFyiBc/view?usp=drivesdk"
+  },
+  "hong-lan-mang-tinh": {
+    "path": "assets/tier-characters/hong-lan-mang-tinh.webp",
+    "title": "Hồng Lân Mãng Tinh.png",
+    "url": "https://drive.google.com/file/d/1f1keLwj0hjviLKVjw1AxVZhe8SrFmJIO/view?usp=drivesdk"
+  },
+  "phuc-ho-la-han": {
+    "path": "assets/tier-characters/phuc-ho-la-han.webp",
+    "title": "Phục Hổ La Hán.png",
+    "url": "https://drive.google.com/file/d/1F8hr10wzIKsN3vzE31YKMCzwCdS-np55/view?usp=drivesdk"
+  },
+  "thong-ty-vien-hau": {
+    "path": "assets/tier-characters/thong-ty-vien-hau.webp",
+    "title": "Thông Tý Viên Hầu.png",
+    "url": "https://drive.google.com/file/d/1l1mueCKYMZQc4u-ABMG7bvW2wBbL6fWm/view?usp=drivesdk"
+  },
+  "kinh-ha-long-vuong": {
+    "path": "assets/tier-characters/kinh-ha-long-vuong.webp",
+    "title": "Kinh Hà Long Vương.png",
+    "url": "https://drive.google.com/file/d/1n9doxlcuMiK0ux7C1wGvKnBPFXkJJLR4/view?usp=drivesdk"
+  },
+  "bach-tuong-vuong": {
+    "path": "assets/tier-characters/bach-tuong-vuong.webp",
+    "title": "Bạch Tượng Vương.png",
+    "url": "https://drive.google.com/file/d/1Vxwxu6Qr5vOWgKNUOFwW-xFbodASZ80r/view?usp=drivesdk"
+  },
+  "hanh-tien-lam": {
+    "path": "assets/tier-characters/hanh-tien-lam.webp",
+    "title": "Hạnh Tiên Lâm.png",
+    "url": "https://drive.google.com/file/d/1y2T8fHwZXLCAyNj6OqK4Ei1QeWFI_Ntl/view?usp=drivesdk"
+  },
+  "bach-cot-phu-nhan": {
+    "path": "assets/tier-characters/bach-cot-phu-nhan.webp",
+    "title": "Bạch Cốt Phu Nhân.png",
+    "url": "https://drive.google.com/file/d/12Aznu0v4W53LLS94wl8avFiG921Y482B/view?usp=drivesdk"
+  },
+  "te-thien-dai-thanh": {
+    "path": "assets/tier-characters/te-thien-dai-thanh.webp",
+    "title": "Tề Thiên Đại Thánh.png",
+    "url": "https://drive.google.com/file/d/1FVp5CS-OnKdpEogxXcr3cDNzE9R5oupz/view?usp=drivesdk"
+  },
+  "nam-cuc-tien-ong": {
+    "path": "assets/tier-characters/nam-cuc-tien-ong.webp",
+    "title": "Nam Cực Tiên Ông.png",
+    "url": "https://drive.google.com/file/d/1TlxcqeZlw7ZtiE6B-yJjuQ1wfByEUBtz/view?usp=drivesdk"
+  },
+  "hien-thanh-tinh-quan": {
+    "path": "assets/tier-characters/hien-thanh-tinh-quan.webp",
+    "title": "Hiển Thánh Tinh Quân.png",
+    "url": "https://drive.google.com/file/d/1DceTIzDmhsimc7XJkUVYrIKJrS2KQAJ3/view?usp=drivesdk"
+  },
+  "tam-thai-tu": {
+    "path": "assets/tier-characters/tam-thai-tu.webp",
+    "title": "Tam Thái Tử.png",
+    "url": "https://drive.google.com/file/d/1tZLRCxB1kYj5jR7DKOxnspH5YqBNXCPT/view?usp=drivesdk"
+  },
+  "thien-bong-nguyen-soai": {
+    "path": "assets/tier-characters/thien-bong-nguyen-soai.webp",
+    "title": "Thiên Bồng Nguyên Soái.png",
+    "url": "https://drive.google.com/file/d/1q2iTnWpo6AJF6irsUf8F_FCWZUaWKWYV/view?usp=drivesdk"
+  },
+  "thai-am-tinh-quan": {
+    "path": "assets/tier-characters/thai-am-tinh-quan.webp",
+    "title": "Thái Âm Tinh Quân.png",
+    "url": "https://drive.google.com/file/d/1cEPSm9BhuZGeDlZV8JZrJBr2QDeJBBEv/view?usp=drivesdk"
+  },
+  "van-thanh-cong-chua": {
+    "path": "assets/tier-characters/van-thanh-cong-chua.webp",
+    "title": "Vạn Thánh Công Chúa.png",
+    "url": "https://drive.google.com/file/d/1ZVXcoKUI_pOdpL47ZSY5_VU8yE8GgqjK/view?usp=drivesdk"
+  },
+  "nhu-y-chan-tien": {
+    "path": "assets/tier-characters/nhu-y-chan-tien.webp",
+    "title": "Như Ý Chân Tiên.png",
+    "url": "https://drive.google.com/file/d/1rgjsGrWcn6KtE9NF5LNOA_dX04Y1epKb/view?usp=drivesdk"
+  },
+  "hac-tien-nhan": {
+    "path": "assets/tier-characters/hac-tien-nhan.webp",
+    "title": "Hạc Tiên Nhân.png",
+    "url": "https://drive.google.com/file/d/1-HOlFaqejzp7O7jHfkg52U5je2RfUKwX/view?usp=drivesdk"
+  },
+  "ngan-giac": {
+    "path": "assets/tier-characters/ngan-giac.webp",
+    "title": "Ngân Giác.png",
+    "url": "https://drive.google.com/file/d/1q_1bUK3wMymNeYKtPWF5YyIVCJ3z-4dN/view?usp=drivesdk"
+  },
+  "kim-tri-truong-lao": {
+    "path": "assets/tier-characters/kim-tri-truong-lao.webp",
+    "title": "Kim Trì Trưởng Lão.png",
+    "url": "https://drive.google.com/file/d/13E_mXBwinmvGJJGXbTPvsmq62nGbC2RB/view?usp=drivesdk"
+  },
+  "quang-tri": {
+    "path": "assets/tier-characters/quang-tri.webp",
+    "title": "Quảng Trí.png",
+    "url": "https://drive.google.com/file/d/1QyKdP9K8x_0ayryrbDFiIr4YCJRMGKMC/view?usp=drivesdk"
+  },
+  "cu-linh-than": {
+    "path": "assets/tier-characters/cu-linh-than.webp",
+    "title": "Cự Linh Thần.png",
+    "url": "https://drive.google.com/file/d/12RYRMYlEbllOefqwTCmSoshRKzN48Ybu/view?usp=drivesdk"
+  },
+  "ngoc-tho": {
+    "path": "assets/tier-characters/ngoc-tho.webp",
+    "title": "Ngọc Thố.png",
+    "url": "https://drive.google.com/file/d/1Zi6vFFFKJeD4VZ9P7emPx4R4kZGcCJIq/view?usp=drivesdk"
+  },
+  "yeu-nhen": {
+    "path": "assets/tier-characters/yeu-nhen.webp",
+    "title": "Yêu Nhện.png",
+    "url": "https://drive.google.com/file/d/1NUrJvHyN4O5yJxbsP73Bs6I8Fr1G4Fi4/view?usp=drivesdk"
+  },
+  "vien-thu-thanh": {
+    "path": "assets/tier-characters/vien-thu-thanh.webp",
+    "title": "Viên Thủ Thành.png",
+    "url": "https://drive.google.com/file/d/15703ATHJ-oFWmo3Zt603nNqi1nbK7OzS/view?usp=drivesdk"
+  },
+  "khong-khong-nhi": {
+    "path": "assets/tier-characters/khong-khong-nhi.webp",
+    "title": "Không Không Nhi.png",
+    "url": "https://drive.google.com/file/d/14FlfmI7Kd4E_PObtL-DXjg3VGeQJHyeH/view?usp=drivesdk"
+  }
+}

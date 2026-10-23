@@ -1,5 +1,13 @@
 # Nguồn nội dung — 20/10/2026
 
+## Công cụ tier list trên wiki — 23/10/2026
+
+Theo yêu cầu làm trình xếp hạng ngay trên website: dùng toàn bộ 52 hồ sơ hiện tại, mặc định chưa xếp hạng. Kéo thả giữa hạng hoặc trước một thẻ; điều khiển chọn hạng và đổi thứ tự hỗ trợ bàn phím/điện thoại. Cho sửa tên/màu hạng, thêm/xóa hạng, hoàn tác một bước, làm lại, tự lưu trình duyệt, tải/nhập JSON và xuất PNG bằng Canvas. Bảng cá nhân không làm thay đổi dữ liệu hạng test hay phẩm chất game.
+
+Bộ ảnh nhân vật người dùng cung cấp: https://drive.google.com/drive/folders/1Dy2uFzOFamlKQfpIBKFd_aXL8f3cIJlX ; thư mục con Hình ảnh nhân vật: https://drive.google.com/drive/folders/1hNIhZNke7IKndlN5mhE7M5940Ml0r_1W. Chọn 51 tệp khớp 51 hồ sơ, đối chiếu tên/bí danh và chân dung với bảng test; Bạch Cốt Tinh dùng thẻ tên, không lấy ảnh Bạch Cốt Phu Nhân thay thế. Sa Ngộ Tĩnh trong tên tệp dùng cho Sa Ngộ Tịnh; Đa Vấn dùng cho Đa Văn. Không thêm nhân vật chỉ có trong tên tệp và không lấy tệp ngoại trang/Thủ Hộ.
+
+Ảnh gốc PNG giữ ngoài repository. Chỉ loại lề trong suốt, thu nhỏ tối đa 300×360 và chuyển WebP để hiển thị trên tier list; không vẽ lại. Ánh xạ và nguồn từng tệp tại src/characterArt.json; ảnh dùng cục bộ cùng nguồn để PNG xuất không phụ thuộc CORS Drive. Tổng 51 ảnh khoảng 1,3 MB. Không thay đổi ảnh trong hồ sơ hoặc bảng test cũ.
+
 ## Mẫu TierMaker kiểm tra ngày 23/10/2026
 
 Người dùng gửi https://tiermaker.com/create/b-ca-hc-ty-du-19112201. Đọc trực tiếp bằng trình duyệt: tiêu đề “TƯỚNG MẠNH NHẤT HẮC TÂY DU”, tác giả Nguyễn Thế Minh Kiên, 30 ảnh, cập nhật lần cuối 23/10/2026, các hàng SS/S/A/B/C đang trống. Trang Community Rank https://tiermaker.com/categories/gacha-games/b-ca-hc-ty-du-19112201 báo chưa đủ bảng để tính trung bình và không có tier list để hiển thị.

@@ -1,11 +1,13 @@
 import { heroes, tierEntries, tierSheets, checkedDate, videoCatalog, tierMakerTemplate } from './data'
 import { ImagePortrait } from './HeroPicture'
+import TierBuilder from './TierBuilder'
 
 export default function TierList() {
   return <>
-    <p>Tham khảo bảng test nội bộ hoặc tự tạo tier list bằng mẫu TierMaker do cộng đồng chia sẻ.</p>
+    <p>Tự tạo bảng xếp hạng bằng toàn bộ tướng đã cập nhật trên wiki. Bảng test nội bộ và mẫu TierMaker được giữ bên dưới để tham khảo.</p>
+    <TierBuilder />
     <section id="tier-maker" className="wiki-section" tabIndex={-1}>
-      <h2>Tạo tier list trên TierMaker</h2>
+      <h2>Mẫu TierMaker tham khảo</h2>
       <p><strong>{tierMakerTemplate.title}</strong> — mẫu của {tierMakerTemplate.author}, gồm <strong>{tierMakerTemplate.imageCount} ảnh</strong> và các hạng <strong>{tierMakerTemplate.ranks.join(' / ')}</strong>. Trang nguồn ghi cập nhật lần cuối ngày {tierMakerTemplate.modified}.</p>
       <div className="tier-maker-actions">
         <a className="button secondary" href={tierMakerTemplate.url} target="_blank" rel="noreferrer">Tạo tier list trên TierMaker ↗</a>

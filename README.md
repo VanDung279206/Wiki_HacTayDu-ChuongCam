@@ -24,7 +24,7 @@ Chạy kiểm tra bằng `npm test`. Các tình huống dữ liệu hỏng, trì
 
 - Bài tổng quan về game, cốt truyện và lối chơi.
 - 52 hồ sơ: 43 tướng được thấy trong video Đồ giám (31 Tuyệt, 6 Đỉnh, 6 Ưu), cùng 8 Thánh Tôn và Bạch Cốt Tinh giữ từ nguồn trước. Thêm 10 tên mới, gộp hồ sơ La Sát Nữ/Thiết Phiến Công Chúa, thống nhất các tên theo Đồ giám. Có bộ lọc phẩm chất và phạm vi đối chiếu. Lọc Thần tướng/Thánh Tôn, thế lực; tìm tên, danh hiệu và tên gọi đã xác nhận.
-- Trang Tier list có liên kết mẫu TierMaker 30 ảnh (SS–C), hướng dẫn tạo bảng và xem xếp hạng cộng đồng; kiểm tra ngày 23/10/2026, chưa có bảng cộng đồng được hiển thị.
+- Công cụ Tier list ngay trên wiki: 52 tướng, 51 ảnh Drive được đối chiếu; kéo thả hoặc chọn hạng, đổi thứ tự, sửa tên/màu hạng, thêm/xóa hạng, hoàn tác, tự lưu, xuất PNG và tải/nhập JSON. Bạch Cốt Tinh dùng thẻ tên. Mẫu TierMaker bên ngoài được giữ làm tham khảo.
 - Bảng test nội bộ gồm 31 tên Thần tướng và 8 tên Thánh Tôn; 39 hồ sơ có chân dung lấy vùng hiển thị từ ảnh gốc. Giữ nguyên nhãn trên ảnh, liên kết tới tên đã đối chiếu trong Đồ giám.
 - Chân dung có bản tăng nét, nút đổi về ảnh gốc và khung ảnh đúng tỉ lệ. Tệp kết quả, prompt và giới hạn xử lý được ghi trong `docs/IMAGE_ENHANCEMENT.md`.
 - Tìm kiếm không phân biệt dấu tiếng Việt; phím tắt Ctrl/Cmd + K.
@@ -47,7 +47,9 @@ Dữ liệu đội hình, bài đã lưu và giao diện được giữ bằng `
 - `src/App.tsx`: trang và tương tác.
 - `src/FormationBuilder.tsx`: vùng bố trận và danh sách tướng theo phe.
 - `src/HeroPicture.tsx`: hiển thị chân dung từ vùng ảnh gốc.
-- `src/TierList.tsx`: mẫu TierMaker, bảng test nội bộ, đối chiếu tên và ảnh nguồn.
+- `src/TierList.tsx`: công cụ xếp hạng và các bảng tham khảo.
+- `src/TierBuilder.tsx`, `src/tierBoard.ts`, `src/tierExport.ts`: thao tác, lưu/khôi phục và xuất ảnh bảng cá nhân.
+- `src/characterArt.json`: ảnh tier list và nguồn Drive cho từng hồ sơ.
 - `src/formation.ts`: tọa độ tương đối, phục hồi dữ liệu đội hình cũ và giới hạn di chuyển.
 - `src/styles.css`: màu sắc, kiểu chữ, bố cục và responsive.
 - `public/assets/`: hình từ CDN chính thức và ảnh do người dùng cung cấp, có ghi nguồn.

@@ -40,6 +40,7 @@ export const starterCodeImage = {
   ],
 }
 export const sources = [
+  { id: 'character-drive', title: 'Bộ hình ảnh nhân vật dùng cho công cụ tier list', publisher: 'Bộ Drive do người dùng cung cấp', url: 'https://drive.google.com/drive/folders/1hNIhZNke7IKndlN5mhE7M5940Ml0r_1W', accessed: '23/10/2026' },
   { id: tierMakerTemplate.sourceId, title: `${tierMakerTemplate.title} — mẫu TierMaker`, publisher: `${tierMakerTemplate.author} trên TierMaker`, url: tierMakerTemplate.url, accessed: tierMakerTemplate.accessed },
   { id: tierMakerTemplate.communitySourceId, title: 'TierMaker — bảng xếp hạng cộng đồng Hắc Tây Du', publisher: 'TierMaker', url: tierMakerTemplate.communityUrl, accessed: tierMakerTemplate.accessed },
   { id: 'home', title: 'Trang chủ và hồ sơ nhân vật', publisher: 'Funtap', url: official },
