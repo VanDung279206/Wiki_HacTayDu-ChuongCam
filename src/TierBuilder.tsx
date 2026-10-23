@@ -47,7 +47,7 @@ export default function TierBuilder() {
   const card = (id: string, row?: TierRow) => {
     const hero = heroes.find(item => item.id === id)!
     return <button key={id} type="button" className={`tier-card ${selected === id ? 'selected' : ''} ${dragged === id ? 'dragging' : ''}`} draggable aria-label={`Chọn ${hero.name}${row ? `, hạng ${row.label}` : ', chưa xếp'}`} aria-pressed={selected === id} onClick={() => setSelected(id)} onDragStart={event => { setDragged(id); setSelected(id); event.dataTransfer.effectAllowed = 'move'; event.dataTransfer.setData('text/plain', id) }} onDragEnd={() => { setDragged(null); setOver(null) }} onDragOver={event => { event.preventDefault(); event.stopPropagation(); setOver(row?.id || 'pool') }} onDrop={event => drop(event, row?.id || null, row ? id : undefined)}>
-      {tierArt[id] ? <img src={`${import.meta.env.BASE_URL}${tierArt[id].path}`} alt="" draggable={false} loading="lazy" /> : <span className="tier-no-art" aria-hidden="true">{hero.name.split(' ').map(word => word[0]).join('')}<small>Chưa có ảnh</small></span>}
+      {tierArt[id] ? <img src={`${import.meta.env.BASE_URL}${tierArt[id].path}`} alt="" draggable={false} /> : <span className="tier-no-art" aria-hidden="true">{hero.name.split(' ').map(word => word[0]).join('')}<small>Chưa có ảnh</small></span>}
       <span className="tier-card-name">{hero.name}</span>
     </button>
   }
